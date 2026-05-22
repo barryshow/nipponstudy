@@ -11,12 +11,53 @@ import type { StudentForm, ScoreBreakdown, MatchedSchool } from "@/lib/assessmen
 export default function SchoolMatchPage() {
   const [breakdown, setBreakdown] = useState<ScoreBreakdown | null>(null);
   const [results, setResults] = useState<{ reach: MatchedSchool[]; match: MatchedSchool[]; safety: MatchedSchool[] } | null>(null);
+  const [saving, setSaving] = useState(false);
 
-  const handleSubmit = (form: StudentForm) => {
+  const handleSubmit = async (form: StudentForm) => {
     const scoreBreakdown = calculateScore(form);
     const matchResult = matchSchools({ studentScore: scoreBreakdown.total, form });
     setBreakdown(scoreBreakdown);
     setResults(matchResult);
+
+    // 同时保存到数据库（不阻塞页面显示结果）
+    setSaving(true);
+    try {
+      await fetch("/api/assessment", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          stage: form.stage,
+          jlpt: form.jlpt,
+          englishType: form.englishType,
+          englishScore: form.englishScore,
+          targetRegion: form.targetRegion,
+          acceptPrivate: form.acceptPrivate,
+          preferHighlySkilled: form.preferHighlySkilled,
+          budget: form.budget,
+          // 本科字段
+          ejuJapanese: form.stage === "undergraduate" ? form.ejuJapanese : null,
+          ejuMath: form.stage === "undergraduate" ? form.ejuMath : null,
+          ejuGeneral: form.stage === "undergraduate" ? form.ejuGeneral : null,
+          targetMajor: form.stage === "undergraduate" ? form.targetMajor : null,
+          // 大学院字段
+          undergradTier: form.stage === "graduate" ? form.undergradTier : null,
+          gpa: form.stage === "graduate" ? form.gpa : null,
+          gpaScale: form.stage === "graduate" ? form.gpaScale : "100",
+          undergradMajor: form.stage === "graduate" ? form.undergradMajor : null,
+          targetResearch: form.stage === "graduate" ? form.targetResearch : null,
+          hasResearchProposal: form.stage === "graduate" ? form.hasResearchProposal : false,
+          hasPublications: form.stage === "graduate" ? form.hasPublications : false,
+          // 结果
+          totalScore: scoreBreakdown.total,
+          maxScore: scoreBreakdown.maxTotal,
+          resultJson: JSON.stringify(matchResult),
+        }),
+      });
+    } catch {
+      // 保存失败不影响页面，静默处理
+    } finally {
+      setSaving(false);
+    }
   };
 
   return (
@@ -43,6 +84,10 @@ export default function SchoolMatchPage() {
             match={results.match}
             safety={results.safety}
           />
+        )}
+
+        {saving && (
+          <p className="mt-4 text-center text-xs text-gray-400">正在保存测评结果...</p>
         )}
 
         {/* 未测评时的默认说明 */}

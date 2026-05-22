@@ -9,6 +9,7 @@ interface ButtonProps {
   className?: string;
   onClick?: () => void;
   type?: "button" | "submit";
+  disabled?: boolean;
 }
 
 const variantStyles = {
@@ -26,7 +27,7 @@ const sizeStyles = {
   lg: "px-8 py-4 text-lg",
 };
 
-export function Button({ children, href, variant = "primary", size = "md", className, onClick, type }: ButtonProps) {
+export function Button({ children, href, variant = "primary", size = "md", className, onClick, type, disabled }: ButtonProps) {
   const styles = cn(
     "inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-200",
     variantStyles[variant],
@@ -43,7 +44,7 @@ export function Button({ children, href, variant = "primary", size = "md", class
   }
 
   return (
-    <button type={type || "button"} onClick={onClick} className={styles}>
+    <button type={type || "button"} onClick={onClick} disabled={disabled} className={styles}>
       {children}
     </button>
   );

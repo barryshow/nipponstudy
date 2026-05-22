@@ -1,0 +1,58 @@
+// Prisma 数据库结构定义
+// 这个文件告诉 Supabase 创建什么表、每个表存什么字段
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// 咨询联系表 — 用户填的联系表单
+model Contact {
+  id        Int      @id @default(autoincrement())
+  name      String                          // 姓名
+  phone     String                          // 手机号
+  wechat    String?                         // 微信（选填）
+  interest  String?                         // 留学意向
+  notes     String?                         // 备注
+  createdAt DateTime @default(now())        // 提交时间
+}
+
+// 测评结果表 — 用户做学校匹配测评的结果
+model Assessment {
+  id                Int      @id @default(autoincrement())
+  stage             String                    // undergraduate 或 graduate
+
+  // 通用字段
+  jlpt              String?                   // N1/N2/N3/none
+  englishType       String?                   // TOEFL/TOEIC/IELTS/none
+  englishScore      Float?                    // 英语分数
+  targetRegion      String?                   // 目标地区
+  acceptPrivate     Boolean  @default(true)   // 是否接受私立
+  preferHighlySkilled Boolean @default(false) // 是否关注高度人才
+  budget            String?                   // low/medium/high/any
+
+  // 本科专用
+  ejuJapanese       Float?
+  ejuMath           Float?
+  ejuGeneral        Float?
+  targetMajor       String?
+
+  // 大学院专用
+  undergradTier     String?                   // 985/211/...
+  gpa               Float?
+  gpaScale          String?
+  undergradMajor    String?
+  targetResearch    String?
+  hasResearchProposal Boolean @default(false)
+  hasPublications   Boolean @default(false)
+
+  // 测评结果
+  totalScore        Float?                    // 总分
+  maxScore          Float?                    // 满分
+  resultJson        String?                   // JSON 格式的匹配结果
+
+  createdAt         DateTime @default(now())
+}
