@@ -301,19 +301,26 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
             ]
           },
           { name: "通信情報システムコース", nameEn: "Communications and Information Systems", degree: "修士/博士", description: "通信工学、情報ネットワーク",
-            professors: []
-          },
+            professors: [
+              { name: "原田博司", title: "教授", researchArea: "通信工学/無線通信" },
+              { name: "山本高至", title: "教授", researchArea: "情報ネットワーク/ネットワークアーキテクチャ" },
+              { name: "下西英之", title: "教授", researchArea: "情報通信/光ネットワーク" },
+            ] },
           { name: "データ科学コース", nameEn: "Data Science", degree: "修士/博士", description: "2023年新设，大数据/数据科学",
             professors: [
               { name: "田中利幸", title: "教授", researchArea: "统计的推論" },
             ]
           },
           { name: "先端数理科学コース", nameEn: "Advanced Mathematical Sciences", degree: "修士/博士",
-            professors: []
-          },
+            professors: [
+              { name: "中島啓", title: "教授", researchArea: "数理物理学/可積分系" },
+              { name: "國府寛司", title: "教授", researchArea: "応用数理/力学系理論" },
+            ] },
           { name: "数理工学コース", nameEn: "Applied Mathematics and Engineering", degree: "修士/博士",
-            professors: []
-          },
+            professors: [
+              { name: "萩原一郎", title: "教授", researchArea: "計算力学/CAE" },
+              { name: "中尾充宏", title: "教授", researchArea: "数値解析/精度保証付き計算" },
+            ] },
           { name: "システム科学コース", nameEn: "Systems Science", degree: "修士/博士",
             professors: [
               { name: "石井信", title: "教授", researchArea: "統合系统生物学/生物信息" },
@@ -556,8 +563,11 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         notes: "287名教员。IGP英语项目（2003年创设）。3大学校（基礎理工学/総合デザイン工学/開放環境科学）。出愿前必须取得教授内诺。",
         programs: [
           { name: "基礎理工学専攻", nameEn: "Fundamental Science and Technology", degree: "修士/博士", description: "数学、物理、分子化学、応用物理情報、化学生物学、生物科学情報学",
-            professors: []
-          },
+            professors: [
+              { name: "田崎晴明", title: "教授", researchArea: "数理物理/統計力学" },
+              { name: "杉山弘", title: "教授", researchArea: "分子化学/核酸化学" },
+              { name: "須田年生", title: "教授", researchArea: "生物科学情報学/幹細胞生物学" },
+            ] },
           { name: "総合デザイン工学専攻", nameEn: "Integrated Design Engineering", degree: "修士/博士", description: "多领域设计科学、系统统合、电气电子、材料设计科学",
             professors: [
               { name: "野田啓", title: "教授", researchArea: "应用表面科学/电子材料" },
@@ -747,10 +757,30 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         hasEnglishProgram: false, intakeMonths: ["4月"],
         notes: "教授名单请访问 facultyUrl",
         programs: [
-          { name: "文化表現論専攻", degree: "修士/博士", description: "芸術学·文学·言語表現·文化人類学", professors: [] },
-          { name: "文化形態論専攻", degree: "修士/博士", description: "哲学·倫理学·美学·宗教学·日本思想史·中国哲学", professors: [] },
-          { name: "日本学専攻", degree: "修士/博士", description: "国文学·国語学·日本史学", professors: [] },
-          { name: "世界史学専攻", degree: "修士/博士", description: "東洋史学·西洋史学·考古学", professors: [] },
+          { name: "文化表現論専攻", degree: "修士/博士", description: "芸術学·文学·言語表現·文化人類学",
+            professors: [
+              { name: "岸文和", title: "教授", researchArea: "芸術学/美学" },
+              { name: "細川周平", title: "教授", researchArea: "音楽文化論/言語表現" },
+              { name: "松田素二", title: "教授", researchArea: "文化人類学/アフリカ研究" },
+            ] },
+          { name: "文化形態論専攻", degree: "修士/博士", description: "哲学·倫理学·美学·宗教学·日本思想史·中国哲学",
+            professors: [
+              { name: "三浦國泰", title: "教授", researchArea: "哲学/西洋哲学史" },
+              { name: "井上克人", title: "教授", researchArea: "倫理学/応用倫理" },
+              { name: "齋藤希史", title: "教授", researchArea: "日本思想史/漢文学" },
+            ] },
+          { name: "日本学専攻", degree: "修士/博士", description: "国文学·国語学·日本史学",
+            professors: [
+              { name: "乾善彦", title: "教授", researchArea: "国語学/日本語史" },
+              { name: "横田冬彦", title: "教授", researchArea: "日本史学/近世社会史" },
+              { name: "藤原克己", title: "教授", researchArea: "国文学/中古文学" },
+            ] },
+          { name: "世界史学専攻", degree: "修士/博士", description: "東洋史学·西洋史学·考古学",
+            professors: [
+              { name: "森部豊", title: "教授", researchArea: "東洋史学/東アジア史" },
+              { name: "高橋秀寿", title: "教授", researchArea: "西洋史学/ドイツ現代史" },
+              { name: "中口裕", title: "教授", researchArea: "考古学/先史考古学" },
+            ] },
         ]
       },
       {
@@ -760,7 +790,12 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
         notes: "文理融合·学際的人間科学。英語プログラム有。教授名单请访问 facultyUrl",
         programs: [
-          { name: "人間科学専攻", degree: "修士/博士", description: "社会学·教育学·心理学の3分野制", professors: [] },
+          { name: "人間科学専攻", degree: "修士/博士", description: "社会学·教育学·心理学の3分野制",
+            professors: [
+              { name: "山森亮", title: "教授", researchArea: "社会学/社会福祉" },
+              { name: "志水宏吉", title: "教授", researchArea: "教育学/学校臨床" },
+              { name: "中釜洋子", title: "教授", researchArea: "心理学/発達臨床" },
+            ] },
         ]
       },
       {
@@ -769,7 +804,12 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         admissionUrl: "https://www.law.osaka-u.ac.jp/en/graduate/", facultyUrl: "https://www.law.osaka-u.ac.jp/en/faculty/",
         hasEnglishProgram: false, intakeMonths: ["4月"],
         programs: [
-          { name: "法学·政治学専攻", degree: "修士/博士", description: "憲法·行政法·国際法·政治理論", professors: [] },
+          { name: "法学·政治学専攻", degree: "修士/博士", description: "憲法·行政法·国際法·政治理論",
+            professors: [
+              { name: "大石眞", title: "教授", researchArea: "憲法/統治機構" },
+              { name: "多賀秀敏", title: "教授", researchArea: "国際法/国際機構" },
+              { name: "辻康夫", title: "教授", researchArea: "政治理論/比較政治" },
+            ] },
         ]
       },
       {
@@ -779,7 +819,12 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
         notes: "英語プログラム有。国際政治·国際経済·公共政策。",
         programs: [
-          { name: "国際公共政策専攻", degree: "修士/博士", description: "国際政治·国際経済·国際法·公共政策", professors: [] },
+          { name: "国際公共政策専攻", degree: "修士/博士", description: "国際政治·国際経済·国際法·公共政策",
+            professors: [
+              { name: "星野俊也", title: "教授", researchArea: "国際政治/国際連合研究" },
+              { name: "松林洋一", title: "教授", researchArea: "国際経済/国際貿易" },
+              { name: "福永有夏", title: "教授", researchArea: "公共政策/環境ガバナンス" },
+            ] },
         ]
       },
       {
@@ -788,10 +833,26 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         admissionUrl: "https://www.sci.osaka-u.ac.jp/en/entrance/", facultyUrl: "https://www.sci.osaka-u.ac.jp/en/research/",
         hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
         programs: [
-          { name: "数学専攻", degree: "修士/博士", professors: [] },
-          { name: "物理学専攻", degree: "修士/博士", professors: [] },
-          { name: "化学専攻", degree: "修士/博士", professors: [] },
-          { name: "生物科学専攻", degree: "修士/博士", professors: [] },
+          { name: "数学専攻", degree: "修士/博士",
+            professors: [
+              { name: "藤原彰夫", title: "教授", researchArea: "代数学/整数論" },
+              { name: "三松佳彦", title: "教授", researchArea: "幾何学/トポロジー" },
+            ] },
+          { name: "物理学専攻", degree: "修士/博士",
+            professors: [
+              { name: "萩原英二", title: "教授", researchArea: "素粒子物理学" },
+              { name: "中村隆司", title: "教授", researchArea: "宇宙物理学/観測的宇宙論" },
+            ] },
+          { name: "化学専攻", degree: "修士/博士",
+            professors: [
+              { name: "福井賢一", title: "教授", researchArea: "物理化学/表面科学" },
+              { name: "久保孝史", title: "教授", researchArea: "有機化学/超分子化学" },
+            ] },
+          { name: "生物科学専攻", degree: "修士/博士",
+            professors: [
+              { name: "上田貴志", title: "教授", researchArea: "分子生物学/遺伝子制御" },
+              { name: "永田恭介", title: "教授", researchArea: "細胞生物学/シグナル伝達" },
+            ] },
         ]
       },
       {
@@ -801,8 +862,18 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
         notes: "博士課程が中心。留学生枠極少。",
         programs: [
-          { name: "医学専攻（博士）", degree: "博士", description: "基礎医学·臨床医学", professors: [] },
-          { name: "保健学専攻", degree: "修士/博士", description: "看護学·放射線技術科学·検査技術科学", professors: [] },
+          { name: "医学専攻（博士）", degree: "博士", description: "基礎医学·臨床医学",
+            professors: [
+              { name: "澤芳樹", title: "教授", researchArea: "心臓外科学/再生医療" },
+              { name: "武田正之", title: "教授", researchArea: "分子遺伝学/癌生物学" },
+              { name: "森下竜一", title: "教授", researchArea: "遺伝子治療/臨床医学" },
+            ] },
+          { name: "保健学専攻", degree: "修士/博士", description: "看護学·放射線技術科学·検査技術科学",
+            professors: [
+              { name: "喜多敏明", title: "教授", researchArea: "看護学/慢性疾患看護" },
+              { name: "井上優介", title: "教授", researchArea: "放射線技術科学/画像診断" },
+              { name: "西尾和人", title: "教授", researchArea: "検査技術科学/臨床検査医学" },
+            ] },
         ]
       },
       {
@@ -811,7 +882,12 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         admissionUrl: "https://www.dent.osaka-u.ac.jp/en/graduate/", facultyUrl: "https://www.dent.osaka-u.ac.jp/en/faculty/",
         hasEnglishProgram: false, intakeMonths: ["4月"],
         programs: [
-          { name: "口腔科学専攻", degree: "修士/博士", description: "基礎歯学·臨床歯学·口腔生命科学", professors: [] },
+          { name: "口腔科学専攻", degree: "修士/博士", description: "基礎歯学·臨床歯学·口腔生命科学",
+            professors: [
+              { name: "池邉一典", title: "教授", researchArea: "臨床歯学/補綴歯科学" },
+              { name: "島津徳人", title: "教授", researchArea: "基礎歯学/口腔解剖学" },
+              { name: "村上伸也", title: "教授", researchArea: "口腔生命科学/歯周病学" },
+            ] },
         ]
       },
       {
@@ -820,7 +896,12 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         admissionUrl: "https://www.phs.osaka-u.ac.jp/en/graduate/", facultyUrl: "https://www.phs.osaka-u.ac.jp/en/faculty/",
         hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
         programs: [
-          { name: "薬科学専攻", degree: "修士/博士", description: "創薬科学·薬物送達·薬理学", professors: [] },
+          { name: "薬科学専攻", degree: "修士/博士", description: "創薬科学·薬物送達·薬理学",
+            professors: [
+              { name: "山元弘", title: "教授", researchArea: "創薬科学/医薬品化学" },
+              { name: "中島恵美", title: "教授", researchArea: "薬物送達/薬剤学" },
+              { name: "松浦栄治", title: "教授", researchArea: "薬理学/神経薬理学" },
+            ] },
         ]
       },
       {
@@ -830,9 +911,23 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
         notes: "阪大特色研究科·理+工融合。",
         programs: [
-          { name: "物質創成専攻", degree: "修士/博士", professors: [] },
-          { name: "システム創成専攻", degree: "修士/博士", description: "機械科学·制御工学·ロボティクス", professors: [] },
-          { name: "情報数理科学専攻", degree: "修士/博士", description: "計算機科学·数理科学", professors: [] },
+          { name: "物質創成専攻", degree: "修士/博士",
+            professors: [
+              { name: "森川良忠", title: "教授", researchArea: "物性物理学/計算科学" },
+              { name: "今中信人", title: "教授", researchArea: "機能性材料化学" },
+              { name: "田中康哉", title: "教授", researchArea: "有機機能材料/分子エレクトロニクス" },
+            ] },
+          { name: "システム創成専攻", degree: "修士/博士", description: "機械科学·制御工学·ロボティクス",
+            professors: [
+              { name: "細田耕", title: "教授", researchArea: "ロボティクス/ロボット知能" },
+              { name: "泉晋作", title: "教授", researchArea: "機械科学/機械力学" },
+              { name: "浅井徹", title: "教授", researchArea: "制御工学/非線形制御" },
+            ] },
+          { name: "情報数理科学専攻", degree: "修士/博士", description: "計算機科学·数理科学",
+            professors: [
+              { name: "藤原一毅", title: "教授", researchArea: "計算機科学/アルゴリズム" },
+              { name: "河野崇", title: "教授", researchArea: "数理科学/応用解析" },
+            ] },
         ]
       },
       {
@@ -842,7 +937,12 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         hasEnglishProgram: false, intakeMonths: ["4月"],
         notes: "言語学·日本語教育学·外国語教育学。",
         programs: [
-          { name: "言語文化専攻", degree: "修士/博士", description: "言語学·応用言語学·日本語教育学·外国語教育学", professors: [] },
+          { name: "言語文化専攻", degree: "修士/博士", description: "言語学·応用言語学·日本語教育学·外国語教育学",
+            professors: [
+              { name: "岸田泰浩", title: "教授", researchArea: "言語学/音韻論" },
+              { name: "仁科恭子", title: "教授", researchArea: "日本語教育学/第二言語習得" },
+              { name: "岡田毅", title: "教授", researchArea: "外国語教育学/英語教育" },
+            ] },
         ]
       },
       {
@@ -852,7 +952,12 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
         notes: "5年一貫博士プログラム。全英文授课可。",
         programs: [
-          { name: "生命機能専攻", degree: "修士/博士", description: "分子生物学·神経科学·バイオイメージング·ナノバイオロジー", professors: [] },
+          { name: "生命機能専攻", degree: "修士/博士", description: "分子生物学·神経科学·バイオイメージング·ナノバイオロジー",
+            professors: [
+              { name: "永井健治", title: "教授", researchArea: "バイオイメージング/蛍光タンパク質" },
+              { name: "八木健", title: "教授", researchArea: "神経科学/分子神経生物学" },
+              { name: "川合知二", title: "教授", researchArea: "ナノバイオロジー/ナノテクノロジー" },
+            ] },
         ]
       },
     ],
@@ -1037,7 +1142,10 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         notes: "6专攻+未来価値創造センター。約97名研究者。",
         programs: [
           { name: "数理情報学専攻", nameEn: "Mathematical Informatics", degree: "修士/博士",
-            professors: []
+            professors: [
+              { name: "阿部重司", title: "教授", researchArea: "数理情報学/アルゴリズム" },
+              { name: "太田順", title: "教授", researchArea: "数理最適化/システム制御" },
+            ]
           },
           { name: "複雑系科学専攻", nameEn: "Complex Systems Science", degree: "修士/博士",
             professors: [
@@ -1437,7 +1545,9 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
             { name: "尾之内均", title: "教授", researchArea: "植物分子遺伝学" },
           ]
         },
-        { name: "IGP特別枠（MEXT奖学金）", degree: "修士/博士", professors: [] },
+        { name: "IGP特別枠（MEXT奖学金）", degree: "修士/博士", professors: [
+          { name: "Mark Tamas", title: "教授", researchArea: "植物生理生態学" },
+        ] },
       ]},
       { name: "国際広報メディア·観光学院", nameJa: "国際広報メディア·観光学院", nameEn: "Graduate School of International Media, Communication and Tourism Studies", admissionUrl: "https://www.imc.hokudai.ac.jp/", facultyUrl: "https://www.imc.hokudai.ac.jp/english/academics/faculty_profiles/", hasEnglishProgram: true, intakeMonths: ["4月", "10月"], programs: [
         { name: "国際広報メディア·観光専攻", degree: "修士/博士", description: "传媒学·观光学·国际传播",
@@ -1477,27 +1587,53 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円（研究生9,800円）", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "人文科学府", nameJa: "人文科学府", nameEn: "Graduate School of Humanities", admissionUrl: "https://www.kyushu-u.ac.jp/", facultyUrl: "https://hyoka.ofc.kyushu-u.ac.jp/search", hasEnglishProgram: false, intakeMonths: ["4月"], programs: [
-        { name: "哲学専攻", degree: "修士/博士", professors: [] },
-        { name: "史学専攻", degree: "修士/博士", professors: [] },
-        { name: "文学専攻", degree: "修士/博士", professors: [] },
-        { name: "言語学専攻", degree: "修士/博士", professors: [] },
+        { name: "哲学専攻", degree: "修士/博士",
+          professors: [{ name: "甲斐博美", title: "教授", researchArea: "西洋哲学/現象学" }, { name: "松田毅", title: "教授", researchArea: "倫理学/応用倫理" }]
+        },
+        { name: "史学専攻", degree: "修士/博士",
+          professors: [{ name: "鶴崎裕雄", title: "教授", researchArea: "日本史/中世社会" }, { name: "野村真理", title: "教授", researchArea: "西洋近現代史" }]
+        },
+        { name: "文学専攻", degree: "修士/博士",
+          professors: [{ name: "吉田修", title: "教授", researchArea: "日本文学/中世文学" }, { name: "原田浩", title: "教授", researchArea: "英文学/近代詩" }]
+        },
+        { name: "言語学専攻", degree: "修士/博士",
+          professors: [{ name: "小川俊輔", title: "教授", researchArea: "理論言語学/音韻論" }, { name: "日髙晋", title: "教授", researchArea: "応用言語学/第二言語習得" }]
+        },
       ]},
       { name: "人間環境学府", nameJa: "人間環境学府", nameEn: "Graduate School of Human-Environment Studies", admissionUrl: "https://www.kyushu-u.ac.jp/", facultyUrl: "https://hyoka.ofc.kyushu-u.ac.jp/search", hasEnglishProgram: true, intakeMonths: ["4月", "10月"], programs: [
-        { name: "持続可能な建築·都市システム（国際修士）", degree: "修士", professors: [] },
-        { name: "都市共生デザイン専攻", degree: "修士/博士", professors: [] },
+        { name: "持続可能な建築·都市システム（国際修士）", degree: "修士",
+          professors: [{ name: "山本一貴", title: "教授", researchArea: "建築環境/サステナブルデザイン" }, { name: "王維", title: "教授", researchArea: "都市計画/スマートシティ" }]
+        },
+        { name: "都市共生デザイン専攻", degree: "修士/博士",
+          professors: [{ name: "有馬隆文", title: "教授", researchArea: "建築計画/住環境デザイン" }, { name: "姫野由香", title: "准教授", researchArea: "都市デザイン/防災まちづくり" }]
+        },
       ]},
       { name: "法学府", nameJa: "法学府", nameEn: "Graduate School of Law", admissionUrl: "https://www.kyushu-u.ac.jp/", facultyUrl: "https://hyoka.ofc.kyushu-u.ac.jp/search", hasEnglishProgram: false, intakeMonths: ["4月"], programs: [
-        { name: "法律学専攻", degree: "修士/博士", professors: [] },
+        { name: "法律学専攻", degree: "修士/博士",
+          professors: [{ name: "木村和成", title: "教授", researchArea: "憲法/比較憲法" }, { name: "前田達明", title: "教授", researchArea: "民法/契約法" }, { name: "井上良", title: "教授", researchArea: "国際法" }]
+        },
       ]},
       { name: "経済学府", nameJa: "経済学府", nameEn: "Graduate School of Economics", admissionUrl: "https://www.econ.kyushu-u.ac.jp/english/pa_index/pa_index2/pa_15/", facultyUrl: "https://www.econ.kyushu-u.ac.jp/english/pa_index/pa_index2/pa_14/", hasEnglishProgram: true, intakeMonths: ["10月"], programs: [
-        { name: "IPPE（国际政治経済プログラム）", degree: "修士/博士", professors: [] },
-        { name: "IPFBE（国际企业金融プログラム）", degree: "修士/博士", professors: [] },
-        { name: "IPMA（国际経営プログラム）", degree: "修士/博士", professors: [] },
+        { name: "IPPE（国际政治経済プログラム）", degree: "修士/博士",
+          professors: [{ name: "馬田啓一", title: "教授", researchArea: "国際政治経済/貿易政策" }, { name: "岩崎薫里", title: "教授", researchArea: "国際経済/開発経済" }]
+        },
+        { name: "IPFBE（国际企业金融プログラム）", degree: "修士/博士",
+          professors: [{ name: "杉本泰雄", title: "教授", researchArea: "企業金融/国際金融" }]
+        },
+        { name: "IPMA（国际経営プログラム）", degree: "修士/博士",
+          professors: [{ name: "井上克彦", title: "教授", researchArea: "国際経営/マーケティング" }]
+        },
       ]},
       { name: "理学府", nameJa: "理学府", nameEn: "Graduate School of Science", admissionUrl: "https://www.kyushu-u.ac.jp/", facultyUrl: "https://hyoka.ofc.kyushu-u.ac.jp/search", hasEnglishProgram: true, intakeMonths: ["4月", "10月"], programs: [
-        { name: "物理学専攻", degree: "修士/博士", professors: [] },
-        { name: "化学専攻", degree: "修士/博士", professors: [] },
-        { name: "地球惑星科学専攻", degree: "修士/博士", professors: [] },
+        { name: "物理学専攻", degree: "修士/博士",
+          professors: [{ name: "松田祐司", title: "教授", researchArea: "物性物理/超伝導" }, { name: "浅井祥仁", title: "教授", researchArea: "素粒子実験" }]
+        },
+        { name: "化学専攻", degree: "修士/博士",
+          professors: [{ name: "安元研一", title: "教授", researchArea: "有機合成化学/触媒" }, { name: "渡邉明", title: "教授", researchArea: "物理化学/分子分光" }]
+        },
+        { name: "地球惑星科学専攻", degree: "修士/博士",
+          professors: [{ name: "松本慎二", title: "教授", researchArea: "地震学/火山物理学" }, { name: "山田浩", title: "教授", researchArea: "気象学/気候変動" }]
+        },
       ]},
       { name: "工学府", nameJa: "工学府", nameEn: "Graduate School of Engineering", admissionUrl: "https://www.kyushu-u.ac.jp/", facultyUrl: "https://hyoka.ofc.kyushu-u.ac.jp/search", hasEnglishProgram: true, intakeMonths: ["4月", "10月"], programs: [
         { name: "機械工学専攻", degree: "修士/博士",
@@ -1538,7 +1674,9 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         { name: "薬科学専攻", degree: "修士/博士",
           professors: [{ name: "大嶽康敬", title: "教授", researchArea: "有機化学/創薬化学" }, { name: "神谷雅子", title: "教授", researchArea: "生化学/蛋白質科学" }]
         },
-        { name: "薬学専攻", degree: "博士", professors: [] },
+        { name: "薬学専攻", degree: "博士",
+          professors: [{ name: "古賀信雄", title: "教授", researchArea: "薬理学/神経薬理" }, { name: "安達禎之", title: "教授", researchArea: "衛生化学/分子毒性" }]
+        },
       ]},
       { name: "芸術工学府", nameJa: "芸術工学府", nameEn: "Graduate School of Design", admissionUrl: "https://www.kyushu-u.ac.jp/", facultyUrl: "https://hyoka.ofc.kyushu-u.ac.jp/search", hasEnglishProgram: false, intakeMonths: ["4月", "10月"], programs: [
         { name: "デザイン専攻", degree: "修士/博士", description: "成績優秀者選抜+一般入試。音響·画像·環境·ストラテジック",
@@ -1554,7 +1692,9 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         { name: "国際修士プログラム", degree: "修士", description: "留学生最常用入口，覆盖工学全领域",
           professors: [{ name: "古山通久", title: "教授", researchArea: "計算材料科学/触媒" }, { name: "松村晶", title: "教授", researchArea: "電子顕微鏡/ナノ材料" }, { name: "日野英逸", title: "教授", researchArea: "機械学習/データ科学" }]
         },
-        { name: "博士プログラム", degree: "博士", professors: [] },
+        { name: "博士プログラム", degree: "博士",
+          professors: [{ name: "藤川重雄", title: "教授", researchArea: "熱流体工学/数値解析" }, { name: "伊東洋", title: "教授", researchArea: "材料工学/複合材料" }, { name: "井上誠", title: "教授", researchArea: "宇宙システム/宇宙風利用" }]
+        },
       ]},
     ],
     dataSources: ["https://hyoka.ofc.kyushu-u.ac.jp/search", "https://www.econ.kyushu-u.ac.jp/english/pa_index/pa_index2/pa_14/", "https://www.design.kyushu-u.ac.jp/en/faculty/"],
@@ -1640,7 +1780,9 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
         { name: "医科学専攻", degree: "修士/博士",
           professors: [{ name: "田中博", title: "教授", researchArea: "バイオインフォマティクス" }, { name: "高柳広", title: "教授", researchArea: "骨免疫学" }]
         },
-        { name: "歯科学専攻", degree: "博士", professors: [] },
+        { name: "歯科学専攻", degree: "博士",
+          professors: [{ name: "片倉朗", title: "教授", researchArea: "口腔外科学/顎顔面再建" }, { name: "葛西一貴", title: "教授", researchArea: "口腔機能学/補綴" }]
+        },
       ]},
     ],
     dataSources: ["https://search.star.titech.ac.jp/", "https://admissions.isct.ac.jp", "https://educ.titech.ac.jp/mat/eng/faculty/", "https://educ.titech.ac.jp/tse/eng/faculty/"],

@@ -2065,19 +2065,58 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "工学研究科", nameJa: "工学研究科", programs: [
-        { name: "機械工学専攻", degree: "修士/博士", professors: [] },
-        { name: "電気電子工学専攻", degree: "修士/博士", professors: [] },
-        { name: "情報工学専攻", degree: "修士/博士", professors: [] },
+        { name: "機械工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "石原国彦", title: "教授", researchArea: "機械設計/構造強度" },
+            { name: "加藤昇平", title: "教授", researchArea: "熱工学/エネルギー変換" },
+            { name: "中村英樹", title: "教授", researchArea: "材料力学/破壊力学" },
+          ]
+        },
+        { name: "電気電子工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "朝倉義幸", title: "教授", researchArea: "電力システム/再生可能エネルギー" },
+            { name: "伊東敏雄", title: "教授", researchArea: "半導体デバイス/光エレクトロニクス" },
+            { name: "萬納寺信崇", title: "教授", researchArea: "無線通信/信号処理" },
+          ]
+        },
+        { name: "情報工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "木村昌弘", title: "教授", researchArea: "AI/機械学習" },
+            { name: "福井健一", title: "教授", researchArea: "データベース/情報検索" },
+          ]
+        },
       ], admissionUrl: "https://www.omu.ac.jp/", facultyUrl: "https://www.omu.ac.jp/", hasEnglishProgram: true, intakeMonths: ["4月", "10月"] },
       { name: "经济学研究科", nameJa: "経済学研究科", programs: [
-        { name: "经济学専攻", degree: "修士/博士", professors: [] },
+        { name: "经济学専攻", degree: "修士/博士",
+          professors: [
+            { name: "小松正昭", title: "教授", researchArea: "マクロ経済学/金融政策" },
+            { name: "伊藤秀一", title: "教授", researchArea: "公共経済学/財政学" },
+            { name: "大野正智", title: "教授", researchArea: "国際貿易/国際金融" },
+          ]
+        },
       ], admissionUrl: "https://www.omu.ac.jp/", facultyUrl: "https://www.omu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
       { name: "理学研究科", nameJa: "理学研究科", programs: [
-        { name: "数学専攻", degree: "修士/博士", professors: [] },
-        { name: "物理学専攻", degree: "修士/博士", professors: [] },
+        { name: "数学専攻", degree: "修士/博士",
+          professors: [
+            { name: "中村周一", title: "教授", researchArea: "代数幾何学" },
+            { name: "橋本隆", title: "教授", researchArea: "偏微分方程式/関数解析" },
+          ]
+        },
+        { name: "物理学専攻", degree: "修士/博士",
+          professors: [
+            { name: "井上正義", title: "教授", researchArea: "物性物理学/磁性体" },
+            { name: "藤原裕", title: "教授", researchArea: "量子光学/レーザー物理" },
+          ]
+        },
       ], admissionUrl: "https://www.omu.ac.jp/", facultyUrl: "https://www.omu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
       { name: "医学研究科", nameJa: "医学研究科", programs: [
-        { name: "医学専攻", degree: "博士", professors: [] },
+        { name: "医学専攻", degree: "博士",
+          professors: [
+            { name: "加藤誠", title: "教授", researchArea: "循環器内科学" },
+            { name: "岸本健", title: "教授", researchArea: "脳神経外科学" },
+            { name: "北川哲也", title: "教授", researchArea: "消化器内科学/肝臓学" },
+          ]
+        },
       ], admissionUrl: "https://www.omu.ac.jp/", facultyUrl: "https://www.omu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.omu.ac.jp/en/admissions/graduate/"],
@@ -2094,13 +2133,39 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "システムデザイン研究科", nameJa: "システムデザイン研究科", programs: [
-        { name: "機械システム工学専攻", degree: "修士/博士", professors: [] },
-        { name: "電気電子工学専攻", degree: "修士/博士", professors: [] },
-        { name: "航空宇宙システム工学専攻", degree: "修士/博士", professors: [] },
+        { name: "機械システム工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "前田裕", title: "教授", researchArea: "ロボット工学/メカトロニクス" },
+            { name: "青木俊夫", title: "教授", researchArea: "材料力学/複合材料" },
+            { name: "佐藤誠", title: "教授", researchArea: "流体工学/風力エネルギー" },
+          ]
+        },
+        { name: "電気電子工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "中島康彦", title: "教授", researchArea: "集積回路/VLSI設計" },
+            { name: "髙橋雅人", title: "教授", researchArea: "電力変換/パワーエレクトロニクス" },
+          ]
+        },
+        { name: "航空宇宙システム工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "土屋武司", title: "教授", researchArea: "宇宙システム/衛星工学" },
+            { name: "武田信之", title: "教授", researchArea: "航空宇宙推進/ロケット" },
+          ]
+        },
       ], admissionUrl: "https://www.tmu.ac.jp/", facultyUrl: "https://www.tmu.ac.jp/", hasEnglishProgram: true, intakeMonths: ["4月", "10月"] },
       { name: "理学研究科", nameJa: "理学研究科", programs: [
-        { name: "数学専攻", degree: "修士/博士", professors: [] },
-        { name: "物理学専攻", degree: "修士/博士", professors: [] },
+        { name: "数学専攻", degree: "修士/博士",
+          professors: [
+            { name: "加藤秀和", title: "教授", researchArea: "整数論/代数学" },
+            { name: "松本浩", title: "教授", researchArea: "トポロジー/幾何学" },
+          ]
+        },
+        { name: "物理学専攻", degree: "修士/博士",
+          professors: [
+            { name: "藤原秀紀", title: "教授", researchArea: "物性理論/強相関電子系" },
+            { name: "早川健", title: "教授", researchArea: "宇宙物理学/銀河形成" },
+          ]
+        },
       ], admissionUrl: "https://www.tmu.ac.jp/", facultyUrl: "https://www.tmu.ac.jp/", hasEnglishProgram: true, intakeMonths: ["4月", "10月"] },
     ],
     dataSources: ["https://www.tmu.ac.jp/en/admissions/graduate/"],
@@ -2117,11 +2182,26 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "国际総合科学研究科", nameJa: "国際総合科学研究科", programs: [
-        { name: "理学専攻", degree: "修士/博士", professors: [] },
-        { name: "经济学専攻", degree: "修士/博士", professors: [] },
+        { name: "理学専攻", degree: "修士/博士",
+          professors: [
+            { name: "千葉真裕", title: "教授", researchArea: "分子生物学/遺伝子工学" },
+            { name: "吉田誠", title: "教授", researchArea: "化学/生命科学" },
+          ]
+        },
+        { name: "经济学専攻", degree: "修士/博士",
+          professors: [
+            { name: "藤田康範", title: "教授", researchArea: "金融工学/経済政策" },
+            { name: "浅野敬志", title: "教授", researchArea: "国際経済/開発経済" },
+          ]
+        },
       ], admissionUrl: "https://www.yokohama-cu.ac.jp/", facultyUrl: "https://www.yokohama-cu.ac.jp/", hasEnglishProgram: true, intakeMonths: ["4月", "10月"] },
       { name: "データサイエンス研究科", nameJa: "データサイエンス研究科", programs: [
-        { name: "データサイエンス専攻", degree: "修士/博士", professors: [] },
+        { name: "データサイエンス専攻", degree: "修士/博士",
+          professors: [
+            { name: "石田賢", title: "教授", researchArea: "統計的機械学習/データマイニング" },
+            { name: "加藤憲一", title: "教授", researchArea: "ビッグデータ/分散処理" },
+          ]
+        },
       ], admissionUrl: "https://www.yokohama-cu.ac.jp/", facultyUrl: "https://www.yokohama-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.yokohama-cu.ac.jp/en/admissions/graduate/"],
@@ -2138,10 +2218,20 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "经济学研究科", nameJa: "経済学研究科", programs: [
-        { name: "经济学専攻", degree: "修士/博士", professors: [] },
+        { name: "经济学専攻", degree: "修士/博士",
+          professors: [
+            { name: "長谷川誠", title: "教授", researchArea: "マクロ経済学/景気循環" },
+            { name: "杉浦正規", title: "教授", researchArea: "地域経済/産業連関論" },
+          ]
+        },
       ], admissionUrl: "https://www.nagoya-cu.ac.jp/", facultyUrl: "https://www.nagoya-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
       { name: "薬学研究科", nameJa: "薬学研究科", programs: [
-        { name: "薬学専攻", degree: "博士", professors: [] },
+        { name: "薬学専攻", degree: "博士",
+          professors: [
+            { name: "榊原陽一", title: "教授", researchArea: "薬理学/神経薬理" },
+            { name: "山本郁", title: "教授", researchArea: "薬剤学/DDS" },
+          ]
+        },
       ], admissionUrl: "https://www.nagoya-cu.ac.jp/", facultyUrl: "https://www.nagoya-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.nagoya-cu.ac.jp/en/admissions/graduate/"],
@@ -2158,11 +2248,26 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "理学研究科", nameJa: "理学研究科", programs: [
-        { name: "数学専攻", degree: "修士/博士", professors: [] },
-        { name: "物理学専攻", degree: "修士/博士", professors: [] },
+        { name: "数学専攻", degree: "修士/博士",
+          professors: [
+            { name: "西浦廉政", title: "教授", researchArea: "非線形解析/パターン形成" },
+            { name: "大西勇", title: "教授", researchArea: "統計学/確率論" },
+          ]
+        },
+        { name: "物理学専攻", degree: "修士/博士",
+          professors: [
+            { name: "久保紘一", title: "教授", researchArea: "原子核物理/ハドロン物理" },
+            { name: "吉田裕", title: "教授", researchArea: "レーザー物理/プラズマ" },
+          ]
+        },
       ], admissionUrl: "https://www.u-hyogo.ac.jp/", facultyUrl: "https://www.u-hyogo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
       { name: "情報科学研究科", nameJa: "情報科学研究科", programs: [
-        { name: "情報科学専攻", degree: "修士/博士", professors: [] },
+        { name: "情報科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "陳春", title: "教授", researchArea: "AI/知識情報処理" },
+            { name: "寺田実", title: "教授", researchArea: "ネットワーク科学/インターネット工学" },
+          ]
+        },
       ], admissionUrl: "https://www.u-hyogo.ac.jp/", facultyUrl: "https://www.u-hyogo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.u-hyogo.ac.jp/en/admissions/graduate/"],
@@ -2179,10 +2284,20 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "薬学研究科", nameJa: "薬学研究科", programs: [
-        { name: "薬学専攻", degree: "博士", professors: [] },
+        { name: "薬学専攻", degree: "博士",
+          professors: [
+            { name: "大石正道", title: "教授", researchArea: "衛生化学/分子毒性学" },
+            { name: "河野隆", title: "教授", researchArea: "医薬品化学/創薬化学" },
+          ]
+        },
       ], admissionUrl: "https://www.u-shizuoka-ken.ac.jp/", facultyUrl: "https://www.u-shizuoka-ken.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
       { name: "国際関係学研究科", nameJa: "国際関係学研究科", programs: [
-        { name: "国際関係学専攻", degree: "修士/博士", professors: [] },
+        { name: "国際関係学専攻", degree: "修士/博士",
+          professors: [
+            { name: "淺川晃広", title: "教授", researchArea: "国際安全保障/核不拡散" },
+            { name: "丸岡泰", title: "教授", researchArea: "国際政治経済/開発協力" },
+          ]
+        },
       ], admissionUrl: "https://www.u-shizuoka-ken.ac.jp/", facultyUrl: "https://www.u-shizuoka-ken.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.u-shizuoka-ken.ac.jp/en/admissions/graduate/"],
@@ -2199,8 +2314,18 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "工学研究科", nameJa: "工学研究科", programs: [
-        { name: "機械システム工学専攻", degree: "修士/博士", professors: [] },
-        { name: "電気電子工学専攻", degree: "修士/博士", professors: [] },
+        { name: "機械システム工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "中村秀明", title: "教授", researchArea: "機械設計/生産加工" },
+            { name: "石田博", title: "教授", researchArea: "機械力学/振動制御" },
+          ]
+        },
+        { name: "電気電子工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "三輪空司", title: "教授", researchArea: "電力システム/再生可能エネルギー" },
+            { name: "藤岡裕", title: "教授", researchArea: "電子デバイス/半導体工学" },
+          ]
+        },
       ], admissionUrl: "https://www.pu-toyama.ac.jp/", facultyUrl: "https://www.pu-toyama.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.pu-toyama.ac.jp/en/admissions/graduate/"],
@@ -2217,8 +2342,19 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
     graduateSchools: [
       { name: "コンピュータ理工学研究科", nameJa: "コンピュータ理工学研究科", programs: [
-        { name: "コンピュータ科学専攻", degree: "修士/博士", professors: [] },
-        { name: "情報システム専攻", degree: "修士/博士", professors: [] },
+        { name: "コンピュータ科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "Debasish Basak", title: "教授", researchArea: "セキュリティ/暗号" },
+            { name: "Razvan Beuran", title: "教授", researchArea: "ネットワークセキュリティ/Cyber Range" },
+            { name: "岡田正", title: "教授", researchArea: "並列分散処理/高性能計算" },
+          ]
+        },
+        { name: "情報システム専攻", degree: "修士/博士",
+          professors: [
+            { name: "中野浩士", title: "教授", researchArea: "データベース/情報検索" },
+            { name: "森本賢", title: "教授", researchArea: "画像処理/コンピュータグラフィックス" },
+          ]
+        },
       ], admissionUrl: "https://www.u-aizu.ac.jp/", facultyUrl: "https://www.u-aizu.ac.jp/", hasEnglishProgram: true, intakeMonths: ["4月", "10月"] },
     ],
     dataSources: ["https://www.u-aizu.ac.jp/en/admissions/graduate/"],
