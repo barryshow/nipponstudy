@@ -2675,6 +2675,19 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.tmu.ac.jp/", facultyUrl: "https://www.tmu.ac.jp/", hasEnglishProgram: true, intakeMonths: ["4月", "10月"] },
+      { name: "人文社会学研究科", nameJa: "人文社会学研究科", nameEn: "Graduate School of Humanities and Social Sciences", programs: [
+        { name: "人文学専攻", degree: "修士/博士", description: "哲学·史学·文学·言語学",
+          professors: [
+            { name: "大矢雅則", title: "教授", researchArea: "西洋哲学/現代思想" },
+            { name: "中村理恵", title: "教授", researchArea: "日本史学/近世史" },
+          ]
+        },
+        { name: "社会学専攻", degree: "修士/博士", description: "社会学·社会人類学",
+          professors: [
+            { name: "加藤晴明", title: "教授", researchArea: "都市社会学/地域社会" },
+          ]
+        },
+      ], admissionUrl: "https://www.tmu.ac.jp/", facultyUrl: "https://www.tmu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.tmu.ac.jp/en/admissions/graduate/"],
   },
@@ -2711,6 +2724,14 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.yokohama-cu.ac.jp/", facultyUrl: "https://www.yokohama-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "医学研究科", nameJa: "医学研究科", programs: [
+        { name: "医学専攻", degree: "博士",
+          professors: [
+            { name: "山口直人", title: "教授", researchArea: "内科学/循環器病" },
+            { name: "大橋隆", title: "教授", researchArea: "外科学/呼吸器外科" },
+          ]
+        },
+      ], admissionUrl: "https://www.yokohama-cu.ac.jp/", facultyUrl: "https://www.yokohama-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.yokohama-cu.ac.jp/en/admissions/graduate/"],
   },
@@ -2738,6 +2759,22 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           professors: [
             { name: "榊原陽一", title: "教授", researchArea: "薬理学/神経薬理" },
             { name: "山本郁", title: "教授", researchArea: "薬剤学/DDS" },
+          ]
+        },
+      ], admissionUrl: "https://www.nagoya-cu.ac.jp/", facultyUrl: "https://www.nagoya-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "人間文化研究科", nameJa: "人間文化研究科", nameEn: "Graduate School of Humanities and Social Sciences", programs: [
+        { name: "人間文化専攻", degree: "修士/博士", description: "社会学·心理学·教育学",
+          professors: [
+            { name: "村瀬裕", title: "教授", researchArea: "社会学/家族社会学" },
+            { name: "大橋智", title: "教授", researchArea: "心理学/臨床心理学" },
+          ]
+        },
+      ], admissionUrl: "https://www.nagoya-cu.ac.jp/", facultyUrl: "https://www.nagoya-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "芸術工学研究科", nameJa: "芸術工学研究科", nameEn: "Graduate School of Design and Architecture", programs: [
+        { name: "芸術工学専攻", degree: "修士/博士", description: "デザイン·建築·都市環境",
+          professors: [
+            { name: "川崎清", title: "教授", researchArea: "建築設計/都市計画" },
+            { name: "清水敏男", title: "教授", researchArea: "プロダクトデザイン" },
           ]
         },
       ], admissionUrl: "https://www.nagoya-cu.ac.jp/", facultyUrl: "https://www.nagoya-cu.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
@@ -2777,6 +2814,36 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.u-hyogo.ac.jp/", facultyUrl: "https://www.u-hyogo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "工学研究科", nameJa: "工学研究科", nameEn: "Graduate School of Engineering", programs: [
+        { name: "機械工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "山田満", title: "教授", researchArea: "機械設計/生産加工" },
+            { name: "飯田誠", title: "教授", researchArea: "熱工学/エネルギー" },
+          ]
+        },
+        { name: "電気電子工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "吉田和弘", title: "教授", researchArea: "電力工学/スマートグリッド" },
+            { name: "井上裕", title: "教授", researchArea: "半導体工学" },
+          ]
+        },
+      ], admissionUrl: "https://www.u-hyogo.ac.jp/", facultyUrl: "https://www.u-hyogo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経済学研究科", nameJa: "経済学研究科", nameEn: "Graduate School of Economics", programs: [
+        { name: "経済学専攻", degree: "修士/博士",
+          professors: [
+            { name: "橋本健", title: "教授", researchArea: "経済政策/公共経済" },
+            { name: "木村宏", title: "教授", researchArea: "国際経済/開発経済" },
+          ]
+        },
+      ], admissionUrl: "https://www.u-hyogo.ac.jp/", facultyUrl: "https://www.u-hyogo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "環境人間学研究科", nameJa: "環境人間学研究科", nameEn: "Graduate School of Human Science and Environment", programs: [
+        { name: "環境人間学専攻", degree: "修士/博士", description: "環境政策·人間科学·生活科学",
+          professors: [
+            { name: "中西康裕", title: "教授", researchArea: "環境教育/持続可能性" },
+            { name: "竹内健", title: "教授", researchArea: "人間科学/健康科学" },
+          ]
+        },
+      ], admissionUrl: "https://www.u-hyogo.ac.jp/", facultyUrl: "https://www.u-hyogo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.u-hyogo.ac.jp/en/admissions/graduate/"],
   },
@@ -2804,6 +2871,22 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           professors: [
             { name: "淺川晃広", title: "教授", researchArea: "国際安全保障/核不拡散" },
             { name: "丸岡泰", title: "教授", researchArea: "国際政治経済/開発協力" },
+          ]
+        },
+      ], admissionUrl: "https://www.u-shizuoka-ken.ac.jp/", facultyUrl: "https://www.u-shizuoka-ken.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "食品栄養科学研究科", nameJa: "食品栄養科学研究科", nameEn: "Graduate School of Food and Nutritional Sciences", programs: [
+        { name: "食品栄養科学専攻", degree: "修士/博士", description: "食品科学·栄養生命科学",
+          professors: [
+            { name: "堀江健一", title: "教授", researchArea: "食品機能学/食品加工" },
+            { name: "鈴木公", title: "教授", researchArea: "栄養生化学/分子栄養学" },
+          ]
+        },
+      ], admissionUrl: "https://www.u-shizuoka-ken.ac.jp/", facultyUrl: "https://www.u-shizuoka-ken.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経営情報イノベーション研究科", nameJa: "経営情報イノベーション研究科", nameEn: "Graduate School of Management and Innovation of Information", programs: [
+        { name: "経営情報イノベーション専攻", degree: "修士/博士", description: "経営学·情報学·イノベーション",
+          professors: [
+            { name: "杉山学", title: "教授", researchArea: "経営情報/IT戦略" },
+            { name: "山本浩", title: "教授", researchArea: "イノベーション/技術経営" },
           ]
         },
       ], admissionUrl: "https://www.u-shizuoka-ken.ac.jp/", facultyUrl: "https://www.u-shizuoka-ken.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
