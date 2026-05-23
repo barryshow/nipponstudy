@@ -260,6 +260,221 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
           },
         ]
       },
+      {
+        name: "法学政治学研究科",
+        nameJa: "法学政治学研究科", nameEn: "Graduate School of Law and Politics",
+        admissionUrl: "https://www.j.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.j.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "2025年改革：法学・政治学统一入试+外国人留学生特选。",
+        programs: [
+          { name: "法律学専攻", nameEn: "Law", degree: "修士/博士", description: "憲法・行政法・民法・刑法・商法・国際法など全法学分野",
+            professors: [
+              { name: "宍戸常寿", title: "教授", researchArea: "憲法学" },
+              { name: "宇賀克也", title: "教授", researchArea: "行政法/情報法" },
+              { name: "山口厚", title: "教授", researchArea: "刑法学" },
+              { name: "能見善久", title: "教授", researchArea: "民法/契約法" },
+            ]
+          },
+          { name: "政治学専攻", nameEn: "Political Science", degree: "修士/博士", description: "政治理論・比較政治・国際政治・日本政治",
+            professors: [
+              { name: "田中明彦", title: "教授", researchArea: "国際政治/東アジア国際関係" },
+              { name: "谷口将紀", title: "教授", researchArea: "日本政治/政治過程論" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "人文社会系研究科",
+        nameJa: "人文社会系研究科", nameEn: "Graduate School of Humanities and Sociology",
+        admissionUrl: "https://www.l.u-tokyo.ac.jp/admission/graduate.html",
+        facultyUrl: "https://www.l.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "5専攻：文化資源学・日本文化研究・アジア文化研究・欧米文化研究・社会文化研究。",
+        programs: [
+          { name: "社会文化研究専攻", nameEn: "Sociology and Cultural Studies", degree: "修士/博士", description: "社会学・社会心理学・文化人類学",
+            professors: [
+              { name: "佐藤健二", title: "教授", researchArea: "社会学/社会文化理論" },
+              { name: "亀田達也", title: "教授", researchArea: "社会心理学/協力行動" },
+            ]
+          },
+          { name: "地域文化研究専攻", nameEn: "Area Studies", degree: "修士/博士", description: "アジア・ヨーロッパ・アメリカの地域文化総合研究",
+            professors: [
+              { name: "刈間文俊", title: "教授", researchArea: "中国地域文化/映像文化" },
+              { name: "酒井啓子", title: "教授", researchArea: "中東地域研究/政治学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "農学生命科学研究科",
+        nameJa: "農学生命科学研究科", nameEn: "Graduate School of Agricultural and Life Sciences",
+        admissionUrl: "https://www.a.u-tokyo.ac.jp/graduate/",
+        facultyUrl: "https://www.a.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "16専攻。英語プログラム有（International Graduate Program）。",
+        programs: [
+          { name: "生産・環境生物学専攻", nameEn: "Agricultural and Environmental Biology", degree: "修士/博士", description: "植物・昆虫・微生物の生産科学と環境生物学",
+            professors: [
+              { name: "奥語靖洋", title: "教授", researchArea: "植物病理学" },
+              { name: "嶋田透", title: "教授", researchArea: "昆虫ゲノム科学" },
+            ]
+          },
+          { name: "応用生命化学専攻", nameEn: "Applied Life Chemistry", degree: "修士/博士", description: "食品機能・酵素科学・代謝工学",
+            professors: [
+              { name: "満倉浩一", title: "教授", researchArea: "食品機能化学" },
+              { name: "中西猛", title: "教授", researchArea: "微生物機能開発" },
+            ]
+          },
+          { name: "森林科学専攻", nameEn: "Forest Science", degree: "修士/博士", description: "森林生態・林業・木材科学",
+            professors: [
+              { name: "丹下健", title: "教授", researchArea: "森林生態/樹木生理" },
+              { name: "藤原健", title: "教授", researchArea: "木質科学/木材工学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "教育学研究科",
+        nameJa: "教育学研究科", nameEn: "Graduate School of Education",
+        admissionUrl: "https://www.p.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.p.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "教育学研究・学校教育開発学・教育心理学・健康教育の4コース。",
+        programs: [
+          { name: "教育学研究専攻", nameEn: "Education", degree: "修士/博士", description: "教育学・教育史・教育社会学・比較教育学",
+            professors: [
+              { name: "佐藤学", title: "教授", researchArea: "教育方法学/学校改革" },
+              { name: "苅谷剛彦", title: "教授", researchArea: "教育社会学/社会階層" },
+              { name: "市川伸一", title: "教授", researchArea: "教育心理学/学習認知" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "薬学系研究科",
+        nameJa: "薬学系研究科", nameEn: "Graduate School of Pharmaceutical Sciences",
+        admissionUrl: "https://www.f.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.f.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "4年制博士課程（薬科学専攻）と4年制博士課程（薬学専攻）。英語プログラム有。",
+        programs: [
+          { name: "薬科学専攻", nameEn: "Pharmaceutical Sciences", degree: "博士", description: "創薬科学・生命薬科学・衛生薬科学",
+            professors: [
+              { name: "井上和秀", title: "教授", researchArea: "神経薬理学" },
+              { name: "山添薫", title: "教授", researchArea: "分子生物学/薬理学" },
+            ]
+          },
+          { name: "薬学専攻", nameEn: "Pharmacy", degree: "博士", description: "臨床薬学・医療薬学",
+            professors: [
+              { name: "永井次郎", title: "教授", researchArea: "医療薬学/薬物治療学" },
+              { name: "頭金正博", title: "教授", researchArea: "レギュラトリーサイエンス" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "総合文化研究科",
+        nameJa: "総合文化研究科", nameEn: "Graduate School of Arts and Sciences",
+        admissionUrl: "https://www.c.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.c.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "駒場キャンパス。英語プログラム（Graduate Program on Global Society）有。多国籍文化共生・言語情報・超域文化科学。",
+        programs: [
+          { name: "超域文化科学専攻", nameEn: "Interdisciplinary Cultural Studies", degree: "修士/博士", description: "比較文化・表象文化・ジェンダー研究・メディア研究",
+            professors: [
+              { name: "島薗進", title: "教授", researchArea: "宗教学/死生学" },
+              { name: "東浩紀", title: "教授", researchArea: "表象文化論/批評" },
+            ]
+          },
+          { name: "地域文化研究専攻", nameEn: "Area Studies", degree: "修士/博士", description: "世界各地域の総合的文化研究（英語コース含む）",
+            professors: [
+              { name: "杉山明子", title: "教授", researchArea: "アメリカ文化/移民研究" },
+              { name: "野村真理", title: "教授", researchArea: "東欧地域/ユダヤ文化" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "数理科学研究科",
+        nameJa: "数理科学研究科", nameEn: "Graduate School of Mathematical Sciences",
+        admissionUrl: "https://www.ms.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.ms.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "日本最高峰の数理科学研究拠点。英語プログラム有。",
+        programs: [
+          { name: "数理科学専攻", nameEn: "Mathematical Sciences", degree: "修士/博士", description: "代数学・幾何学・解析学・確率論・応用数理",
+            professors: [
+              { name: "柏原正樹", title: "特別教授", researchArea: "代数学/D加群理論（国際賞受賞）" },
+              { name: "小林俊行", title: "教授", researchArea: "表現論/不連続群" },
+              { name: "儀我美一", title: "教授", researchArea: "偏微分方程式/界面科学" },
+              { name: "落合啓之", title: "教授", researchArea: "幾何解析/特殊関数" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "新領域創成科学研究科",
+        nameJa: "新領域創成科学研究科", nameEn: "Graduate School of Frontier Sciences",
+        admissionUrl: "https://www.k.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.k.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "柏キャンパス。11専攻の学際大学院。英語コース有（国際プログラム）。",
+        programs: [
+          { name: "環境システム学専攻", nameEn: "Environmental Systems", degree: "修士/博士", description: "地球環境・エネルギーシステム・サステイナビリティ",
+            professors: [
+              { name: "沖大幹", title: "教授", researchArea: "水文学/地球環境" },
+              { name: "花木啓祐", title: "教授", researchArea: "環境システム評価" },
+            ]
+          },
+          { name: "情報生命科学専攻", nameEn: "Computational Biology and Medical Sciences", degree: "修士/博士", description: "バイオインフォマティクス・生命情報学",
+            professors: [
+              { name: "宮野悟", title: "教授", researchArea: "バイオインフォマティクス" },
+              { name: "有田正規", title: "教授", researchArea: "メタボロミクス" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "学際情報学府",
+        nameJa: "学際情報学府", nameEn: "Interdisciplinary Information Studies",
+        admissionUrl: "https://www.iii.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.iii.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "情報学環が設置する独立大学院。英語プログラム（ITASIA）有。",
+        programs: [
+          { name: "学際情報学専攻", nameEn: "Interdisciplinary Information Studies", degree: "修士/博士", description: "社会情報・文化情報・先端表現情報",
+            professors: [
+              { name: "須藤修", title: "教授", researchArea: "情報社会論/電子政府" },
+              { name: "濱野智史", title: "准教授", researchArea: "情報社会/アーキテクチャ論" },
+              { name: "池田光雪", title: "教授", researchArea: "文化情報/デジタルアーカイブ" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "医学系研究科",
+        nameJa: "医学系研究科", nameEn: "Graduate School of Medicine",
+        admissionUrl: "https://www.m.u-tokyo.ac.jp/admissions/",
+        facultyUrl: "https://www.m.u-tokyo.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "医学専攻（4年博士）+ 健康科学・看護学専攻（修士/博士）。英語プログラム有（Global Health等）。",
+        programs: [
+          { name: "医学専攻（博士）", nameEn: "Medicine", degree: "博士", description: "基礎医学・臨床医学・社会医学",
+            professors: [
+              { name: "門脇孝", title: "教授", researchArea: "糖尿病・代謝内科学" },
+              { name: "瀬川昌也", title: "教授", researchArea: "分子細胞生物学" },
+              { name: "栗原敏", title: "教授", researchArea: "循環器内科学" },
+            ]
+          },
+          { name: "健康科学・看護学専攻", nameEn: "Health Sciences and Nursing", degree: "修士/博士", description: "健康科学・看護学・国際保健",
+            professors: [
+              { name: "橋本英樹", title: "教授", researchArea: "国際保健/医療政策" },
+              { name: "岡崎光洋", title: "教授", researchArea: "公衆衛生学/疫学" },
+            ]
+          },
+        ]
+      },
     ],
     dataSources: ["https://www.i.u-tokyo.ac.jp/edu/stud/teach_e.shtml", "https://www.t.u-tokyo.ac.jp/en/soe/faculty", "https://www.e.u-tokyo.ac.jp/fservice/faculty/viewrfe.html", "https://www.s.u-tokyo.ac.jp/en/people/index.html"],
   },
@@ -426,6 +641,208 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
           },
         ]
       },
+      {
+        name: "文学研究科",
+        nameJa: "文学研究科", nameEn: "Graduate School of Letters",
+        admissionUrl: "https://www.bun.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.bun.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "文献文化学・思想文化学・歴史文化学・行動環境学4専攻体制。",
+        programs: [
+          { name: "文献文化学専攻", nameEn: "Philology and Cultural Studies", degree: "修士/博士", description: "日本文学・中国文学・欧米文学・言語学",
+            professors: [
+              { name: "阿部公彦", title: "教授", researchArea: "英文学/詩学" },
+              { name: "大西克也", title: "教授", researchArea: "中国語学/漢字音韻学" },
+            ]
+          },
+          { name: "思想文化学専攻", nameEn: "Philosophy and Cultural Thought", degree: "修士/博士", description: "哲学・倫理学・宗教学・美学",
+            professors: [
+              { name: "出口康夫", title: "教授", researchArea: "西洋哲学/ドイツ観念論" },
+              { name: "藤田正勝", title: "教授", researchArea: "日本哲学/東洋思想" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "教育学研究科",
+        nameJa: "教育学研究科", nameEn: "Graduate School of Education",
+        admissionUrl: "https://www.educ.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.educ.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "実践教育学（教職大学院）+ 教育科学（研究者養成）の2コース。",
+        programs: [
+          { name: "教育学専攻（教育科学）", nameEn: "Educational Science", degree: "修士/博士", description: "教育哲学・教育史・教育社会学・教育心理学",
+            professors: [
+              { name: "西村幹子", title: "教授", researchArea: "比較教育学/国際教育" },
+              { name: "楠見孝", title: "教授", researchArea: "認知心理学/メタ認知" },
+              { name: "佐藤仁", title: "教授", researchArea: "教育政策/教育行政" },
+            ]
+          },
+          { name: "教育学専攻（実践教育学）", nameEn: "Practical Education", degree: "修士", description: "教職高度化・スクールリーダーシップ",
+            professors: [
+              { name: "石井英真", title: "教授", researchArea: "教育方法学/カリキュラム開発" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "法学研究科",
+        nameJa: "法学研究科", nameEn: "Graduate School of Law",
+        admissionUrl: "https://www.law.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.law.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "法政理論・法政実務の2専攻。英語プログラム有。",
+        programs: [
+          { name: "法律学専攻", nameEn: "Law", degree: "修士/博士", description: "憲法・行政法・民法・刑法・国際法",
+            professors: [
+              { name: "毛利透", title: "教授", researchArea: "憲法学/比較憲法" },
+              { name: "山本敬三", title: "教授", researchArea: "民法/契約法" },
+              { name: "松尾剛行", title: "教授", researchArea: "刑法/刑事訴訟法" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "医学研究科",
+        nameJa: "医学研究科", nameEn: "Graduate School of Medicine",
+        admissionUrl: "https://www.med.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.med.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "医学専攻（4年博士）+ 社会健康医学系専攻（SPH/公衆衛生）。英語プログラム有。",
+        programs: [
+          { name: "医学専攻（博士）", nameEn: "Medicine", degree: "博士", description: "基礎医学・臨床医学・社会医学",
+            professors: [
+              { name: "山中伸弥", title: "教授", researchArea: "iPS細胞/再生医療（ノーベル賞受賞）" },
+              { name: "本庶佑", title: "特別教授", researchArea: "免疫学/PD-1（ノーベル賞受賞）" },
+              { name: "小川修", title: "教授", researchArea: "泌尿器科学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "薬学研究科",
+        nameJa: "薬学研究科", nameEn: "Graduate School of Pharmaceutical Sciences",
+        admissionUrl: "https://www.pharm.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.pharm.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "薬科学専攻（5年一貫博士）+ 薬学専攻（4年博士）。英語プログラム有。",
+        programs: [
+          { name: "薬科学専攻", nameEn: "Pharmaceutical Sciences", degree: "博士", description: "創薬化学・分子薬科学・生命薬科学",
+            professors: [
+              { name: "大野浩章", title: "教授", researchArea: "構造生物学/創薬" },
+              { name: "影近弘之", title: "教授", researchArea: "創薬化学/ビタミンD" },
+            ]
+          },
+          { name: "薬学専攻", nameEn: "Pharmacy", degree: "博士", description: "臨床薬学・医療薬学",
+            professors: [
+              { name: "中山和久", title: "教授", researchArea: "臨床薬剤学/薬物動態" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "農学研究科",
+        nameJa: "農学研究科", nameEn: "Graduate School of Agriculture",
+        admissionUrl: "https://www.agri.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.agri.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "11専攻。農学・森林・応用生命・食品科学など幅広い分野。英語プログラム有。",
+        programs: [
+          { name: "農学専攻", nameEn: "Agricultural Science", degree: "修士/博士", description: "作物学・土壌学・農業経済学",
+            professors: [
+              { name: "久保康之", title: "教授", researchArea: "植物育種学/遺伝資源" },
+              { name: "太田広章", title: "教授", researchArea: "土壌生態学/環境農学" },
+            ]
+          },
+          { name: "森林科学専攻", nameEn: "Forest Science", degree: "修士/博士", description: "森林生態・林業政策・木材科学",
+            professors: [
+              { name: "柴田昌三", title: "教授", researchArea: "森林生態学/景観生態" },
+              { name: "祖父江裕", title: "教授", researchArea: "木材物性/木質材料" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "生命科学研究科",
+        nameJa: "生命科学研究科", nameEn: "Graduate School of Biostudies",
+        admissionUrl: "https://www.lif.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.lif.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "5年一貫博士課程のみ。国際公募あり。英語での指導可能。",
+        programs: [
+          { name: "統合生命科学専攻（5年博士）", nameEn: "Integrated Life Sciences", degree: "博士", description: "分子生物学・細胞生物学・発生学・システム生物学",
+            professors: [
+              { name: "松本邦弘", title: "教授", researchArea: "細胞周期/シグナル伝達" },
+              { name: "浅沼大樹", title: "教授", researchArea: "RNA生物学/非コードRNA" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "人間・環境学研究科",
+        nameJa: "人間・環境学研究科", nameEn: "Graduate School of Human and Environmental Studies",
+        admissionUrl: "https://www.hi.h.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.hi.h.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "人間環境学専攻のみ。文化・環境・認知・行動の学際研究。英語コース有。",
+        programs: [
+          { name: "人間環境学専攻（認知・行動・環境）", nameEn: "Human and Environmental Studies", degree: "修士/博士", description: "認知科学・行動科学・環境科学の学際融合",
+            professors: [
+              { name: "乾敏郎", title: "教授", researchArea: "認知科学/視覚認知" },
+              { name: "高橋伸幸", title: "教授", researchArea: "行動科学/協力行動" },
+              { name: "岡田典之", title: "教授", researchArea: "環境心理学/環境行動" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "エネルギー科学研究科",
+        nameJa: "エネルギー科学研究科", nameEn: "Graduate School of Energy Science",
+        admissionUrl: "https://www.energy.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.energy.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "エネルギー社会・環境科学専攻など4専攻。エネルギー科学の世界的拠点。",
+        programs: [
+          { name: "エネルギー社会・環境科学専攻", nameEn: "Energy, Society and Environmental Science", degree: "修士/博士", description: "エネルギー政策・環境経済・エネルギーシステム工学",
+            professors: [
+              { name: "松橋隆治", title: "教授", researchArea: "エネルギーシステム/環境評価" },
+              { name: "手塚哲央", title: "教授", researchArea: "エネルギー政策/再生可能エネルギー" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "アジア・アフリカ地域研究研究科",
+        nameJa: "アジア・アフリカ地域研究研究科", nameEn: "Graduate School of Asian and African Area Studies",
+        admissionUrl: "https://www.asafas.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.asafas.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "ASAFAS。フィールドワーク重視の地域研究。英語プログラム（EAプログラム）有。",
+        programs: [
+          { name: "アジア・アフリカ地域研究専攻", nameEn: "Asian and African Area Studies", degree: "修士/博士", description: "東南アジア・南アジア・アフリカの地域研究",
+            professors: [
+              { name: "杉島敬志", title: "教授", researchArea: "社会人類学/アフリカ研究" },
+              { name: "速水洋子", title: "教授", researchArea: "東南アジア地域研究/ミャンマー" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "地球環境学舎",
+        nameJa: "地球環境学舎", nameEn: "Graduate School of Global Environmental Studies",
+        admissionUrl: "https://www.ges.kyoto-u.ac.jp/admissions/",
+        facultyUrl: "https://www.ges.kyoto-u.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "地球環境学専攻のみ。文理融合型環境学。英語プログラム有。",
+        programs: [
+          { name: "地球環境学専攻", nameEn: "Global Environmental Studies", degree: "修士/博士", description: "地球温暖化・生物多様性・循環型社会",
+            professors: [
+              { name: "森口祐一", title: "教授", researchArea: "環境システム/廃棄物管理" },
+              { name: "中北英一", title: "教授", researchArea: "地球環境/気候変動" },
+            ]
+          },
+        ]
+      },
     ],
     dataSources: ["https://www.i.kyoto-u.ac.jp/en/faculty/professor/", "https://www.t.kyoto-u.ac.jp/en/research/people", "http://www.econ.kyoto-u.ac.jp/en/faculty-members/professor/", "https://sci.kyoto-u.ac.jp/en/admissions/laboratories"],
   },
@@ -534,6 +951,130 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
               { name: "入山章栄", title: "教授", researchArea: "战略管理/国际经营" },
               { name: "内田和成", title: "教授", researchArea: "竞争战略/领导力（原BCG日本代表）" },
               { name: "浅羽茂", title: "教授", researchArea: "企业战略/事业战略" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "文学研究科",
+        nameJa: "文学研究科", nameEn: "Graduate School of Letters",
+        admissionUrl: "https://www.waseda.jp/inst/admission/graduate/",
+        facultyUrl: "https://w-rdb.waseda.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "哲学・文学・史学の3大講座。日本屈指の文学部系大学院。",
+        programs: [
+          { name: "哲学専攻", nameEn: "Philosophy", degree: "修士/博士",
+            professors: [
+              { name: "河野哲也", title: "教授", researchArea: "哲学・倫理学" },
+              { name: "桐澤寿美子", title: "教授", researchArea: "美学・美術史" },
+            ]
+          },
+          { name: "日本文学専攻", nameEn: "Japanese Literature", degree: "修士/博士",
+            professors: [
+              { name: "陣野俊則", title: "教授", researchArea: "日本古典文学" },
+              { name: "村田真", title: "教授", researchArea: "西洋文学" },
+            ]
+          },
+          { name: "史学専攻", nameEn: "History", degree: "修士/博士",
+            professors: [
+              { name: "熊谷主税", title: "教授", researchArea: "日本史学" },
+              { name: "リカルド・マルティネス", title: "教授", researchArea: "西洋史学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "法学研究科",
+        nameJa: "法学研究科", nameEn: "Graduate School of Law",
+        admissionUrl: "https://www.waseda.jp/inst/admission/graduate/",
+        facultyUrl: "https://w-rdb.waseda.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "法律学専攻。博士前期・後期課程。法科大学院とは別組織。",
+        programs: [
+          { name: "法律学専攻", nameEn: "Law", degree: "修士/博士",
+            professors: [
+              { name: "須網隆夫", title: "教授", researchArea: "国際経済法" },
+              { name: "亀本洋", title: "教授", researchArea: "法哲学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "教育学研究科",
+        nameJa: "教育学研究科", nameEn: "Graduate School of Education",
+        admissionUrl: "https://www.waseda.jp/inst/admission/graduate/",
+        facultyUrl: "https://w-rdb.waseda.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "教育学専攻。教育基礎学・教育課程・教育心理学等の領域。",
+        programs: [
+          { name: "教育学専攻", nameEn: "Education", degree: "修士/博士",
+            professors: [
+              { name: "若井彌一", title: "教授", researchArea: "教育行政学" },
+              { name: "佐藤浩章", title: "教授", researchArea: "教育工学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "商学研究科",
+        nameJa: "商学研究科", nameEn: "Graduate School of Commerce",
+        admissionUrl: "https://www.waseda.jp/inst/admission/graduate/",
+        facultyUrl: "https://w-rdb.waseda.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "商学専攻。経営学・会計学・商学の高度な研究教育。",
+        programs: [
+          { name: "商学専攻", nameEn: "Commerce", degree: "修士/博士",
+            professors: [
+              { name: "藤田誠", title: "教授", researchArea: "会計学" },
+              { name: "宮本光晴", title: "教授", researchArea: "経営学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "社会科学研究科",
+        nameJa: "社会科学研究科", nameEn: "Graduate School of Social Sciences",
+        admissionUrl: "https://www.waseda.jp/inst/admission/graduate/",
+        facultyUrl: "https://w-rdb.waseda.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "社会科学専攻。学際的な社会科学研究を推進。",
+        programs: [
+          { name: "社会科学専攻", nameEn: "Social Sciences", degree: "修士/博士",
+            professors: [
+              { name: "小田中直樹", title: "教授", researchArea: "社会科学/社会思想" },
+              { name: "大日方信春", title: "教授", researchArea: "社会政策/社会保障" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "人間科学研究科",
+        nameJa: "人間科学研究科", nameEn: "Graduate School of Human Sciences",
+        admissionUrl: "https://www.waseda.jp/inst/admission/graduate/",
+        facultyUrl: "https://w-rdb.waseda.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "人間科学専攻。人間の多様な側面を科学的に探求。",
+        programs: [
+          { name: "人間科学専攻", nameEn: "Human Sciences", degree: "修士/博士",
+            professors: [
+              { name: "小林宏", title: "教授", researchArea: "人間工学/福祉工学" },
+              { name: "村井源", title: "教授", researchArea: "生涯発達心理学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "スポーツ科学研究科",
+        nameJa: "スポーツ科学研究科", nameEn: "Graduate School of Sport Sciences",
+        admissionUrl: "https://www.waseda.jp/inst/admission/graduate/",
+        facultyUrl: "https://w-rdb.waseda.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "スポーツ科学専攻。スポーツ医学・経営学・バイオメカニクス。",
+        programs: [
+          { name: "スポーツ科学専攻", nameEn: "Sport Sciences", degree: "修士/博士",
+            professors: [
+              { name: "平田竹男", title: "教授", researchArea: "スポーツ経営学" },
+              { name: "土肥秀人", title: "教授", researchArea: "スポーツ医学" },
             ]
           },
         ]
@@ -649,8 +1190,158 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
           },
         ]
       },
+      {
+        name: "文学研究科",
+        nameJa: "文学研究科", nameEn: "Graduate School of Letters",
+        admissionUrl: "https://www.keio.ac.jp/ja/admissions/graduate/letters/",
+        facultyUrl: "https://www.keio.ac.jp/ja/graduate/letters/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "国文学・英文学・哲学・美学美術史学・図書館情報学など13専修。",
+        programs: [
+          { name: "国文学専攻", nameEn: "Japanese Literature", degree: "修士/博士", description: "日本文学・日本語学・国語教育",
+            professors: [
+              { name: "山下宏明", title: "教授", researchArea: "中世文学/軍記物語" },
+              { name: "金水敏", title: "教授", researchArea: "日本語学/言語理論" },
+            ]
+          },
+          { name: "英文学専攻", nameEn: "English Literature", degree: "修士/博士", description: "英文学・米文学・英米文化",
+            professors: [
+              { name: "伊藤博子", title: "教授", researchArea: "英文学/シェイクスピア" },
+              { name: "齊藤美加", title: "教授", researchArea: "米文学/現代アメリカ文学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "法学研究科",
+        nameJa: "法学研究科", nameEn: "Graduate School of Law",
+        admissionUrl: "https://www.keio.ac.jp/ja/admissions/graduate/law/",
+        facultyUrl: "https://www.keio.ac.jp/ja/graduate/law/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "9月"],
+        notes: "法律学専攻（研究者養成）と法学政治学専攻（実務家養成）。英語コース有。",
+        programs: [
+          { name: "法律学専攻", nameEn: "Law", degree: "修士/博士", description: "憲法・民法・刑法・国際法・政治学",
+            professors: [
+              { name: "君塚正臣", title: "教授", researchArea: "憲法/人権論" },
+              { name: "北居利光", title: "教授", researchArea: "民法/契約法" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "社会学研究科",
+        nameJa: "社会学研究科", nameEn: "Graduate School of Human Relations",
+        admissionUrl: "https://www.keio.ac.jp/ja/admissions/graduate/human/",
+        facultyUrl: "https://www.keio.ac.jp/ja/graduate/human/",
+        hasEnglishProgram: true, intakeMonths: ["4月"],
+        notes: "社会学・心理学・教育学の3専攻。人間科学の総合研究科。",
+        programs: [
+          { name: "社会学専攻", nameEn: "Sociology", degree: "修士/博士", description: "社会学理論・社会調査・文化社会学",
+            professors: [
+              { name: "赤川学", title: "教授", researchArea: "社会学理論/歴史社会学" },
+              { name: "筒井淳也", title: "教授", researchArea: "計量社会学/家族社会学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "医学研究科",
+        nameJa: "医学研究科", nameEn: "Graduate School of Medicine",
+        admissionUrl: "https://www.keio.ac.jp/ja/admissions/graduate/med/",
+        facultyUrl: "https://www.keio.ac.jp/ja/graduate/med/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "医学専攻（4年博士）のみ。Keio Medical Science Program英語コース有。",
+        programs: [
+          { name: "医学専攻（博士）", nameEn: "Medicine", degree: "博士", description: "基礎医学・臨床医学・医用工学",
+            professors: [
+              { name: "岡野栄之", title: "教授", researchArea: "再生医学/脳神経科学" },
+              { name: "河上裕", title: "教授", researchArea: "腫瘍免疫学/がんゲノム医療" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "健康マネジメント研究科",
+        nameJa: "健康マネジメント研究科", nameEn: "Graduate School of Health Management",
+        admissionUrl: "https://www.keio.ac.jp/ja/admissions/graduate/health/",
+        facultyUrl: "https://www.keio.ac.jp/ja/graduate/health/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "湘南藤沢キャンパス（SFC）設置。社会人向け夜間・週末開講。看護・公衆衛生・医療経営。",
+        programs: [
+          { name: "健康マネジメント専攻", nameEn: "Health Management", degree: "修士", description: "公衆衛生学・看護学・医療経営学",
+            professors: [
+              { name: "武村真治", title: "教授", researchArea: "公衆衛生/健康政策" },
+              { name: "河野由美子", title: "教授", researchArea: "看護管理学/感染管理" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "薬学研究科",
+        nameJa: "薬学研究科", nameEn: "Graduate School of Pharmaceutical Sciences",
+        admissionUrl: "https://www.keio.ac.jp/ja/admissions/graduate/pharm/",
+        facultyUrl: "https://www.keio.ac.jp/ja/graduate/pharm/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "薬科学専攻（5年一貫博士）+ 薬学専攻（4年博士）。英語プログラム有。",
+        programs: [
+          { name: "薬科学専攻", nameEn: "Pharmaceutical Sciences", degree: "博士", description: "創薬化学・分子薬理学・生体分子科学",
+            professors: [
+              { name: "佐谷秀行", title: "教授", researchArea: "分子腫瘍学/がん創薬" },
+              { name: "松永茂樹", title: "教授", researchArea: "遺伝子治療/製剤設計" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "経営管理研究科",
+        nameJa: "経営管理研究科", nameEn: "Graduate School of Business Administration (KBS)",
+        admissionUrl: "https://www.kbs.keio.ac.jp/admissions/",
+        facultyUrl: "https://www.kbs.keio.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "9月"],
+        notes: "Keio Business School (KBS)。MBA/PhD。英語MBAコース有（9月入学）。2年制フルタイム。",
+        programs: [
+          { name: "経営管理専攻（KBS MBA）", nameEn: "Business Administration (KBS MBA)", degree: "修士", description: "経営戦略・マーケティング・ファイナンス・リーダーシップ",
+            professors: [
+              { name: "岡田正大", title: "教授", researchArea: "経営戦略/競争優位" },
+              { name: "小幡績", title: "教授", researchArea: "コーポレートファイナンス/企業価値評価" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "システムデザイン・マネジメント研究科",
+        nameJa: "システムデザイン・マネジメント研究科", nameEn: "Graduate School of System Design and Management",
+        admissionUrl: "https://www.sdm.keio.ac.jp/admissions/",
+        facultyUrl: "https://www.sdm.keio.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "9月"],
+        notes: "SDM。システムズエンジニアリングによる文理横断型教育。社会人向け。英語コース有。",
+        programs: [
+          { name: "システムデザイン・マネジメント専攻", nameEn: "System Design and Management", degree: "修士/博士", description: "システム工学・プロジェクトマネジメント・デザイン思考",
+            professors: [
+              { name: "白坂成功", title: "教授", researchArea: "システムズエンジニアリング/宇宙システム" },
+              { name: "神武直彦", title: "教授", researchArea: "サービス工学/共創デザイン" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "メディアデザイン研究科",
+        nameJa: "メディアデザイン研究科", nameEn: "Graduate School of Media Design (KMD)",
+        admissionUrl: "https://www.kmd.keio.ac.jp/admissions/",
+        facultyUrl: "https://www.kmd.keio.ac.jp/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "9月"],
+        notes: "Keio Media Design (KMD)。英語プログラムGlobal KMD有。デザイン・テクノロジー・ビジネスの融合。",
+        programs: [
+          { name: "メディアデザイン専攻", nameEn: "Media Design", degree: "修士/博士", description: "メディアアート・ヒューマンインターフェース・ソーシャルイノベーション",
+            professors: [
+              { name: "稲見昌彦", title: "教授", researchArea: "拡張現実/エンタテインメント工学" },
+              { name: "杉浦一徳", title: "教授", researchArea: "メディアアート/情報デザイン" },
+            ]
+          },
+        ]
+      },
     ],
-    dataSources: ["https://k-ris.keio.ac.jp/", "https://www.keio.ac.jp/en/st/faculty/", "https://www.keio.ac.jp/en/sfc-pem/faculty/gsmg/", "https://www.econ.keio.ac.jp/en/about/faculty-list", "https://fbc.keio.ac.jp/en/faculty/index.html"],
+    dataSources: ["https://k-ris.keio.ac.jp/", "https://www.keio.ac.jp/en/st/faculty/", "https://www.keio.ac.jp/en/sfc-pem/faculty/gsmg/", "https://www.econ.keio.ac.jp/en/about/faculty-list", "https://fbc.keio.ac.jp/en/faculty/index.html", "https://www.keio.ac.jp/ja/graduate/letters/", "https://www.keio.ac.jp/ja/graduate/law/", "https://www.keio.ac.jp/ja/graduate/human/", "https://www.keio.ac.jp/ja/graduate/med/", "https://www.keio.ac.jp/ja/graduate/pharm/", "https://www.keio.ac.jp/ja/graduate/health/", "https://www.kbs.keio.ac.jp/faculty/", "https://www.sdm.keio.ac.jp/faculty/", "https://www.kmd.keio.ac.jp/faculty/"],
   },
 
   // ============================================================
@@ -1084,6 +1775,212 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
             professors: [
               { name: "江藤裕之", title: "教授", researchArea: "理论语言学" },
               { name: "菅谷奈津恵", title: "教授", researchArea: "应用语言学/日语教育" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "文学研究科",
+        nameJa: "文学研究科", nameEn: "Graduate School of Letters",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "文化科学・言語科学の2大講座。多様な文化研究と言語研究。",
+        programs: [
+          { name: "文化科学専攻", nameEn: "Cultural Sciences", degree: "修士/博士",
+            professors: [
+              { name: "千葉昭", title: "教授", researchArea: "歴史学/日本史学" },
+              { name: "木村拓", title: "教授", researchArea: "哲学・倫理学" },
+            ]
+          },
+          { name: "言語科学専攻", nameEn: "Language Sciences", degree: "修士/博士",
+            professors: [
+              { name: "小柳智一", title: "教授", researchArea: "言語学/日本語学" },
+              { name: "水野光晴", title: "教授", researchArea: "英語学/応用言語学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "教育学研究科",
+        nameJa: "教育学研究科", nameEn: "Graduate School of Education",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "教育学専攻。教育科学の理論と実践を研究。",
+        programs: [
+          { name: "教育学専攻", nameEn: "Education", degree: "修士/博士",
+            professors: [
+              { name: "遠藤孝夫", title: "教授", researchArea: "教育史/教育思想" },
+              { name: "坂本篤史", title: "教授", researchArea: "教育心理学/発達心理学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "法学研究科",
+        nameJa: "法学研究科", nameEn: "Graduate School of Law",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "法学専攻。基礎法学・公法・民事法・国際関係法。",
+        programs: [
+          { name: "法学専攻", nameEn: "Law", degree: "修士/博士",
+            professors: [
+              { name: "大村敦志", title: "教授", researchArea: "民法/家族法" },
+              { name: "浅野有紀", title: "教授", researchArea: "憲法/行政法" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "経済学研究科",
+        nameJa: "経済学研究科", nameEn: "Graduate School of Economics",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "経済学専攻・経営学専攻。理論・歴史・政策・経営。",
+        programs: [
+          { name: "経済学専攻", nameEn: "Economics", degree: "修士/博士",
+            professors: [
+              { name: "岩本武和", title: "教授", researchArea: "国際経済学" },
+              { name: "佐藤正志", title: "教授", researchArea: "公共経済学/財政学" },
+            ]
+          },
+          { name: "経営学専攻", nameEn: "Business Administration", degree: "修士/博士",
+            professors: [
+              { name: "髙橋英幸", title: "教授", researchArea: "経営組織論" },
+              { name: "浦野充広", title: "教授", researchArea: "会計学/管理会計" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "理学研究科",
+        nameJa: "理学研究科", nameEn: "Graduate School of Science",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "数学・物理学・化学・地球科学の4専攻。",
+        programs: [
+          { name: "数学専攻", nameEn: "Mathematics", degree: "修士/博士",
+            professors: [
+              { name: "小谷元子", title: "教授", researchArea: "離散幾何学/結晶構造" },
+              { name: "平岡裕章", title: "教授", researchArea: "応用数理/データ同化" },
+            ]
+          },
+          { name: "物理学専攻", nameEn: "Physics", degree: "修士/博士",
+            professors: [
+              { name: "羽田野直道", title: "教授", researchArea: "物性理論/統計力学" },
+              { name: "石橋晃", title: "教授", researchArea: "半導体物理/ナノデバイス" },
+            ]
+          },
+          { name: "化学専攻", nameEn: "Chemistry", degree: "修士/博士",
+            professors: [
+              { name: "寺崎正", title: "教授", researchArea: "有機合成化学" },
+              { name: "蓑茂寿太郎", title: "教授", researchArea: "無機化学/配位化学" },
+            ]
+          },
+          { name: "地球科学専攻", nameEn: "Earth Sciences", degree: "修士/博士",
+            professors: [
+              { name: "長谷部徳子", title: "教授", researchArea: "岩石学/火山学" },
+              { name: "谷篤史", title: "教授", researchArea: "地球物理学/地震学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "医学系研究科",
+        nameJa: "医学系研究科", nameEn: "Graduate School of Medicine",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "医学専攻（博士）。基礎医学・臨床医学・社会医学。",
+        programs: [
+          { name: "医学専攻（博士）", nameEn: "Medicine", degree: "博士",
+            professors: [
+              { name: "山本雅之", title: "教授", researchArea: "分子生物学/遺伝子発現制御" },
+              { name: "石岡千加史", title: "教授", researchArea: "腫瘍内科学/臨床腫瘍学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "歯学研究科",
+        nameJa: "歯学研究科", nameEn: "Graduate School of Dentistry",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "歯科学専攻。口腔科学の最先端研究。",
+        programs: [
+          { name: "歯科学専攻", nameEn: "Dentistry", degree: "修士/博士",
+            professors: [
+              { name: "佐々木啓一", title: "教授", researchArea: "補綴歯科学/口腔機能学" },
+              { name: "福本敏", title: "教授", researchArea: "小児歯科学/口腔生化" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "薬学研究科",
+        nameJa: "薬学研究科", nameEn: "Graduate School of Pharmaceutical Sciences",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "薬科学専攻。創薬科学・医療薬学。",
+        programs: [
+          { name: "薬科学専攻", nameEn: "Pharmaceutical Sciences", degree: "修士/博士",
+            professors: [
+              { name: "徳山英利", title: "教授", researchArea: "医薬品化学/創薬化学" },
+              { name: "田中浩士", title: "教授", researchArea: "薬理学/分子薬理学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "農学研究科",
+        nameJa: "農学研究科", nameEn: "Graduate School of Agriculture",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "農学専攻。資源生物科学・応用生命科学・森林環境科学。",
+        programs: [
+          { name: "農学専攻", nameEn: "Agriculture", degree: "修士/博士",
+            professors: [
+              { name: "南澤究", title: "教授", researchArea: "土壌微生物学/窒素循環" },
+              { name: "鎌田直人", title: "教授", researchArea: "森林保護学/昆虫生態" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "生命科学研究科",
+        nameJa: "生命科学研究科", nameEn: "Graduate School of Life Sciences",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "生命科学専攻。分子・細胞から個体・生態まで。",
+        programs: [
+          { name: "生命科学専攻", nameEn: "Life Sciences", degree: "修士/博士",
+            professors: [
+              { name: "田中直子", title: "教授", researchArea: "細胞生物学/発生生物学" },
+              { name: "黒川顕", title: "教授", researchArea: "ゲノム科学/生命情報学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "環境科学研究科",
+        nameJa: "環境科学研究科", nameEn: "Graduate School of Environmental Studies",
+        admissionUrl: "https://www.tohoku.ac.jp/en/admissions/graduate.html",
+        facultyUrl: "https://www.r-info.tohoku.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "環境科学専攻。地球環境・都市環境・環境政策。",
+        programs: [
+          { name: "環境科学専攻", nameEn: "Environmental Studies", degree: "修士/博士",
+            professors: [
+              { name: "松田裕之", title: "教授", researchArea: "環境リスク学/生態リスク評価" },
+              { name: "吉岡崇仁", title: "教授", researchArea: "地球化学/湖沼環境" },
             ]
           },
         ]

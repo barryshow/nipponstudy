@@ -1689,6 +1689,46 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.aoyama.ac.jp/", facultyUrl: "https://www.aoyama.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "法学研究科", nameJa: "法学研究科", programs: [
+        { name: "法律学専攻", degree: "修士/博士",
+          professors: [
+            { name: "石村耕治", title: "教授", researchArea: "憲法/租税法" },
+            { name: "今村和之", title: "教授", researchArea: "民法/消費者法" },
+          ]
+        },
+      ], admissionUrl: "https://www.aoyama.ac.jp/", facultyUrl: "https://www.aoyama.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "经济学研究科", nameJa: "経済学研究科", programs: [
+        { name: "经济学専攻", degree: "修士/博士",
+          professors: [
+            { name: "浅子和美", title: "教授", researchArea: "マクロ経済学/景気循環" },
+            { name: "中島隆信", title: "教授", researchArea: "公共経済学/社会保障" },
+          ]
+        },
+      ], admissionUrl: "https://www.aoyama.ac.jp/", facultyUrl: "https://www.aoyama.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "经营学研究科", nameJa: "経営学研究科", programs: [
+        { name: "经营学専攻", degree: "修士/博士",
+          professors: [
+            { name: "伊藤邦雄", title: "教授", researchArea: "経営戦略/企業価値評価" },
+            { name: "齋藤毅", title: "教授", researchArea: "マーケティング/消費者行動" },
+          ]
+        },
+      ], admissionUrl: "https://www.aoyama.ac.jp/", facultyUrl: "https://www.aoyama.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "教育人間科学研究科", nameJa: "教育人間科学研究科", programs: [
+        { name: "教育学専攻", degree: "修士/博士",
+          professors: [
+            { name: "佐藤博志", title: "教授", researchArea: "教育経営/学校改革" },
+            { name: "高橋亜希子", title: "教授", researchArea: "教育心理学/発達支援" },
+          ]
+        },
+      ], admissionUrl: "https://www.aoyama.ac.jp/", facultyUrl: "https://www.aoyama.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "社会情報学研究科", nameJa: "社会情報学研究科", programs: [
+        { name: "社会情報学専攻", degree: "修士/博士",
+          professors: [
+            { name: "吉田健一", title: "教授", researchArea: "社会情報学/情報社会論" },
+            { name: "中野円佳", title: "教授", researchArea: "メディア研究/ジャーナリズム" },
+          ]
+        },
+      ], admissionUrl: "https://www.aoyama.ac.jp/", facultyUrl: "https://www.aoyama.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.aoyama.ac.jp/en/admissions/graduate/"],
   },
@@ -1735,6 +1775,48 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
         { name: "電気電子工学専攻", degree: "修士/博士",
           professors: [
             { name: "榎木孝知", title: "教授", researchArea: "半導体デバイス/集積回路" },
+          ]
+        },
+      ], admissionUrl: "https://www.chuo-u.ac.jp/", facultyUrl: "https://www.chuo-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "文学研究科", nameJa: "文学研究科", programs: [
+        { name: "日本文学専攻", degree: "修士/博士",
+          professors: [
+            { name: "神野藤昭夫", title: "教授", researchArea: "日本古典文学/物語文学" },
+            { name: "齋藤祐太郎", title: "教授", researchArea: "日本近現代文学/文体論" },
+          ]
+        },
+        { name: "英文学専攻", degree: "修士/博士",
+          professors: [
+            { name: "田尻芳樹", title: "教授", researchArea: "イギリス文学/演劇" },
+            { name: "渡邊真理香", title: "教授", researchArea: "アメリカ文学/ポストコロニアリズム" },
+          ]
+        },
+        { name: "史学専攻", degree: "修士/博士",
+          professors: [
+            { name: "古川隆久", title: "教授", researchArea: "日本近現代史/政治史" },
+            { name: "井上泰至", title: "教授", researchArea: "西洋史学/社会史" },
+          ]
+        },
+        { name: "哲学専攻", degree: "修士/博士",
+          professors: [
+            { name: "伊藤邦武", title: "教授", researchArea: "西洋哲学/科学哲学" },
+            { name: "森秀樹", title: "教授", researchArea: "倫理学/応用倫理" },
+          ]
+        },
+      ], admissionUrl: "https://www.chuo-u.ac.jp/", facultyUrl: "https://www.chuo-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "商学研究科", nameJa: "商学研究科", programs: [
+        { name: "商学専攻", degree: "修士/博士",
+          professors: [
+            { name: "加藤寛", title: "教授", researchArea: "会計学/財務会計" },
+            { name: "小野浩", title: "教授", researchArea: "マーケティング/流通論" },
+          ]
+        },
+      ], admissionUrl: "https://www.chuo-u.ac.jp/", facultyUrl: "https://www.chuo-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "综合政策研究科", nameJa: "総合政策研究科", programs: [
+        { name: "総合政策専攻", degree: "修士/博士",
+          professors: [
+            { name: "飯尾潤", title: "教授", researchArea: "政策分析/公共経営" },
+            { name: "金井利之", title: "教授", researchArea: "行政学/地方自治" },
           ]
         },
       ], admissionUrl: "https://www.chuo-u.ac.jp/", facultyUrl: "https://www.chuo-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
@@ -1788,6 +1870,70 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "法学研究科", nameJa: "法学研究科", nameEn: "Graduate School of Law", programs: [
+        { name: "法律学専攻", degree: "修士/博士",
+          professors: [
+            { name: "村井敏邦", title: "教授", researchArea: "刑法/刑事政策" },
+            { name: "松井茂記", title: "教授", researchArea: "憲法/情報法" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "商学研究科", nameJa: "商学研究科", nameEn: "Graduate School of Commerce", programs: [
+        { name: "商学専攻", degree: "修士/博士",
+          professors: [
+            { name: "上林憲雄", title: "教授", researchArea: "経営組織/人的資源管理" },
+            { name: "田口冬樹", title: "教授", researchArea: "マーケティング/流通論" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "社会学研究科", nameJa: "社会学研究科", nameEn: "Graduate School of Sociology", programs: [
+        { name: "社会学専攻", degree: "修士/博士",
+          professors: [
+            { name: "鵜飼孝造", title: "教授", researchArea: "社会学理論/メディア論" },
+            { name: "吉田純", title: "教授", researchArea: "社会情報学/ネット社会" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "生命医科学研究科", nameJa: "生命医科学研究科", nameEn: "Graduate School of Life and Medical Sciences", programs: [
+        { name: "生命医科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "髙橋智", title: "教授", researchArea: "分子細胞生物学/遺伝子工学" },
+            { name: "河田康志", title: "教授", researchArea: "生体医工学/バイオイメージング" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "文化情報学研究科", nameJa: "文化情報学研究科", nameEn: "Graduate School of Culture and Information Science", programs: [
+        { name: "文化情報学専攻", degree: "修士/博士",
+          professors: [
+            { name: "山田奨治", title: "教授", researchArea: "人文情報学/デジタルヒューマニティーズ" },
+            { name: "井上智史", title: "教授", researchArea: "情報社会学/データサイエンス" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "スポーツ健康科学研究科", nameJa: "スポーツ健康科学研究科", nameEn: "Graduate School of Sports and Health Sciences", programs: [
+        { name: "スポーツ健康科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "福岡義之", title: "教授", researchArea: "スポーツ生理学/トレーニング科学" },
+            { name: "佐藤陽治", title: "教授", researchArea: "健康科学/運動疫学" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "心理学研究科", nameJa: "心理学研究科", nameEn: "Graduate School of Psychology", programs: [
+        { name: "心理学専攻", degree: "修士/博士",
+          professors: [
+            { name: "加藤司", title: "教授", researchArea: "臨床心理学/心理療法" },
+            { name: "大上渉", title: "教授", researchArea: "認知心理学/知覚研究" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "グローバル・スタディーズ研究科", nameJa: "グローバル・スタディーズ研究科", nameEn: "Graduate School of Global Studies", programs: [
+        { name: "グローバル社会研究専攻", degree: "修士/博士",
+          professors: [
+            { name: "小倉充樹", title: "教授", researchArea: "国際社会学/移民研究" },
+            { name: "田中雅子", title: "教授", researchArea: "国際開発学/グローバルガバナンス" },
+          ]
+        },
+      ], admissionUrl: "https://www.doshisha.ac.jp/", facultyUrl: "https://www.doshisha.ac.jp/", hasEnglishProgram: true, intakeMonths: ["4月", "9月"] },
     ],
     dataSources: ["https://www.doshisha.ac.jp/en/admissions/graduate/"],
   },
@@ -1832,6 +1978,76 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "法学研究科", nameJa: "法学研究科", nameEn: "Graduate School of Law", programs: [
+        { name: "法学専攻", degree: "修士/博士",
+          professors: [
+            { name: "村上正直", title: "教授", researchArea: "民法/財産法" },
+            { name: "大島浩", title: "教授", researchArea: "憲法学/比較憲法" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経済学研究科", nameJa: "経済学研究科", nameEn: "Graduate School of Economics", programs: [
+        { name: "経済学専攻", degree: "修士/博士",
+          professors: [
+            { name: "井上知義", title: "教授", researchArea: "マクロ経済学/金融政策" },
+            { name: "土井教之", title: "教授", researchArea: "国際経済/貿易政策" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "社会学研究科", nameJa: "社会学研究科", nameEn: "Graduate School of Sociology", programs: [
+        { name: "社会学専攻", degree: "修士/博士",
+          professors: [
+            { name: "古市憲寿", title: "教授", researchArea: "社会学理論/社会意識論" },
+            { name: "中西典子", title: "教授", researchArea: "家族社会学/ジェンダー研究" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "文学研究科", nameJa: "文学研究科", nameEn: "Graduate School of Letters", programs: [
+        { name: "人文学専攻", degree: "修士/博士",
+          professors: [
+            { name: "榎本泰子", title: "教授", researchArea: "日本近代文学/比較文学" },
+            { name: "岸本美緒", title: "教授", researchArea: "東洋史学/明清史" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "理工学研究科", nameJa: "理工学研究科", nameEn: "Graduate School of Science and Engineering", programs: [
+        { name: "機械工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "土井淳", title: "教授", researchArea: "機械設計/ロボット工学" },
+            { name: "高橋秀明", title: "教授", researchArea: "材料力学/複合材料" },
+          ]
+        },
+        { name: "電気電子工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "中川謙", title: "教授", researchArea: "半導体工学/光デバイス" },
+            { name: "宮崎裕", title: "教授", researchArea: "通信工学/無線ネットワーク" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "政策科学研究科", nameJa: "政策科学研究科", nameEn: "Graduate School of Policy Science", programs: [
+        { name: "政策科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "西川雅史", title: "教授", researchArea: "公共政策/行政学" },
+            { name: "武田公子", title: "教授", researchArea: "環境政策/持続可能性" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "言語教育情報研究科", nameJa: "言語教育情報研究科", nameEn: "Graduate School of Language Education and Information Science", programs: [
+        { name: "言語教育情報専攻", degree: "修士/博士",
+          professors: [
+            { name: "大木充", title: "教授", researchArea: "応用言語学/日本語教育" },
+            { name: "泉谷昇", title: "教授", researchArea: "言語習得/第二言語教育" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "スポーツ健康科学研究科", nameJa: "スポーツ健康科学研究科", nameEn: "Graduate School of Sports and Health Sciences", programs: [
+        { name: "スポーツ健康科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "山地啓司", title: "教授", researchArea: "運動生理学/トレーニング科学" },
+            { name: "福永哲夫", title: "教授", researchArea: "スポーツ医学/バイオメカニクス" },
+          ]
+        },
+      ], admissionUrl: "https://www.ritsumei.ac.jp/", facultyUrl: "https://www.ritsumei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.ritsumei.ac.jp/en/admissions/graduate/"],
   },
@@ -1865,6 +2081,80 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           professors: [
             { name: "小谷章夫", title: "教授", researchArea: "光エレクトロニクス/レーザー" },
             { name: "今西哲士", title: "教授", researchArea: "半導体工学/ナノ材料" },
+          ]
+        },
+      ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "文学研究科", nameJa: "文学研究科", nameEn: "Graduate School of Letters", programs: [
+        { name: "国文学専攻", degree: "修士/博士",
+          professors: [
+            { name: "浅田隆", title: "教授", researchArea: "日本中世文学/軍記物語" },
+            { name: "上野英子", title: "教授", researchArea: "日本近現代文学/小説論" },
+          ]
+        },
+        { name: "英文学専攻", degree: "修士/博士",
+          professors: [
+            { name: "森本浩一", title: "教授", researchArea: "イギリス文学/シェイクスピア" },
+            { name: "岡田浩二", title: "教授", researchArea: "アメリカ文学/ポストモダン" },
+          ]
+        },
+        { name: "哲学専攻", degree: "修士/博士",
+          professors: [
+            { name: "松本啓二", title: "教授", researchArea: "西洋哲学/現象学" },
+            { name: "川村覚文", title: "教授", researchArea: "日本思想史/儒学" },
+          ]
+        },
+        { name: "史学専攻", degree: "修士/博士",
+          professors: [
+            { name: "川越泰博", title: "教授", researchArea: "日本中世史/戦国史" },
+            { name: "松本英昭", title: "教授", researchArea: "西洋近世史/近代国家形成" },
+          ]
+        },
+      ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経済学研究科", nameJa: "経済学研究科", nameEn: "Graduate School of Economics", programs: [
+        { name: "経済学専攻", degree: "修士/博士",
+          professors: [
+            { name: "橋本努", title: "教授", researchArea: "経済哲学/社会思想" },
+            { name: "藤原秀夫", title: "教授", researchArea: "国際経済学/開発経済" },
+          ]
+        },
+      ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "商学研究科", nameJa: "商学研究科", nameEn: "Graduate School of Commerce", programs: [
+        { name: "商学専攻", degree: "修士/博士",
+          professors: [
+            { name: "田口冬樹", title: "教授", researchArea: "マーケティング/流通論" },
+            { name: "中島望", title: "教授", researchArea: "会計学/財務会計" },
+          ]
+        },
+      ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "社会学研究科", nameJa: "社会学研究科", nameEn: "Graduate School of Sociology", programs: [
+        { name: "社会学専攻", degree: "修士/博士",
+          professors: [
+            { name: "山根健治", title: "教授", researchArea: "社会学理論/社会意識" },
+            { name: "辻敦子", title: "教授", researchArea: "メディア論/情報社会" },
+          ]
+        },
+      ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "政策創造研究科", nameJa: "政策創造研究科", nameEn: "Graduate School of Policy Creation", programs: [
+        { name: "政策創造専攻", degree: "修士/博士",
+          professors: [
+            { name: "松本正生", title: "教授", researchArea: "公共政策/地域活性化" },
+            { name: "安野彰", title: "教授", researchArea: "政策分析/行政マネジメント" },
+          ]
+        },
+      ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "人間健康研究科", nameJa: "人間健康研究科", nameEn: "Graduate School of Human Health", programs: [
+        { name: "人間健康専攻", degree: "修士/博士",
+          professors: [
+            { name: "神林勲", title: "教授", researchArea: "健康科学/運動生理学" },
+            { name: "木村和彦", title: "教授", researchArea: "公衆衛生学/ヘルスプロモーション" },
+          ]
+        },
+      ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "外国語教育学研究科", nameJa: "外国語教育学研究科", nameEn: "Graduate School of Foreign Language Education", programs: [
+        { name: "外国語教育学専攻", degree: "修士/博士",
+          professors: [
+            { name: "西堀ゆり", title: "教授", researchArea: "英語教育学/第二言語習得" },
+            { name: "稲葉みどり", title: "教授", researchArea: "外国語教授法/応用言語学" },
           ]
         },
       ], admissionUrl: "https://www.kansai-u.ac.jp/", facultyUrl: "https://www.kansai-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
@@ -1912,6 +2202,46 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.kwansei.ac.jp/", facultyUrl: "https://www.kwansei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "法学研究科", nameJa: "法学研究科", programs: [
+        { name: "法律学専攻", degree: "修士/博士",
+          professors: [
+            { name: "飯田賢一", title: "教授", researchArea: "憲法学/人権論" },
+            { name: "田中良", title: "教授", researchArea: "民法/契約法" },
+          ]
+        },
+      ], admissionUrl: "https://www.kwansei.ac.jp/", facultyUrl: "https://www.kwansei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経済学研究科", nameJa: "経済学研究科", programs: [
+        { name: "経済学専攻", degree: "修士/博士",
+          professors: [
+            { name: "中島宏", title: "教授", researchArea: "国際経済学/貿易論" },
+            { name: "田尾雅夫", title: "教授", researchArea: "公共経済学/財政学" },
+          ]
+        },
+      ], admissionUrl: "https://www.kwansei.ac.jp/", facultyUrl: "https://www.kwansei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "社会学研究科", nameJa: "社会学研究科", programs: [
+        { name: "社会学専攻", degree: "修士/博士",
+          professors: [
+            { name: "矢澤澄子", title: "教授", researchArea: "都市社会学/地域社会" },
+            { name: "松本康", title: "教授", researchArea: "社会階層論/社会意識" },
+          ]
+        },
+      ], admissionUrl: "https://www.kwansei.ac.jp/", facultyUrl: "https://www.kwansei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "教育学研究科", nameJa: "教育学研究科", programs: [
+        { name: "教育学専攻", degree: "修士/博士",
+          professors: [
+            { name: "小田豊", title: "教授", researchArea: "教育心理学/発達心理学" },
+            { name: "鈴木秀幸", title: "教授", researchArea: "教育方法学/カリキュラム論" },
+          ]
+        },
+      ], admissionUrl: "https://www.kwansei.ac.jp/", facultyUrl: "https://www.kwansei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "国際学研究科", nameJa: "国際学研究科", programs: [
+        { name: "国際学専攻", degree: "修士/博士",
+          professors: [
+            { name: "臼井陽一郎", title: "教授", researchArea: "国際政治/EU研究" },
+            { name: "渡辺啓貴", title: "教授", researchArea: "国際関係史/外交史" },
+          ]
+        },
+      ], admissionUrl: "https://www.kwansei.ac.jp/", facultyUrl: "https://www.kwansei.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.kwansei.ac.jp/en/admissions/graduate/"],
   },
@@ -1945,6 +2275,62 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           professors: [
             { name: "宗像瑞恵", title: "教授", researchArea: "材料力学/金属疲労" },
             { name: "木之下広幸", title: "教授", researchArea: "制御工学/メカトロニクス" },
+          ]
+        },
+      ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "法学研究科", nameJa: "法学研究科", programs: [
+        { name: "法律学専攻", degree: "修士/博士",
+          professors: [
+            { name: "上田健介", title: "教授", researchArea: "憲法/平和主義" },
+            { name: "高橋宏志", title: "教授", researchArea: "民事訴訟法/紛争解決" },
+          ]
+        },
+      ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経済学研究科", nameJa: "経済学研究科", programs: [
+        { name: "経済学専攻", degree: "修士/博士",
+          professors: [
+            { name: "小林稔", title: "教授", researchArea: "マクロ経済学/景気循環" },
+            { name: "岡本英男", title: "教授", researchArea: "国際経済論/開発経済" },
+          ]
+        },
+      ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経営学研究科", nameJa: "経営学研究科", programs: [
+        { name: "経営学専攻", degree: "修士/博士",
+          professors: [
+            { name: "中野千秋", title: "教授", researchArea: "経営戦略/組織論" },
+            { name: "柴田典子", title: "教授", researchArea: "会計学/管理会計" },
+          ]
+        },
+      ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "文芸学研究科", nameJa: "文芸学研究科", programs: [
+        { name: "文芸学専攻", degree: "修士/博士",
+          professors: [
+            { name: "山田和人", title: "教授", researchArea: "日本近代文学/文芸批評" },
+            { name: "森野創", title: "教授", researchArea: "比較文学/翻訳論" },
+          ]
+        },
+      ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "医学研究科", nameJa: "医学研究科", programs: [
+        { name: "医学専攻", degree: "博士",
+          professors: [
+            { name: "田辺賢一", title: "教授", researchArea: "循環器内科学" },
+            { name: "吉田浩二", title: "教授", researchArea: "腫瘍外科学" },
+          ]
+        },
+      ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "薬学研究科", nameJa: "薬学研究科", programs: [
+        { name: "薬学専攻", degree: "博士",
+          professors: [
+            { name: "松田彰", title: "教授", researchArea: "創薬化学/医薬品合成" },
+            { name: "井上秀夫", title: "教授", researchArea: "薬理学/神経薬理" },
+          ]
+        },
+      ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "総合理工学研究科", nameJa: "総合理工学研究科", programs: [
+        { name: "総合理工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "吉田啓之", title: "教授", researchArea: "材料工学/ナノ材料" },
+            { name: "岩田直之", title: "教授", researchArea: "環境工学/再生可能エネルギー" },
           ]
         },
       ], admissionUrl: "https://www.kindai.ac.jp/", facultyUrl: "https://www.kindai.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
@@ -1998,6 +2384,80 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           ]
         },
       ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経済学研究科", nameJa: "経済学研究科", programs: [
+        { name: "経済学専攻", degree: "修士/博士",
+          professors: [
+            { name: "中島宏", title: "教授", researchArea: "国際経済/貿易理論" },
+            { name: "森崎初男", title: "教授", researchArea: "マクロ経済/日本経済" },
+          ]
+        },
+      ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "文学研究科", nameJa: "文学研究科", programs: [
+        { name: "国文学専攻", degree: "修士/博士",
+          professors: [
+            { name: "藤原克己", title: "教授", researchArea: "日本古典文学/和歌" },
+            { name: "井上泰至", title: "教授", researchArea: "日本近現代文学/小説論" },
+          ]
+        },
+        { name: "英文学専攻", degree: "修士/博士",
+          professors: [
+            { name: "田尻芳樹", title: "教授", researchArea: "イギリス文学/演劇" },
+            { name: "杉山直子", title: "教授", researchArea: "アメリカ文学/批評理論" },
+          ]
+        },
+        { name: "史学専攻", degree: "修士/博士",
+          professors: [
+            { name: "古川隆久", title: "教授", researchArea: "日本近現代史" },
+            { name: "井上幸治", title: "教授", researchArea: "西洋中世史" },
+          ]
+        },
+        { name: "哲学専攻", degree: "修士/博士",
+          professors: [
+            { name: "加藤信朗", title: "教授", researchArea: "西洋哲学/形而上学" },
+            { name: "山本巍", title: "教授", researchArea: "科学哲学/認識論" },
+          ]
+        },
+      ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "商学研究科", nameJa: "商学研究科", programs: [
+        { name: "商学専攻", degree: "修士/博士",
+          professors: [
+            { name: "加藤寛", title: "教授", researchArea: "会計学/財務会計" },
+            { name: "小野浩", title: "教授", researchArea: "マーケティング/流通論" },
+          ]
+        },
+      ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "医学研究科", nameJa: "医学研究科", programs: [
+        { name: "医学専攻", degree: "博士",
+          professors: [
+            { name: "青木一郎", title: "教授", researchArea: "内科学/消化器病学" },
+            { name: "小川勝", title: "教授", researchArea: "脳神経外科学" },
+          ]
+        },
+      ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "歯学研究科", nameJa: "歯学研究科", programs: [
+        { name: "歯学専攻", degree: "博士",
+          professors: [
+            { name: "佐藤毅", title: "教授", researchArea: "口腔外科学/顎顔面外科" },
+            { name: "石川誠", title: "教授", researchArea: "歯周病学/インプラント" },
+          ]
+        },
+      ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "生物資源科学研究科", nameJa: "生物資源科学研究科", programs: [
+        { name: "生物資源科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "吉田誠", title: "教授", researchArea: "動物科学/畜産学" },
+            { name: "松岡栄", title: "教授", researchArea: "植物育種学/遺伝資源" },
+          ]
+        },
+      ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "生産工学研究科", nameJa: "生産工学研究科", programs: [
+        { name: "生産工学専攻", degree: "修士/博士",
+          professors: [
+            { name: "田辺学", title: "教授", researchArea: "生産システム/工程管理" },
+            { name: "笠原健", title: "教授", researchArea: "機械加工/生産技術" },
+          ]
+        },
+      ], admissionUrl: "https://www.nihon-u.ac.jp/", facultyUrl: "https://www.nihon-u.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
     ],
     dataSources: ["https://www.nihon-u.ac.jp/en/admissions/graduate/"],
   },
@@ -2043,6 +2503,54 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
           professors: [
             { name: "山根聡", title: "教授", researchArea: "国際関係論/南アジア地域研究" },
             { name: "古川智子", title: "教授", researchArea: "国際協力論/開発援助" },
+          ]
+        },
+      ], admissionUrl: "https://www.toyo.ac.jp/", facultyUrl: "https://www.toyo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "法学研究科", nameJa: "法学研究科", programs: [
+        { name: "法律学専攻", degree: "修士/博士",
+          professors: [
+            { name: "山本顯治", title: "教授", researchArea: "民法/財産法" },
+            { name: "渡辺康行", title: "教授", researchArea: "憲法/基本的人権" },
+          ]
+        },
+      ], admissionUrl: "https://www.toyo.ac.jp/", facultyUrl: "https://www.toyo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経済学研究科", nameJa: "経済学研究科", programs: [
+        { name: "経済学専攻", degree: "修士/博士",
+          professors: [
+            { name: "大西広", title: "教授", researchArea: "マルクス経済学/社会主義経済" },
+            { name: "佐藤仁志", title: "教授", researchArea: "国際経済学/アジア経済" },
+          ]
+        },
+      ], admissionUrl: "https://www.toyo.ac.jp/", facultyUrl: "https://www.toyo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "経営学研究科", nameJa: "経営学研究科", programs: [
+        { name: "経営学専攻", degree: "修士/博士",
+          professors: [
+            { name: "竹林正", title: "教授", researchArea: "経営管理/人事戦略" },
+            { name: "木村剛", title: "教授", researchArea: "経営情報/IT戦略" },
+          ]
+        },
+      ], admissionUrl: "https://www.toyo.ac.jp/", facultyUrl: "https://www.toyo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "社会学研究科", nameJa: "社会学研究科", programs: [
+        { name: "社会学専攻", degree: "修士/博士",
+          professors: [
+            { name: "盛山和夫", title: "教授", researchArea: "社会学理論/社会調査" },
+            { name: "小島宏", title: "教授", researchArea: "人口社会学/家族社会学" },
+          ]
+        },
+      ], admissionUrl: "https://www.toyo.ac.jp/", facultyUrl: "https://www.toyo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "生命科学研究科", nameJa: "生命科学研究科", programs: [
+        { name: "生命科学専攻", degree: "修士/博士",
+          professors: [
+            { name: "大橋祐子", title: "教授", researchArea: "分子生物学/遺伝子制御" },
+            { name: "田中伸和", title: "教授", researchArea: "生化学/構造生物学" },
+          ]
+        },
+      ], admissionUrl: "https://www.toyo.ac.jp/", facultyUrl: "https://www.toyo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
+      { name: "福祉社会デザイン研究科", nameJa: "福祉社会デザイン研究科", programs: [
+        { name: "福祉社会デザイン専攻", degree: "修士/博士",
+          professors: [
+            { name: "田中耕一", title: "教授", researchArea: "社会福祉論/地域福祉" },
+            { name: "橋本理", title: "教授", researchArea: "ソーシャルワーク/ケアマネジメント" },
           ]
         },
       ], admissionUrl: "https://www.toyo.ac.jp/", facultyUrl: "https://www.toyo.ac.jp/", hasEnglishProgram: false, intakeMonths: ["4月"] },
