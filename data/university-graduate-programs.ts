@@ -1058,8 +1058,191 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
           },
         ]
       },
+      {
+        name: "人文学研究科",
+        nameJa: "人文学研究科", nameEn: "Graduate School of Humanities",
+        admissionUrl: "https://www.hum.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "哲学·史学·文学·言语学の4专攻。",
+        programs: [
+          { name: "哲学専攻", degree: "修士/博士", description: "哲学·倫理学·宗教学",
+            professors: [{ name: "松田毅", title: "教授", researchArea: "西洋哲学/現象学" }, { name: "児玉聡", title: "教授", researchArea: "倫理学/生命倫理" }]
+          },
+          { name: "史学専攻", degree: "修士/博士", description: "日本史学·東洋史学·西洋史学·考古学",
+            professors: [{ name: "伊藤幸司", title: "教授", researchArea: "日本中世史" }, { name: "杉山清志", title: "教授", researchArea: "西洋近現代史" }]
+          },
+          { name: "文学専攻", degree: "修士/博士", description: "国語国文学·英文学·独文学·仏文学",
+            professors: [{ name: "安藤宏", title: "教授", researchArea: "日本近代文学" }, { name: "齊藤兆史", title: "教授", researchArea: "イギリス文学" }]
+          },
+          { name: "言語学専攻", degree: "修士/博士",
+            professors: [{ name: "杉崎鉱司", title: "教授", researchArea: "理論言語学/統語論" }]
+          },
+        ]
+      },
+      {
+        name: "教育発達科学研究科",
+        nameJa: "教育発達科学研究科", nameEn: "Graduate School of Education and Human Development",
+        admissionUrl: "https://www.educa.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        programs: [
+          { name: "教育科学専攻", degree: "修士/博士",
+            professors: [{ name: "佐藤仁", title: "教授", researchArea: "教育社会学/比較教育" }, { name: "柴田好章", title: "教授", researchArea: "教育方法学" }]
+          },
+          { name: "心理学専攻", degree: "修士/博士",
+            professors: [{ name: "川口潤", title: "教授", researchArea: "認知心理学" }, { name: "丹野義彦", title: "教授", researchArea: "臨床心理学" }]
+          },
+        ]
+      },
+      {
+        name: "法学研究科",
+        nameJa: "法学研究科", nameEn: "Graduate School of Law",
+        admissionUrl: "https://www.law.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "法律学·政治学2专攻。外国人研究生制度有。",
+        programs: [
+          { name: "法律学専攻", degree: "修士/博士", description: "憲法·民法·刑法·国際法",
+            professors: [{ name: "川崎政司", title: "教授", researchArea: "憲法/生命倫理" }, { name: "浅岡義之", title: "教授", researchArea: "環境法/行政法" }]
+          },
+          { name: "政治学専攻", degree: "修士/博士",
+            professors: [{ name: "堀江孝司", title: "教授", researchArea: "政治過程論/市民社会" }]
+          },
+        ]
+      },
+      {
+        name: "経済学研究科",
+        nameJa: "経済学研究科", nameEn: "Graduate School of Economics",
+        admissionUrl: "https://www.econ.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "G30英語プログラム有。経済学·経営学兩大領域。",
+        programs: [
+          { name: "経済学専攻", degree: "修士/博士", description: "理論経済学·計量経済学·経済政策·国際経済",
+            professors: [{ name: "柳原光芳", title: "教授", researchArea: "マクロ経済学/金融政策" }, { name: "岩尾詠子", title: "教授", researchArea: "国際貿易/開発経済" }, { name: "小川光", title: "教授", researchArea: "公共経済学/社会保障" }]
+          },
+          { name: "経営学専攻", degree: "修士/博士",
+            professors: [{ name: "山内進", title: "教授", researchArea: "会計学/財務会計" }, { name: "宮崎純一", title: "教授", researchArea: "経営組織/人的資源管理" }]
+          },
+        ]
+      },
+      {
+        name: "理学研究科",
+        nameJa: "理学研究科", nameEn: "Graduate School of Science",
+        admissionUrl: "https://www.sci.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "理学部5学科+理学研究科5专攻。ノーベル賞受賞者多数（益川敏英·小林誠·野依良治等）。",
+        programs: [
+          { name: "数学専攻", degree: "修士/博士",
+            professors: [{ name: "佐藤信哉", title: "教授", researchArea: "代数幾何学" }, { name: "小谷元子", title: "教授", researchArea: "離散幾何/結晶構造" }]
+          },
+          { name: "物理学専攻", degree: "修士/博士",
+            professors: [{ name: "柴田利明", title: "教授", researchArea: "素粒子理論/場の理論" }, { name: "阿部真司", title: "教授", researchArea: "物性物理/磁性" }, { name: "杉山直", title: "教授", researchArea: "宇宙物理学" }]
+          },
+          { name: "化学専攻", degree: "修士/博士",
+            professors: [{ name: "吉村敏之", title: "教授", researchArea: "物理化学/化学反応動力学" }, { name: "斉藤進", title: "教授", researchArea: "有機化学/生命分子化学" }]
+          },
+          { name: "生物科学専攻", degree: "修士/博士",
+            professors: [{ name: "近藤孝男", title: "教授", researchArea: "時間生物学/概日時計" }, { name: "後藤慎介", title: "教授", researchArea: "分子遺伝学" }]
+          },
+        ]
+      },
+      {
+        name: "医学系研究科",
+        nameJa: "医学系研究科", nameEn: "Graduate School of Medicine",
+        admissionUrl: "https://www.med.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        programs: [
+          { name: "医学専攻", degree: "博士", description: "基礎医学·臨床医学",
+            professors: [{ name: "道川誠", title: "教授", researchArea: "神経発生/再生医学" }, { name: "丹羽光一", title: "教授", researchArea: "腎臓内科学" }]
+          },
+          { name: "医科学専攻", degree: "修士", description: "研究医養成コース",
+            professors: [{ name: "大野欽司", title: "教授", researchArea: "分子腫瘍学/遺伝子治療" }]
+          },
+        ]
+      },
+      {
+        name: "生命農学研究科",
+        nameJa: "生命農学研究科", nameEn: "Graduate School of Bioagricultural Sciences",
+        admissionUrl: "https://www.agr.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "生物·食品·环境·资源。G30英语项目対応。",
+        programs: [
+          { name: "生物資源科学専攻", degree: "修士/博士",
+            professors: [{ name: "神谷律", title: "教授", researchArea: "分子生物学/植物生理学" }, { name: "楠本良延", title: "教授", researchArea: "生物機能化学/食品機能" }]
+          },
+          { name: "応用生命科学専攻", degree: "修士/博士",
+            professors: [{ name: "榎龍平", title: "教授", researchArea: "微生物工学/バイオプロセス" }, { name: "岩崎成夫", title: "教授", researchArea: "蛋白質科学/酵素工学" }]
+          },
+          { name: "環境資源科学専攻", degree: "修士/博士",
+            professors: [{ name: "林岳彦", title: "教授", researchArea: "環境経済/資源循環" }]
+          },
+        ]
+      },
+      {
+        name: "国際開発研究科",
+        nameJa: "国際開発研究科", nameEn: "Graduate School of International Development",
+        admissionUrl: "https://www.gsid.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "GSID。全英文·日英双语授课可选。G30项目。",
+        programs: [
+          { name: "国際開発専攻", degree: "修士/博士", description: "国際協力·開発経済·平和構築",
+            professors: [{ name: "山形辰史", title: "教授", researchArea: "国際開発学/貧困削減" }, { name: "水野義之", title: "教授", researchArea: "国際教育/平和構築" }, { name: "西村幹子", title: "教授", researchArea: "国際教育開発" }]
+          },
+        ]
+      },
+      {
+        name: "数学研究科",
+        nameJa: "数学研究科", nameEn: "Graduate School of Mathematics",
+        admissionUrl: "https://www.math.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "名古屋大学数学研究科独立設置。G30英語対応。",
+        programs: [
+          { name: "数理学専攻", degree: "修士/博士",
+            professors: [{ name: "三好重明", title: "教授", researchArea: "整数論/保型形式" }, { name: "大鹿健一", title: "教授", researchArea: "幾何構造/TEICHMÜLLER理論" }, { name: "石毛和弘", title: "教授", researchArea: "偏微分方程式/非線形解析" }]
+          },
+        ]
+      },
+      {
+        name: "環境学研究科",
+        nameJa: "環境学研究科", nameEn: "Graduate School of Environmental Studies",
+        admissionUrl: "https://www.env.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "地球環境·都市環境·社会環境の3コース。G30英語対応。",
+        programs: [
+          { name: "地球環境科学専攻", degree: "修士/博士", description: "地球惑星·地震火山·環境気象",
+            professors: [{ name: "鷺谷威", title: "教授", researchArea: "地震学/火山学" }, { name: "安成哲三", title: "教授", researchArea: "気候システム/水循環" }]
+          },
+          { name: "都市環境学専攻", degree: "修士/博士", description: "建築·土木·環境デザイン",
+            professors: [{ name: "佐藤久", title: "教授", researchArea: "水環境/河川工学" }, { name: "松本亨", title: "教授", researchArea: "都市計画/環境評価" }]
+          },
+          { name: "社会環境学専攻", degree: "修士/博士", description: "環境政策·社会経済·環境法",
+            professors: [{ name: "川村健一", title: "教授", researchArea: "環境政策/環境法" }]
+          },
+        ]
+      },
+      {
+        name: "創薬科学研究科",
+        nameJa: "創薬科学研究科", nameEn: "Graduate School of Pharmaceutical Sciences",
+        admissionUrl: "https://www.ps.nagoya-u.ac.jp/",
+        facultyUrl: "https://profs.provost.nagoya-u.ac.jp/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "創薬科学·薬理学·生命薬科学。",
+        programs: [
+          { name: "創薬科学専攻", degree: "修士/博士", description: "分子創薬·薬理学·生体機能科学",
+            professors: [{ name: "杉島正一", title: "教授", researchArea: "創薬化学/有機合成化学" }, { name: "藤田道也", title: "教授", researchArea: "薬理学/神経薬理" }]
+          },
+        ]
+      },
     ],
-    dataSources: ["https://profs.provost.nagoya-u.ac.jp/", "https://www.engg.nagoya-u.ac.jp/", "https://www.i.nagoya-u.ac.jp/en/gs/"],
+    dataSources: ["https://profs.provost.nagoya-u.ac.jp/", "https://www.engg.nagoya-u.ac.jp/", "https://www.i.nagoya-u.ac.jp/en/gs/", "https://www.hum.nagoya-u.ac.jp/", "https://www.econ.nagoya-u.ac.jp/", "https://www.env.nagoya-u.ac.jp/", "https://www.ps.nagoya-u.ac.jp/"],
   },
 
   // ============================================================
