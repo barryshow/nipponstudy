@@ -740,8 +740,123 @@ export const universitiesGraduateData: UniversityGraduateData[] = [
           },
         ]
       },
+      {
+        name: "文学研究科",
+        nameJa: "文学研究科", nameEn: "Graduate School of Letters",
+        admissionUrl: "https://www.let.osaka-u.ac.jp/graduate/", facultyUrl: "https://www.let.osaka-u.ac.jp/graduate/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "教授名单请访问 facultyUrl",
+        programs: [
+          { name: "文化表現論専攻", degree: "修士/博士", description: "芸術学·文学·言語表現·文化人類学", professors: [] },
+          { name: "文化形態論専攻", degree: "修士/博士", description: "哲学·倫理学·美学·宗教学·日本思想史·中国哲学", professors: [] },
+          { name: "日本学専攻", degree: "修士/博士", description: "国文学·国語学·日本史学", professors: [] },
+          { name: "世界史学専攻", degree: "修士/博士", description: "東洋史学·西洋史学·考古学", professors: [] },
+        ]
+      },
+      {
+        name: "人間科学研究科",
+        nameJa: "人間科学研究科", nameEn: "Graduate School of Human Sciences",
+        admissionUrl: "https://www.hus.osaka-u.ac.jp/en/graduate", facultyUrl: "https://www.hus.osaka-u.ac.jp/en/faculty",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "文理融合·学際的人間科学。英語プログラム有。教授名单请访问 facultyUrl",
+        programs: [
+          { name: "人間科学専攻", degree: "修士/博士", description: "社会学·教育学·心理学の3分野制", professors: [] },
+        ]
+      },
+      {
+        name: "法学研究科",
+        nameJa: "法学研究科", nameEn: "Graduate School of Law",
+        admissionUrl: "https://www.law.osaka-u.ac.jp/en/graduate/", facultyUrl: "https://www.law.osaka-u.ac.jp/en/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        programs: [
+          { name: "法学·政治学専攻", degree: "修士/博士", description: "憲法·行政法·国際法·政治理論", professors: [] },
+        ]
+      },
+      {
+        name: "国際公共政策研究科",
+        nameJa: "国際公共政策研究科", nameEn: "Osaka School of International Public Policy (OSIPP)",
+        admissionUrl: "https://www.osipp.osaka-u.ac.jp/en/admissions/", facultyUrl: "https://www.osipp.osaka-u.ac.jp/en/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "英語プログラム有。国際政治·国際経済·公共政策。",
+        programs: [
+          { name: "国際公共政策専攻", degree: "修士/博士", description: "国際政治·国際経済·国際法·公共政策", professors: [] },
+        ]
+      },
+      {
+        name: "理学研究科",
+        nameJa: "理学研究科", nameEn: "Graduate School of Science",
+        admissionUrl: "https://www.sci.osaka-u.ac.jp/en/entrance/", facultyUrl: "https://www.sci.osaka-u.ac.jp/en/research/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        programs: [
+          { name: "数学専攻", degree: "修士/博士", professors: [] },
+          { name: "物理学専攻", degree: "修士/博士", professors: [] },
+          { name: "化学専攻", degree: "修士/博士", professors: [] },
+          { name: "生物科学専攻", degree: "修士/博士", professors: [] },
+        ]
+      },
+      {
+        name: "医学系研究科",
+        nameJa: "医学系研究科", nameEn: "Graduate School of Medicine",
+        admissionUrl: "https://www.med.osaka-u.ac.jp/eng/graduate/", facultyUrl: "https://www.med.osaka-u.ac.jp/eng/research/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "博士課程が中心。留学生枠極少。",
+        programs: [
+          { name: "医学専攻（博士）", degree: "博士", description: "基礎医学·臨床医学", professors: [] },
+          { name: "保健学専攻", degree: "修士/博士", description: "看護学·放射線技術科学·検査技術科学", professors: [] },
+        ]
+      },
+      {
+        name: "歯学研究科",
+        nameJa: "歯学研究科", nameEn: "Graduate School of Dentistry",
+        admissionUrl: "https://www.dent.osaka-u.ac.jp/en/graduate/", facultyUrl: "https://www.dent.osaka-u.ac.jp/en/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        programs: [
+          { name: "口腔科学専攻", degree: "修士/博士", description: "基礎歯学·臨床歯学·口腔生命科学", professors: [] },
+        ]
+      },
+      {
+        name: "薬学研究科",
+        nameJa: "薬学研究科", nameEn: "Graduate School of Pharmaceutical Sciences",
+        admissionUrl: "https://www.phs.osaka-u.ac.jp/en/graduate/", facultyUrl: "https://www.phs.osaka-u.ac.jp/en/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        programs: [
+          { name: "薬科学専攻", degree: "修士/博士", description: "創薬科学·薬物送達·薬理学", professors: [] },
+        ]
+      },
+      {
+        name: "基礎工学研究科",
+        nameJa: "基礎工学研究科", nameEn: "Graduate School of Engineering Science",
+        admissionUrl: "https://www.es.osaka-u.ac.jp/en/graduate/", facultyUrl: "https://www.es.osaka-u.ac.jp/en/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "阪大特色研究科·理+工融合。",
+        programs: [
+          { name: "物質創成専攻", degree: "修士/博士", professors: [] },
+          { name: "システム創成専攻", degree: "修士/博士", description: "機械科学·制御工学·ロボティクス", professors: [] },
+          { name: "情報数理科学専攻", degree: "修士/博士", description: "計算機科学·数理科学", professors: [] },
+        ]
+      },
+      {
+        name: "言語文化研究科",
+        nameJa: "言語文化研究科", nameEn: "Graduate School of Language and Culture",
+        admissionUrl: "https://www.lang.osaka-u.ac.jp/graduate/", facultyUrl: "https://www.lang.osaka-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "言語学·日本語教育学·外国語教育学。",
+        programs: [
+          { name: "言語文化専攻", degree: "修士/博士", description: "言語学·応用言語学·日本語教育学·外国語教育学", professors: [] },
+        ]
+      },
+      {
+        name: "生命機能研究科",
+        nameJa: "生命機能研究科", nameEn: "Graduate School of Frontier Biosciences",
+        admissionUrl: "https://www.fbs.osaka-u.ac.jp/en/admission/", facultyUrl: "https://www.fbs.osaka-u.ac.jp/en/members/",
+        hasEnglishProgram: true, intakeMonths: ["4月", "10月"],
+        notes: "5年一貫博士プログラム。全英文授课可。",
+        programs: [
+          { name: "生命機能専攻", degree: "修士/博士", description: "分子生物学·神経科学·バイオイメージング·ナノバイオロジー", professors: [] },
+        ]
+      },
     ],
-    dataSources: ["https://www.ist.osaka-u.ac.jp/english/researcher/list.php", "https://www.eng.osaka-u.ac.jp/en/", "https://www.econ.osaka-u.ac.jp/en/en-faculty/"],
+    dataSources: ["https://www.ist.osaka-u.ac.jp/english/researcher/list.php", "https://www.eng.osaka-u.ac.jp/en/", "https://www.econ.osaka-u.ac.jp/en/en-faculty/","https://www.osaka-u.ac.jp/en/graduate"],
   },
 
   // ============================================================
