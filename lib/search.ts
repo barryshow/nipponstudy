@@ -1,6 +1,7 @@
 import { vocationalSchools } from "@/data/schools/vocational-schools";
 import { languageSchools } from "@/data/schools/language-schools";
 import { nationalUniversities, publicUniversities, privateUniversities } from "@/data/schools/universities";
+import { universitiesGraduateData } from "@/data/university-graduate-programs";
 import { services } from "@/data/services";
 import type { VocationalSchool } from "@/data/schools/vocational-schools";
 import type { LanguageSchool } from "@/data/schools/language-schools";
@@ -25,6 +26,25 @@ interface SearchableItem {
   typeLabel: string;
   href: string;
   keywords: string[];
+}
+
+// 研究科详细数据查找表
+const gradDataMap = new Map(universitiesGraduateData.map(g => [g.universityId, g]));
+
+function getGradKeywords(universityId: string): string[] {
+  const detail = gradDataMap.get(universityId);
+  if (!detail) return [];
+  const words: string[] = [detail.tier];
+  for (const gs of detail.graduateSchools) {
+    words.push(gs.name, gs.nameJa, gs.nameEn ?? "");
+    for (const prog of gs.programs) {
+      words.push(prog.name, prog.nameEn ?? "", prog.description ?? "");
+      for (const prof of prog.professors) {
+        words.push(prof.name, prof.nameEn ?? "", prof.researchArea);
+      }
+    }
+  }
+  return words;
 }
 
 function buildItems(): SearchableItem[] {
@@ -69,6 +89,7 @@ function buildItems(): SearchableItem[] {
       u.name, u.nameJa, u.location, u.highlights,
       ...u.features, ...u.suitableFor,
       ...u.programs.flatMap((p) => [p.name, p.description, ...p.features]),
+      ...getGradKeywords(u.id),
     ];
     items.push({
       id: u.id,
