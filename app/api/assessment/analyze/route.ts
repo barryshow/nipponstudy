@@ -20,16 +20,42 @@ export interface AIAnalysisRequest {
   safeSchools: { name: string; nameJa: string; type: string; region: string; difficultyScore: number }[];
 }
 
+export interface RecommendedSchool {
+  name: string;
+  reason: string;
+  level: "冲刺" | "稳妥" | "保底";
+}
+
 export interface AIAnalysisResponse {
   summary: string;
   strengths: string[];
   risks: string[];
+  recommendedSchools: RecommendedSchool[];
   nextSteps: string[];
   disclaimer: string;
 }
 
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000; // 1小时
+const RATE_LIMIT_MAX = 3; // 最多3次
+
+const rateMap = new Map<string, { count: number; resetAt: number }>();
+
+function checkRateLimit(ip: string): { allowed: boolean; remaining: number } {
+  const now = Date.now();
+  const entry = rateMap.get(ip);
+  if (!entry || now > entry.resetAt) {
+    rateMap.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return { allowed: true, remaining: RATE_LIMIT_MAX - 1 };
+  }
+  if (entry.count >= RATE_LIMIT_MAX) {
+    return { allowed: false, remaining: 0 };
+  }
+  entry.count++;
+  return { allowed: true, remaining: RATE_LIMIT_MAX - entry.count };
+}
+
 function buildSystemPrompt(): string {
-  return `你是一位资深的日本留学顾问。你的任务是基于学生背景信息和学校匹配结果，给出个性化的分析建议。
+  return `你是一位资深的日本留学顾问。你的任务是基于学生的背景信息和可申请的学校列表，给出个性化的分析建议并推荐最适合的具体学校。
 
 ## 输出格式
 你必须输出 JSON，不要包含 markdown 代码块标记，不要其他文字。
@@ -38,18 +64,29 @@ function buildSystemPrompt(): string {
 - "summary": 一段100-200字的总体评估，针对该生的专业方向分析其申请优劣势
 - "strengths": 数组，列出2-4项该学生的申请优势，必须与其专业方向相关
 - "risks": 数组，列出2-4项需要注意的风险或短板
+- "recommendedSchools": 数组，推荐3-5所最适合该学生的具体学校，每项包含:
+  - "name": 学校名
+  - "reason": 推荐理由（一句话，结合学生专业方向说明为什么适合）
+  - "level": "冲刺"/"稳妥"/"保底"
 - "nextSteps": 数组，列出3-5项具体的下一步行动建议
 - "disclaimer": "以上分析基于通用规则生成，各大学具体入学要求可能随年度调整。请务必以各大学官网公布的最新募集要項为准。本分析不构成录取承诺。"
 
 ## 限制
 1. 不允许编造该学生未提供的具体考试分数、GPA、语言成绩等数据。
 2. 不允许承诺录取或给出录取概率。
-3. 不允许添加冲刺/稳妥/保底名单之外的学校。
+3. 推荐学校必须在下方提供的「可申请学校」列表中选取，不得添加列表之外的学校。
 4. 分析必须与学生的专业方向匹配。例如理科生推荐理工科方向，文科生推荐人文社科方向。`;
 }
 
 function buildUserPrompt(req: AIAnalysisRequest): string {
   const stageLabel = req.stage === "graduate" ? "大学院（修士）" : "学部（本科）";
+
+  const allSchools: { name: string; tag: string }[] = [
+    ...req.reachSchools.map(s => ({ name: `${s.name}（${s.nameJa}）`, tag: "冲刺" })),
+    ...req.matchSchools.map(s => ({ name: `${s.name}（${s.nameJa}）`, tag: "稳妥" })),
+    ...req.safeSchools.map(s => ({ name: `${s.name}（${s.nameJa}）`, tag: "保底" })),
+  ];
+
   return `## 学生背景
 ${req.studentProfile}
 
@@ -68,18 +105,24 @@ ${req.studentScore}/${req.maxScore}
 ## 评分明细
 ${req.scoreBreakdown.map(i => `- ${i.label}: ${i.score}/${i.maxScore} — ${i.detail}`).join("\n")}
 
-## 冲刺学校（难度高于学生当前背景）
-${req.reachSchools.map(s => `- ${s.name}（${s.nameJa}）${s.type === "national" ? "国立" : s.type === "public" ? "公立" : "私立"} · ${s.region} · 难度${s.difficultyScore}`).join("\n") || "（暂无）"}
-
-## 稳妥学校（难度与学生背景相当）
-${req.matchSchools.map(s => `- ${s.name}（${s.nameJa}）${s.type === "national" ? "国立" : s.type === "public" ? "公立" : "私立"} · ${s.region} · 难度${s.difficultyScore}`).join("\n") || "（暂无）"}
-
-## 保底学校（难度低于学生背景）
-${req.safeSchools.map(s => `- ${s.name}（${s.nameJa}）${s.type === "national" ? "国立" : s.type === "public" ? "公立" : "私立"} · ${s.region} · 难度${s.difficultyScore}`).join("\n") || "（暂无）"}`;
+## 可申请的学校（请从以下列表中推荐最适合的）
+${allSchools.map(s => `- ${s.name}（${s.tag}）`).join("\n") || "（暂无）"}`;
 }
 
 export async function POST(request: Request) {
   try {
+    // 限流检查：同一IP每小时最多3次
+    const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim()
+      || request.headers.get("x-real-ip")
+      || "unknown";
+    const { allowed } = checkRateLimit(ip);
+    if (!allowed) {
+      return NextResponse.json<AIAnalysisResponse>(
+        fallbackAnalysis("请求过于频繁，同一IP每小时最多分析3次，请稍后再试"),
+        { status: 429 },
+      );
+    }
+
     const apiKey = process.env.ARK_API_KEY;
     if (!apiKey) {
       return NextResponse.json<AIAnalysisResponse>(
@@ -156,6 +199,7 @@ function fallbackAnalysis(reason: string): AIAnalysisResponse {
       "未获得 AI 个性化分析，请手动确认各校要求",
       "建议参照学校官网检查最新募集要項",
     ],
+    recommendedSchools: [],
     nextSteps: [
       "查阅各目标大学官网的最新募集要項",
       "准备研究计划书/志望理由书",
