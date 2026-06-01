@@ -2950,4 +2950,180 @@ export const graduateProgramsSupplement: UniversityGraduateData[] = [
     ],
     dataSources: ["https://www.u-aizu.ac.jp/en/admissions/graduate/"],
   },
+
+  // ============================================================
+  // 一橋大学
+  // ============================================================
+  {
+    universityId: "hitotsubashi",
+    universityName: "一桥大学",
+    type: "national",
+    tier: "Top Type (B)",
+    portalUrl: "https://www.hit-u.ac.jp/eng/academics/graduate/",
+    professorSearchUrl: "https://hri.ad.hit-u.ac.jp/",
+    tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
+    graduateSchools: [
+      {
+        name: "経済学研究科", nameJa: "経済学研究科", nameEn: "Graduate School of Economics",
+        admissionUrl: "https://www.econ.hit-u.ac.jp/", facultyUrl: "https://www.econ.hit-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "经济学日本顶级。留学生需联系教授获内诺后出愿。书类选考+笔试（经济学）+面试。",
+        programs: [
+          { name: "経済学専攻", nameEn: "Economics", degree: "修士/博士", description: "理论经济学/经济史/应用经济学/统计学/经济政策",
+            professors: [
+              { name: "佐藤 主光", title: "教授", researchArea: "公共経済" },
+              { name: "上野 有子", title: "教授", researchArea: "経済統計/公共経済/労働経済" },
+              { name: "大月 康弘", title: "教授", researchArea: "経済史" },
+              { name: "大山 睦", title: "教授", researchArea: "経済政策" },
+              { name: "加納 隆", title: "教授", researchArea: "理論経済学/金融" },
+              { name: "寺西 俊一", title: "教授", researchArea: "経済政策" },
+              { name: "横山 泉", title: "教授", researchArea: "経済政策" },
+              { name: "石丸 翔也", title: "准教授", researchArea: "公共経済/労働経済" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "商学研究科", nameJa: "商学研究科", nameEn: "Graduate School of Commerce",
+        admissionUrl: "https://www.commerce.hit-u.ac.jp/", facultyUrl: "https://www.commerce.hit-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "商学日本顶级。包含MBA课程和会计专门职大学院。",
+        programs: [
+          { name: "商学専攻", nameEn: "Commerce", degree: "修士/博士", description: "商学/经营学/会计学/金融/流通/交通",
+            professors: [
+              { name: "青島 矢一", title: "教授", researchArea: "経営学" },
+              { name: "荒井 耕", title: "教授", researchArea: "会計学" },
+              { name: "加賀谷 哲之", title: "教授", researchArea: "商学" },
+              { name: "上原 渉", title: "教授", researchArea: "商学" },
+              { name: "小林 健太", title: "教授", researchArea: "経営学" },
+              { name: "中島 賢太郎", title: "教授", researchArea: "経営学" },
+              { name: "青木 康晴", title: "教授", researchArea: "会計学/ファイナンス" },
+              { name: "石田 惣平", title: "准教授", researchArea: "会計学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "法学研究科", nameJa: "法学研究科", nameEn: "Graduate School of Law",
+        admissionUrl: "https://www.law.hit-u.ac.jp/", facultyUrl: "https://www.law.hit-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "含法科大学院（法务博士JD）和学术型法学研究科。",
+        programs: [
+          { name: "法学·国際関係専攻", nameEn: "Law and International Relations", degree: "修士/博士", description: "公法/民法/政治学/国际关系/社会法",
+            professors: [
+              { name: "秋山 信将", title: "教授", researchArea: "国際関係論" },
+              { name: "安藤 馨", title: "教授", researchArea: "基礎法学" },
+              { name: "石綿 はる美", title: "教授", researchArea: "民事法学" },
+              { name: "市原 麻衣子", title: "教授", researchArea: "国際関係論" },
+              { name: "江藤 祥平", title: "教授", researchArea: "公法学" },
+              { name: "小林 一郎", title: "教授", researchArea: "民事法学" },
+              { name: "竹下 啓介", title: "教授", researchArea: "民事法学" },
+              { name: "酒井 智之", title: "准教授", researchArea: "民事法学" },
+            ]
+          },
+          { name: "法科大学院（法務博士）", nameEn: "Law School (JD)", degree: "修士", description: "法科大学院·司法試験准备",
+            professors: [
+              { name: "相澤 美智子", title: "教授", researchArea: "社会法学" },
+              { name: "大林 一広", title: "教授", researchArea: "刑事法学" },
+              { name: "田中 良弘", title: "教授", researchArea: "基礎法学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "社会学研究科", nameJa: "社会学研究科", nameEn: "Graduate School of Social Sciences",
+        admissionUrl: "https://www.soc.hit-u.ac.jp/", facultyUrl: "https://www.soc.hit-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "社会学日本顶级。历史社会/文化社会/社会政策3分野。",
+        programs: [
+          { name: "社会動態専攻", nameEn: "Social Dynamics", degree: "修士/博士", description: "历史社会学/经济社会学/社会阶层论",
+            professors: [
+              { name: "猪飼 周平", title: "教授", researchArea: "社会福祉学/医療系社会学" },
+              { name: "佐藤 仁史", title: "教授", researchArea: "日本史/民俗学" },
+              { name: "中野 聡", title: "教授", researchArea: "アジア史" },
+              { name: "田中 拓道", title: "教授", researchArea: "日本史" },
+              { name: "福富 満久", title: "教授", researchArea: "社会学" },
+            ]
+          },
+          { name: "文化社会専攻", nameEn: "Culture and Society", degree: "修士/博士", description: "文化人类学/表象文化/比较文化",
+            professors: [
+              { name: "大杉 高司", title: "教授", researchArea: "文化人類学/民俗学" },
+              { name: "井川 ちとせ", title: "教授", researchArea: "英文学" },
+              { name: "井頭 昌彦", title: "教授", researchArea: "哲学/倫理学" },
+            ]
+          },
+          { name: "政策研究専攻", nameEn: "Policy Studies", degree: "修士/博士", description: "公共政策/社会政策/教育政策",
+            professors: [
+              { name: "秋山 晋吾", title: "教授", researchArea: "国際関係論/ヨーロッパ史" },
+              { name: "大瀧 友里奈", title: "教授", researchArea: "環境政策" },
+              { name: "数土 直紀", title: "教授", researchArea: "社会学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "言語社会研究科", nameJa: "言語社会研究科", nameEn: "Graduate School of Language and Society",
+        admissionUrl: "https://www.cls.hit-u.ac.jp/", facultyUrl: "https://www.cls.hit-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "语言学专门研究科。日语教育/英语学/德语/法语/东亚语言文化。",
+        programs: [
+          { name: "言語社会専攻", nameEn: "Language and Society", degree: "修士/博士", description: "日语教育/英语学/德语/法语/东亚语言文化/语言学",
+            professors: [
+              { name: "川本 玲子", title: "教授", researchArea: "英文学" },
+              { name: "小関 武史", title: "教授", researchArea: "言語学" },
+              { name: "松原 真", title: "教授", researchArea: "日本文学" },
+              { name: "安田 敏朗", title: "教授", researchArea: "英文学" },
+              { name: "星名 宏修", title: "教授", researchArea: "中国文学" },
+              { name: "有賀 暢迪", title: "准教授", researchArea: "科学社会学/史学" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "社会データ科学研究科", nameJa: "社会データ科学研究科", nameEn: "Graduate School of Social Data Science",
+        admissionUrl: "https://www.sds.hit-u.ac.jp/", facultyUrl: "https://www.sds.hit-u.ac.jp/faculty/",
+        hasEnglishProgram: false, intakeMonths: ["4月"],
+        notes: "2023年新设。社会科学×数据科学融合。统计学/机器学习/社会调查方法。",
+        programs: [
+          { name: "社会データ科学専攻", nameEn: "Social Data Science", degree: "修士/博士", description: "社会科学×数据科学/AI融合，统计学/机器学习/社会调查/计量社会科学",
+            professors: [
+              { name: "清水 千弘", title: "教授", researchArea: "統計科学" },
+              { name: "鈴木 真介", title: "教授", researchArea: "応用数学/統計数学" },
+              { name: "竹中 毅", title: "教授", researchArea: "経営学/データサイエンス" },
+              { name: "寺田 麻佑", title: "教授", researchArea: "社会データ科学" },
+              { name: "小町 守", title: "教授", researchArea: "日本語教育/言語学/知能情報" },
+              { name: "今井 晋", title: "教授", researchArea: "経済統計" },
+              { name: "欅 惇志", title: "准教授", researchArea: "知能情報学/ウェブ情報" },
+            ]
+          },
+        ]
+      },
+      {
+        name: "国際企業戦略研究科（ICS）", nameJa: "国際企業戦略研究科", nameEn: "Graduate School of International Corporate Strategy",
+        admissionUrl: "https://www.ics.hit-u.ac.jp/en/admissions/", facultyUrl: "https://www.ics.hit-u.ac.jp/en/faculty/",
+        hasEnglishProgram: true, intakeMonths: ["9月"],
+        notes: "全英文授课MBA/DBA。AACSB认证。丸の内校区。GMAT/GRE推荐。入学时期9月。",
+        programs: [
+          { name: "MBAプログラム", nameEn: "MBA", degree: "修士", description: "全英文授课2年制MBA，AACSB认证，丸の内校区，小规模精英教育",
+            professors: [
+              { name: "阿久津 聡", title: "教授", researchArea: "経営学/消費者行動" },
+              { name: "大薗 恵美", title: "教授", researchArea: "国際経営" },
+              { name: "岡田 英理香", title: "教授", researchArea: "組織行動" },
+              { name: "小野 浩", title: "教授", researchArea: "経営戦略" },
+              { name: "鈴木 智子", title: "教授", researchArea: "マーケティング" },
+              { name: "服部 正純", title: "教授", researchArea: "ファイナンス" },
+              { name: "EDMAN CARL GOERAN JESPER", title: "教授", researchArea: "International Business" },
+              { name: "大上 慎吾", title: "准教授", researchArea: "経営学" },
+            ]
+          },
+          { name: "PhDプログラム", nameEn: "PhD in Management", degree: "博士", description: "经营管理博士课程",
+            professors: [
+              { name: "稲葉 圭一郎", title: "教授", researchArea: "経営管理" },
+            ]
+          },
+        ]
+      },
+    ],
+    dataSources: ["https://www.hit-u.ac.jp/eng/academics/graduate/", "https://www.econ.hit-u.ac.jp/", "https://www.commerce.hit-u.ac.jp/", "https://www.ics.hit-u.ac.jp/en/"],
+  },
 ];

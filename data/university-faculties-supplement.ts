@@ -1044,4 +1044,76 @@ export const undergraduateAdmissionsSupplement: UndergraduateAdmissionInfo[] = [
     keyNotes: ["MARCH一员·「法の法政」", "GIS全英文グローバル教養学部", "キャリアデザイン学部日本唯一", "市ヶ谷キャンパス都心アクセス", "理工系·情報科学部独立設置"],
     dataSources: ["https://www.hosei.ac.jp/admissions/international/"],
   },
+
+  // ============================================================
+  // 一橋大学 — 社科类国立精英校
+  // ============================================================
+  {
+    universityId: "hitotsubashi",
+    universityName: "一桥大学",
+    type: "national",
+    portalUrl: "https://www.hit-u.ac.jp/eng/admissions/",
+    admissionSystem: "私費外国人留学生特別選抜。全学部统一流程：EJU+TOEFL/IELTS+书类选考+面试（部分学部含小论文）。一桥大学是纯文系国立大学，无理工学部。小规模精英教育，全校本科生约4,000名。",
+    ejuPolicy: "文系学部统要求：日本語+総合科目+数学1。全学部共通出愿要项。EJU 2025年6月/11月成绩有效。",
+    ejuReferenceScores: "【商学部·经济学部】日本語330+ / 総合科目180+ / 数学1 175+ → 総合685+（竞争率最高·一桥看板学部）。【法学部】日本語320+ / 総合175+ / 数学1 170+ → 総合665+。【社会学部】日本語310+ / 総合170+ / 数学1 165+ → 総合645+。TOEFL iBT 80+ / IELTS 6.0+ 为参考基准。",
+    faculties: [
+      {
+        name: "商学部", nameJa: "商学部",
+        departments: ["商学科（商业·会计·金融·贸易·交通·经营）"],
+        hasInternationalAdmission: true,
+        admissionType: "私費外国人留学生特別選抜",
+        ejukRequirements: "日本語+総合科目+数学1",
+        ejuScoreReference: "日本語340+ / 総合185+ / 数学1 180+",
+        englishRequirements: "TOEFL iBT 80+ / IELTS 6.0+",
+        acceptanceRate: "留学生合格倍率约3-4倍（竞争激烈）",
+        notes: "一桥看板学部。商学=经营学+会计学+市场+金融融合。就业率极高（咨询·金融业界）。"
+      },
+      {
+        name: "経済学部", nameJa: "経済学部",
+        departments: ["経済学科（理论经济学·实证分析·经济史·经济政策）"],
+        hasInternationalAdmission: true,
+        admissionType: "私費外国人留学生特別選抜",
+        ejukRequirements: "日本語+総合科目+数学1",
+        ejuScoreReference: "日本語330+ / 総合180+ / 数学1 175+",
+        englishRequirements: "TOEFL iBT 80+ / IELTS 6.0+",
+        acceptanceRate: "留学生合格倍率约3-4倍",
+        notes: "经济学日本顶级。理论+实证并重。与东大经济学部齐名。"
+      },
+      {
+        name: "法学部", nameJa: "法学部",
+        departments: ["法律学科（法律学·政治学·国际关系）"],
+        hasInternationalAdmission: true,
+        admissionType: "私費外国人留学生特別選抜",
+        ejukRequirements: "日本語+総合科目+数学1",
+        ejuScoreReference: "日本語320+ / 総合175+ / 数学1 170+",
+        englishRequirements: "TOEFL iBT 80+ / IELTS 6.0+",
+        acceptanceRate: "留学生合格倍率约2-3倍",
+        notes: "法律学+政治学综合。法科大学院合格率高。"
+      },
+      {
+        name: "社会学部", nameJa: "社会学部",
+        departments: ["社会学科（社会政策·历史社会·文化社会·人间科学）"],
+        hasInternationalAdmission: true,
+        admissionType: "私費外国人留学生特別選抜",
+        ejukRequirements: "日本語+総合科目+数学1",
+        ejuScoreReference: "日本語310+ / 総合170+ / 数学1 165+",
+        englishRequirements: "TOEFL iBT 80+ / IELTS 6.0+",
+        acceptanceRate: "留学生合格倍率约2-3倍",
+        notes: "社会学日本顶级。跨学科特色强。少人数seminar教育。"
+      },
+    ],
+    tuitionInfo: { examFee: "17,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
+    livingCosts: { monthlyRent: "40,000〜55,000円（国立市·国分寺市·立川市）", monthlyFood: "25,000〜35,000円", monthlyUtilities: "10,000〜15,000円", monthlyTotal: "75,000〜105,000円", note: "国立キャンパス在JR中央線国立駅。大学宿舍「一橋寮」月額5,000〜15,000円（极低价·竞争激烈）。丸の内校区（ICS）在东京都心。" },
+    totalFourYearCost: "学费约215万円（国立标准）+ 生活费约360万〜500万円 = 总计约575万〜715万円（4年）",
+    internationalStudentQuota: "留学生定員：各学部数名〜10名/年。全学留学生约700名（大学院含）。小规模校所以留学生名额少但竞争质量高。",
+    applicationDocuments: "①入学願書 ②EJU成绩（日本語+総合科目+数学1）③TOEFL/IELTS成绩 ④高中毕业证明+成绩单 ⑤志望理由書 ⑥推荐书 ⑦护照复印件 ⑧经费支付证明。",
+    keyNotes: [
+      "纯文系国立大学——无理工学部·无医学部，4学部全部文系",
+      "商学部≠经营学部：一桥商学=会计+金融+市场+经营融合",
+      "入学金282,000円（非一般国立84,600円）——一桥独立法人化后标准",
+      "一桥寮月额5,000〜15,000円极低价，但名额极少竞争极激烈",
+      "日本就职力最强大学之一——咨询·金融·商社就业率极高",
+    ],
+    dataSources: ["https://www.hit-u.ac.jp/eng/admissions/", "https://www.hit-u.ac.jp/jpn/admissions/"],
+  },
 ];

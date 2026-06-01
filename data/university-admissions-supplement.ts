@@ -866,4 +866,39 @@ export const graduateAdmissionsSupplement: GraduateAdmissionInfo[] = [
     notes: ["日本初のコンピュータ専門公立大学", "英語プログラム充実"],
     dataSources: ["https://www.u-aizu.ac.jp/en/admissions/graduate/"],
   },
+
+  // ============================================================
+  // 一橋大学
+  // ============================================================
+  {
+    universityId: "hitotsubashi",
+    universityName: "一桥大学",
+    type: "national",
+    tier: "Top Type (B)",
+    portalUrl: "https://www.hit-u.ac.jp/eng/academics/graduate/",
+    professorSearchUrl: "https://hri.ad.hit-u.ac.jp/",
+    professorAcceptanceInfo: "一桥大学研究者检索：hermes-ir.lib.hit-u.ac.jp（学术成果库）+ HUMAP学术ポートフォリオ。各研究科主页有教员一览及研究方向。出愿前务必邮件联系教授确认收生意愿。商学研究科·经济学研究科竞争激烈，建议提前6个月联系教授。",
+    applicationSystem: "各研究科独立出愿系统",
+    researchStudentInfo: "各研究科接受研究生（预科旁听生·无学位·私费）。需获教授内诺。入学料282,000円，授業料535,800円/年（29,200円/月）。研究生期间可旁听课程，准备大学院入试。",
+    examTypes: ["一般入试（书类选考+专业科目笔试+面试）", "外国人留学生特别选考（部分研究科）", "ICS英语MBA选拔（GMAT/GRE+书类+面试）"],
+    tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
+    graduateSchools: [
+      { name: "経済学研究科", nameJa: "経済学研究科", programs: ["経済学"], admissionUrl: "https://www.econ.hit-u.ac.jp/", facultyUrl: "https://www.econ.hit-u.ac.jp/faculty/", hasEnglishProgram: false, hasResearchStudent: true, intakeMonths: ["4月"] },
+      { name: "商学研究科", nameJa: "商学研究科", programs: ["商学", "MBA", "会計学"], admissionUrl: "https://www.commerce.hit-u.ac.jp/", facultyUrl: "https://www.commerce.hit-u.ac.jp/faculty/", hasEnglishProgram: false, hasResearchStudent: true, intakeMonths: ["4月"] },
+      { name: "法学研究科", nameJa: "法学研究科", programs: ["法学", "国際関係", "法科大学院(JD)"], admissionUrl: "https://www.law.hit-u.ac.jp/", facultyUrl: "https://www.law.hit-u.ac.jp/faculty/", hasEnglishProgram: false, hasResearchStudent: true, intakeMonths: ["4月"] },
+      { name: "社会学研究科", nameJa: "社会学研究科", programs: ["社会学", "人间科学", "社会政策"], admissionUrl: "https://www.soc.hit-u.ac.jp/", facultyUrl: "https://www.soc.hit-u.ac.jp/faculty/", hasEnglishProgram: false, hasResearchStudent: true, intakeMonths: ["4月"] },
+      { name: "言語社会研究科", nameJa: "言語社会研究科", programs: ["日語教育", "英語学", "言語学", "比較文化"], admissionUrl: "https://www.cls.hit-u.ac.jp/", facultyUrl: "https://www.cls.hit-u.ac.jp/faculty/", hasEnglishProgram: false, hasResearchStudent: true, intakeMonths: ["4月"] },
+      { name: "社会データ科学研究科", nameJa: "社会データ科学研究科", programs: ["社会データ科学", "統計学", "機械学習"], admissionUrl: "https://www.sds.hit-u.ac.jp/", facultyUrl: "https://www.sds.hit-u.ac.jp/faculty/", hasEnglishProgram: false, hasResearchStudent: true, intakeMonths: ["4月"] },
+      { name: "国際企業戦略研究科（ICS）", nameJa: "国際企業戦略研究科", programs: ["MBA", "DBA", "経営管理"], admissionUrl: "https://www.ics.hit-u.ac.jp/en/admissions/", facultyUrl: "https://www.ics.hit-u.ac.jp/en/faculty/", hasEnglishProgram: true, hasResearchStudent: false, intakeMonths: ["9月"] },
+    ],
+    notes: [
+      "纯文系国立——7个研究科全部社科类，无理工/医学",
+      "ICS为唯一全英文项目（MBA/DBA），丸の内校区，9月入学",
+      "社会データ科学研究科2023年新设——社科×AI交叉学科",
+      "入学金282,000円（非标准国立84,600円）——一桥独立法人化",
+      "教授内诺为录取关键——商学/经济学研究科尤其重要",
+      "法科大学院（JD）与学术型法学研究科分开选拔",
+    ],
+    dataSources: ["https://www.hit-u.ac.jp/eng/academics/graduate/", "https://www.econ.hit-u.ac.jp/", "https://www.commerce.hit-u.ac.jp/", "https://www.law.hit-u.ac.jp/", "https://www.soc.hit-u.ac.jp/", "https://www.ics.hit-u.ac.jp/en/"],
+  },
 ];

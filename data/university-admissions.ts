@@ -395,6 +395,7 @@ export const professorSearchGuide = {
     { university: "九州大学", url: "https://hyoka.ofc.kyushu-u.ac.jp/search", description: "九州大学研究者评价数据库" },
     { university: "筑波大学", url: "https://trios.tsukuba.ac.jp/en/", description: "TRIOS筑波大学研究者情报系统" },
     { university: "広島大学", url: "https://seeds.office.hiroshima-u.ac.jp/search/index.html?lang=en", description: "Seeds広島大学研究者総覧（1,900名）" },
+    { university: "一橋大学", url: "https://hri.ad.hit-u.ac.jp/", description: "一橋大学研究者情報検索システム（hri.ad.hit-u.ac.jp）" },
     { university: "早稻田大学", url: "https://w-rdb.waseda.jp/", description: "早稻田大学研究者数据库w-rdb" },
     { university: "庆应义塾大学", url: "https://k-ris.keio.ac.jp/", description: "K-RIS庆应义塾研究者情报系统" },
   ],
