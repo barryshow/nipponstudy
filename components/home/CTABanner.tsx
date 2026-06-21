@@ -17,7 +17,7 @@ export function CTABanner() {
               立即免费咨询
             </Button>
             <div className="text-sm text-primary-200">
-              <p>或添加微信：hefengliuxue</p>
+              <p>提交咨询表单后，顾问会主动与你联系</p>
             </div>
           </div>
         </div>

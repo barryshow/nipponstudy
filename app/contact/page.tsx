@@ -1,8 +1,6 @@
 import { Container } from "@/components/ui/Container";
-import { SectionTitle } from "@/components/shared/SectionTitle";
 import { Breadcrumb } from "@/components/shared/Breadcrumb";
 import { ContactForm } from "@/components/shared/ContactForm";
-import { siteConfig } from "@/data/site";
 
 export default function ContactPage() {
   return (
@@ -27,44 +25,34 @@ export default function ContactPage() {
             </div>
             <div className="lg:col-span-2">
               <div className="rounded-xl border border-zinc-200 bg-zinc-50 p-6 sm:p-8">
-                <h3 className="text-xl font-bold text-primary-900 mb-6">联系方式</h3>
+                <h3 className="text-xl font-bold text-primary-900 mb-6">提交后我们会联系你</h3>
                 <ul className="space-y-4 text-zinc-600">
-                  <li className="flex items-center gap-3">
-                    <span className="text-2xl">📞</span>
+                  <li className="flex items-start gap-3">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-700">1</span>
                     <div>
-                      <div className="text-sm text-zinc-500">电话</div>
-                      <div className="font-medium">{siteConfig.phone}</div>
+                      <div className="font-medium text-zinc-900">填写基本信息</div>
+                      <div className="mt-1 text-sm text-zinc-500">请留下姓名、手机号、申请阶段和目标方向，方便顾问判断你的情况。</div>
                     </div>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <span className="text-2xl">💬</span>
+                  <li className="flex items-start gap-3">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-700">2</span>
                     <div>
-                      <div className="text-sm text-zinc-500">微信</div>
-                      <div className="font-medium">{siteConfig.wechat}</div>
+                      <div className="font-medium text-zinc-900">说明留学需求</div>
+                      <div className="mt-1 text-sm text-zinc-500">可以补充目标学校、预算、语言成绩或目前最想解决的问题。</div>
                     </div>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <span className="text-2xl">📧</span>
+                  <li className="flex items-start gap-3">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-semibold text-primary-700">3</span>
                     <div>
-                      <div className="text-sm text-zinc-500">邮箱</div>
-                      <div className="font-medium">{siteConfig.email}</div>
-                    </div>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <span className="text-2xl">📍</span>
-                    <div>
-                      <div className="text-sm text-zinc-500">地址</div>
-                      <div className="font-medium">{siteConfig.address}</div>
+                      <div className="font-medium text-zinc-900">等待顾问联系</div>
+                      <div className="mt-1 text-sm text-zinc-500">我们会根据表单内容安排顾问主动联系，请保持手机畅通。</div>
                     </div>
                   </li>
                 </ul>
 
                 <div className="mt-8 rounded-lg bg-primary-50 p-4">
                   <p className="text-sm text-primary-800">
-                    <strong>工作时间：</strong>工作日 10:00-19:00（日本时间）/ 9:00-18:00（北京时间）
-                  </p>
-                  <p className="mt-2 text-sm text-primary-800">
-                    <strong>咨询费用：</strong>完全免费。我们通过学校佣金获取收入，不对学生收取中介费。
+                    <strong>咨询费用：</strong>前期咨询免费。具体服务内容会在顾问了解你的情况后进一步说明。
                   </p>
                 </div>
               </div>

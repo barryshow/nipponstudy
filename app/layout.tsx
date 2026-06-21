@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,8 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "瑞普日本留学 | 专业日本留学咨询服务",
-    template: "%s | 瑞普日本留学",
+    default: "日本留学咨询 | 专业日本留学咨询服务",
+    template: "%s | 日本留学咨询",
   },
   description:
     "专业日本留学咨询，覆盖语言学校、大学院、本科、专门学校申请，提供签证指导与费用评估。",
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col">
         <Header />
         <main className="flex-1">{children}</main>
+        <Analytics />
         <Footer />
       </body>
     </html>

@@ -44,18 +44,14 @@ export function Footer() {
           ))}
 
           <div>
-            <h3 className="font-semibold text-primary-900">联系方式</h3>
-            <ul className="mt-4 space-y-2 text-sm text-zinc-600">
-              <li>电话：{siteConfig.phone}</li>
-              <li>微信：{siteConfig.wechat}</li>
-              <li>邮箱：{siteConfig.email}</li>
-              <li>地址：{siteConfig.address}</li>
-            </ul>
+            <h3 className="font-semibold text-primary-900">咨询方式</h3>
+            <p className="mt-4 text-sm text-zinc-600 leading-relaxed">
+              请通过网站咨询表单留下基本信息，顾问会根据你的申请阶段和目标方向主动联系。
+            </p>
+            <Link href="/contact" className="mt-3 inline-block text-sm font-medium text-primary-700 hover:text-primary-800">
+              填写咨询表单 →
+            </Link>
           </div>
-        </div>
-
-        <div className="mt-10 border-t border-zinc-200 pt-6 text-center text-sm text-zinc-500">
-          <p>&copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved. {siteConfig.beian}</p>
         </div>
       </div>
     </footer>

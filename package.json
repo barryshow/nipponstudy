@@ -1,5 +1,5 @@
 {
-  "name": "japan-study-consulting",
+  "name": "ruipu-japan",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "@prisma/client": "^7.8.0",
     "@supabase/supabase-js": "^2.106.1",
+    "@vercel/analytics": "^2.0.1",
     "clsx": "^2.1.1",
     "next": "16.2.6",
     "openai": "^6.39.0",

@@ -5,10 +5,10 @@ import { StatCard } from "@/components/shared/StatCard";
 import { siteConfig } from "@/data/site";
 
 const stats = [
-  { value: "50+", label: "合作院校" },
-  { value: "500+", label: "成功案例" },
-  { value: "100%", label: "在留资格通过率" },
-  { value: "2023年", label: "创立至今" },
+  { value: "多阶段", label: "升学路径覆盖" },
+  { value: "多类型", label: "院校信息整理" },
+  { value: "1对1", label: "个性化规划" },
+  { value: "持续", label: "申请进度跟进" },
 ];
 
 export default function AboutPage() {
@@ -20,16 +20,16 @@ export default function AboutPage() {
           <div className="max-w-3xl">
             <h1 className="text-4xl font-bold text-primary-900">关于我们</h1>
             <p className="mt-2 text-lg text-zinc-500">
-              {siteConfig.companyName} · {siteConfig.tagline}
+              {siteConfig.name} · {siteConfig.tagline}
             </p>
             <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
-              {siteConfig.companyName}创立于{siteConfig.founded}，是一家专注于国际教育服务的综合性机构。日本留学业务部是{siteConfig.companyName}旗下核心部门，负责所有日本留学相关的咨询中介、信息资讯与赴日前後支持服务。
+              我们专注于日本留学规划与申请咨询，围绕学生的学历背景、语言能力、专业方向和预算情况，提供更匹配的升学路径建议。
             </p>
             <p className="mt-4 text-lg text-zinc-600 leading-relaxed">
-              我们致力于为中国学生和家长提供最专业、最全面、最透明的日本留学信息。从语言学校到大学院，从专门学校到本科申请，从签证办理到赴日后的生活支援——我们陪伴每一位学生走好留学路上的每一步。
+              网站主要提供留学信息、院校检索、费用参考和智能匹配工具。具体咨询以表单提交为入口，顾问会根据学生填写的信息主动联系，进一步确认需求并给出建议。
             </p>
             <p className="mt-4 text-lg text-zinc-600 leading-relaxed">
-              团队成员均具有日本留学或长期在日生活经验，深谙日本入管政策、各校招生动态以及中日两国教育体系差异。我们不仅做申请，更做信息——持续追踪各大学官网数据，整理出最准确、最实时的留学情报。
+              我们持续关注日本入管政策、各校招生动态以及中日两国教育体系差异，帮助学生和家长在申请前更清楚地了解选择、风险和准备重点。
             </p>
           </div>
         </Container>
