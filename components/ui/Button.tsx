@@ -14,11 +14,11 @@ interface ButtonProps {
 
 const variantStyles = {
   primary:
-    "bg-primary-700 text-white hover:bg-primary-800 shadow-sm",
+    "bg-accent-500 text-white hover:bg-accent-600",
   secondary:
-    "bg-accent-400 text-white hover:bg-accent-500 shadow-sm",
+    "bg-accent-500 text-white hover:bg-accent-600",
   outline:
-    "border-2 border-primary-700 text-primary-700 hover:bg-primary-700 hover:text-white",
+    "border border-primary-700 text-primary-700 hover:bg-primary-700 hover:text-white",
 };
 
 const sizeStyles = {
@@ -29,7 +29,7 @@ const sizeStyles = {
 
 export function Button({ children, href, variant = "primary", size = "md", className, onClick, type, disabled }: ButtonProps) {
   const styles = cn(
-    "inline-flex items-center justify-center rounded-lg font-medium transition-colors duration-200",
+    "inline-flex min-h-11 items-center justify-center rounded-md font-medium transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed",
     variantStyles[variant],
     sizeStyles[size],
     className,

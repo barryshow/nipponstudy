@@ -22,7 +22,7 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-2xl">🎌</span>
+              <span className="brand-mark" aria-hidden="true">日</span>
               <span className="text-xl font-bold text-primary-900">{siteConfig.name}</span>
             </div>
             <p className="mt-4 text-sm text-zinc-600 leading-relaxed">{siteConfig.description}</p>

@@ -1,0 +1,1778 @@
+{
+  "targetIntake": 2027,
+  "records": [
+    {
+      "category": "university",
+      "id": "utokyo",
+      "name": "东京大学",
+      "targetIntake": 2027,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对现行学费与 PEAK 停招公告。本科年学费 642,960 日元，修士现行年学费 535,800 日元（法科大学院除外）；PEAK 不再招收 2027 新生。其余专业与 2027 出愿条件仍待逐项核对。",
+        "sources": [
+          {
+            "label": "东京大学学费",
+            "url": "https://www.u-tokyo.ac.jp/en/prospective-students/tuition_fees.html"
+          },
+          {
+            "label": "PEAK 招生公告",
+            "url": "https://www.peak.c.u-tokyo.ac.jp/"
+          }
+        ]
+      },
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kyoto-u",
+      "name": "京都大学",
+      "targetIntake": 2027,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对现行收费：本科与一般大学院年学费 535,800 日元，入学金 282,000 日元；法科大学院另计。另核对 iUP 2027 要项：计划40名，9个学部参与；高年级主要以日语授课，并非全英文。出愿为2026-11-02至12-03 17:00（日本时间）。其他专业条件待核对。",
+        "sources": [
+          {
+            "label": "京都大学学费",
+            "url": "https://www.kyoto-u.ac.jp/en/current/how-to/tuition/tuition-and-fees"
+          },
+          {
+            "label": "iUP 2027募集要项",
+            "url": "https://www.iup.kyoto-u.ac.jp/Application_Guidelines_for_October_2027_Enrollment.pdf"
+          }
+        ]
+      },
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "titech",
+      "name": "东京科学大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "osaka-u",
+      "name": "大阪大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "tohoku",
+      "name": "东北大学",
+      "targetIntake": 2027,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对2027学费调整：2027年4月起入学、持留学在留资格的本科与修士新生年学费900,000日元；此前在籍学生本课程期间不变，博士及专业职学位课程不在本次调整范围。专业与出愿条件仍待核对。",
+        "sources": [
+          {
+            "label": "东北大学官方调整公告",
+            "url": "https://www.tohoku.ac.jp/japanese/newimg/newsimg/news20251201_info.pdf"
+          }
+        ]
+      },
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "nagoya-u",
+      "name": "名古屋大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "hokkaido-u",
+      "name": "北海道大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kyushu-u",
+      "name": "九州大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "tsukuba",
+      "name": "筑波大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "hiroshima-u",
+      "name": "广岛大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kobe-u",
+      "name": "神户大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "hitotsubashi",
+      "name": "一桥大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "nitech",
+      "name": "名古屋工业大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "tuat",
+      "name": "东京农工大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "tum",
+      "name": "东京海洋大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kit",
+      "name": "京都工艺纤维大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kyutech",
+      "name": "九州工业大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "nagaoka",
+      "name": "长冈技术科学大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "toyohashi",
+      "name": "丰桥技术科学大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "hama-med",
+      "name": "浜松医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "shiga-medical",
+      "name": "滋贺医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "omu",
+      "name": "大阪公立大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "tmu",
+      "name": "东京都立大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "yokohama-city",
+      "name": "横滨市立大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "nagoya-city",
+      "name": "名古屋市立大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "sapporo-medical",
+      "name": "札幌医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "wakayama-medical",
+      "name": "和歌山县立医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "hyogo",
+      "name": "兵库县立大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "shizuoka-pu",
+      "name": "静冈县立大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "toyama-pu",
+      "name": "富山县立大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "aizu",
+      "name": "会津大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "waseda",
+      "name": "早稻田大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "keio",
+      "name": "庆应义塾大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "sophia",
+      "name": "上智大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "meiji",
+      "name": "明治大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "rikkyo",
+      "name": "立教大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "hosei",
+      "name": "法政大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "doshisha",
+      "name": "同志社大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "ritsumei",
+      "name": "立命馆大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kansai",
+      "name": "关西大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kwansei",
+      "name": "关西学院大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "tus",
+      "name": "东京理科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "shibaura",
+      "name": "芝浦工业大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "denki",
+      "name": "东京电机大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "aoyama",
+      "name": "青山学院大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "chuo",
+      "name": "中央大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "kinki",
+      "name": "近畿大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "nihon",
+      "name": "日本大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "toyo",
+      "name": "东洋大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "tokyo-medical",
+      "name": "东京医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "jikei",
+      "name": "东京慈惠会医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "juntendo",
+      "name": "顺天堂大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "nms",
+      "name": "日本医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "fujita",
+      "name": "藤田医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "university",
+      "id": "aichi-medical",
+      "name": "爱知医科大学",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "isi",
+      "name": "ISI日本语学校",
+      "targetIntake": 2027,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对 2027–2028 官方长期课程收费与校区课程。此条展示东京校区：首年总费用 101.5–111.5 万日元，包含选考料、入学金、授课费、教材与设施管理费。其他申请资格与名额仍须按校区确认。",
+        "sources": [
+          {
+            "label": "ISI 2027 长期课程募集要项",
+            "url": "https://sm.isi-education.com/en/long/"
+          }
+        ]
+      },
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "human",
+      "name": "修曼日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "sendagaya",
+      "name": "千驮谷日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kudanjapan",
+      "name": "九段日本文化研究所",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "arc",
+      "name": "ARC日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "unitus",
+      "name": "优尼塔斯日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kyoshin",
+      "name": "京进语言学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "meros",
+      "name": "美罗斯言语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "yoshida",
+      "name": "吉田日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "shinjuku-gyoen",
+      "name": "新宿御苑学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "toa",
+      "name": "东亚学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "shinjuku-jls",
+      "name": "新宿日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "yokohama-design",
+      "name": "横滨设计学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "chiba-keizai",
+      "name": "千叶经济大学附属日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "osaka-ymca",
+      "name": "大阪YMCA日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "osaka-jls",
+      "name": "大阪日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kyoto-minsai",
+      "name": "京都民际日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kyoto-ijs",
+      "name": "京都国际学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kobe-commu",
+      "name": "神户コミュニカ学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kobe-yamate",
+      "name": "神户山手日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kyoto-genki",
+      "name": "京都GENKO日语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "osaka-ecc",
+      "name": "ECC国际外语专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "osaka-sun",
+      "name": "大阪太阳日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "nagoya-international",
+      "name": "名古屋国际学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "nagoya-jls",
+      "name": "名古屋日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "shizuoka-slis",
+      "name": "静冈日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kofu-gate",
+      "name": "甲府Gate日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "nagano-jls",
+      "name": "长野日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "fukuoka-ymca",
+      "name": "福冈YMCA日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "fukuoka-jls",
+      "name": "福冈日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "fukuoka-gaigo",
+      "name": "福冈外国语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kumamoto-ymca",
+      "name": "熊本YMCA日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kumamoto-gaigo",
+      "name": "熊本外语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "okinawa-gaigo",
+      "name": "冲绳外语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "nishinihon",
+      "name": "西日本国际教育学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "sapporo-jls",
+      "name": "札幌日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "sapporo-hokusei",
+      "name": "札幌北星日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "sendai-jls",
+      "name": "仙台日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "sendai-ymca",
+      "name": "仙台YMCA日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "hokkaido-ir",
+      "name": "北海道日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "hiroshima-jls",
+      "name": "广岛日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "hiroshima-ymca",
+      "name": "广岛YMCA日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "okayama-jls",
+      "name": "冈山日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "matsuyama-jls",
+      "name": "松山东云日本语学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "takamatsu-jls",
+      "name": "高松日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "saitama-jls",
+      "name": "埼玉日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "tsukuba-jls",
+      "name": "筑波日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "language",
+      "id": "kawasaki-jls",
+      "name": "川崎日本语学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "hal",
+      "name": "HAL专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "jec",
+      "name": "日本电子专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "nihonkogakuin",
+      "name": "日本工学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "mode",
+      "name": "MODE学园（时尚学园）",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "kobe-denshi",
+      "name": "神户电子专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "bunka-fashion",
+      "name": "文化服装学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tsuji",
+      "name": "辻调理师专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "digital-hollywood",
+      "name": "数字好莱坞",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tokyo-anime",
+      "name": "东京动画学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "yoyogi-anime",
+      "name": "代代木动画学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "vantan-game",
+      "name": "Vantan游戏学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "yamano-beauty",
+      "name": "山野美容专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "hollywood-beauty",
+      "name": "好莱坞美容专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "ohara",
+      "name": "大原专门学校（商务·会计）",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tokyo-auto",
+      "name": "东京自动车专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "esp-music",
+      "name": "ESP音乐学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tokyo-tourism",
+      "name": "东京观光专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tokyo-animal",
+      "name": "东京动物专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tokyo-design",
+      "name": "东京设计专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "human-academy",
+      "name": "综合学园Human Academy",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "aso",
+      "name": "麻生专门学校集团",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "fca",
+      "name": "福冈设计科技专门学校（FCA）",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "ecc",
+      "name": "ECC国际外语专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "seifu",
+      "name": "清风情报科学院",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "yomiuri",
+      "name": "读卖理工医疗福祉专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "sundai",
+      "name": "骏台专门学校集团",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tokyo-seika",
+      "name": "东京制果学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "nippon-photo",
+      "name": "日本写真映像专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "chuo-kogyo",
+      "name": "中央工学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    },
+    {
+      "category": "vocational",
+      "id": "tokyo-hoiku",
+      "name": "东京保育专门学校",
+      "targetIntake": 2027,
+      "status": "pending",
+      "review": null,
+      "remaining": [
+        "专业及研究科设置（除已注明项目）",
+        "2027招生条件与截止日期（除已注明项目）",
+        "学费及适用对象（除已注明项目）"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
 import { siteConfig } from "@/data/site";
 import { Button } from "@/components/ui/Button";
 import { SearchDialog } from "@/components/shared/SearchDialog";
@@ -27,6 +27,8 @@ export function MobileMenu() {
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center justify-center rounded-lg p-2 text-primary-900 hover:bg-primary-50"
+        aria-expanded={open}
+        aria-controls="mobile-navigation"
         aria-label={open ? "关闭菜单" : "打开菜单"}
       >
         <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -40,7 +42,7 @@ export function MobileMenu() {
 
       {open && (
         <div className="fixed inset-x-0 top-16 z-50 border-b border-zinc-200 bg-white shadow-lg animate-in slide-in-from-top-2">
-          <nav className="flex flex-col gap-1 p-4">
+          <nav id="mobile-navigation" aria-label="移动导航" className="flex max-h-[calc(100dvh-4rem)] overflow-y-auto flex-col gap-1 p-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -64,20 +66,22 @@ export function MobileMenu() {
 }
 
 export function Header() {
+  const pathname = usePathname();
   return (
-    <header className="sticky top-0 z-40 border-b border-zinc-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
+    <header className="sticky top-0 z-40 border-b border-zinc-200 bg-[#f8f6ef]/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl">🌸</span>
-          <span className="text-xl font-bold text-primary-900">{siteConfig.name}</span>
+          <span className="brand-mark" aria-hidden="true">日</span>
+          <span className="text-lg font-semibold text-primary-900">{siteConfig.name}</span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav aria-label="主导航" className="hidden items-center gap-1 lg:flex">
           {navLinks.slice(1, 7).map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 hover:bg-primary-50 hover:text-primary-700 transition-colors"
+              aria-current={pathname === link.href ? "page" : undefined}
+              className="rounded-md px-2 py-2 text-sm aria-[current=page]:text-accent-500 font-medium text-zinc-600 hover:bg-primary-50 hover:text-primary-700 transition-colors"
             >
               {link.label}
             </Link>

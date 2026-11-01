@@ -1,9 +1,11 @@
 "use client";
 
+import { DataReviewNote } from "@/components/shared/DataReviewNote";
+
 import { type CombinedGraduateUniversity } from "@/lib/graduate-data";
 
 const typeConfig: Record<string, { label: string; className: string }> = {
-  national: { label: "国立", className: "bg-blue-100 text-blue-700" },
+  national: { label: "国立", className: "bg-primary-100 text-primary-700" },
   public: { label: "公立", className: "bg-emerald-100 text-emerald-700" },
   private: { label: "私立", className: "bg-amber-100 text-amber-700" },
 };
@@ -23,7 +25,7 @@ export function GraduateUniversityCard({ university: uni, expanded }: Props) {
       className="group rounded-xl border border-zinc-200 bg-white hover:border-primary-200 transition-colors scroll-mt-20"
     >
       {/* ======== 摘要行 ======== */}
-      <summary className="cursor-pointer flex items-center gap-3 p-4 select-none">
+      <summary className="cursor-pointer flex flex-wrap sm:flex-nowrap items-center gap-3 p-4 sm:p-5 select-none">
         {/* 类型标签 */}
         <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${tc.className}`}>
           {tc.label}
@@ -37,7 +39,7 @@ export function GraduateUniversityCard({ university: uni, expanded }: Props) {
             {uni.ranking && (
               <span className="rounded-full bg-zinc-100 px-2 py-0.5 text-[10px] text-zinc-500">{uni.ranking}</span>
             )}
-            <span className="text-xs text-zinc-300">· {uni.location}</span>
+            <span className="text-xs text-zinc-500">· {uni.location}</span>
           </div>
           {/* 特征标签（最多4个） */}
           <div className="mt-1 flex flex-wrap gap-1">
@@ -48,17 +50,18 @@ export function GraduateUniversityCard({ university: uni, expanded }: Props) {
         </div>
 
         {/* 右侧信息 */}
-        <div className="shrink-0 flex items-center gap-3">
+        <div className="shrink-0 flex items-center gap-3 ml-auto">
           <span className="text-xs text-zinc-400">
             {uni.gradSchoolCount}个研究科{uni.hasDetail ? " · 教授数据" : ""}
           </span>
-          <span className="text-zinc-300 text-sm group-open:hidden">▸</span>
-          <span className="text-zinc-300 text-sm hidden group-open:inline">▾</span>
+          <span className="text-zinc-500 text-sm group-open:hidden">▸</span>
+          <span className="text-zinc-500 text-sm hidden group-open:inline">▾</span>
         </div>
       </summary>
 
       {/* ======== 展开内容 ======== */}
       <div className="px-4 pb-4 border-t border-zinc-100 pt-4 space-y-4">
+        <DataReviewNote schoolId={uni.id} />
         {/* 亮点 */}
         <p className="text-sm text-primary-800 font-medium">{uni.highlights}</p>
 

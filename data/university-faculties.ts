@@ -191,7 +191,7 @@ export const undergraduateAdmissions: UndergraduateAdmissionInfo[] = [
     universityName: "京都大学",
     type: "national",
     portalUrl: "https://www.kyoto-u.ac.jp/ja/admissions/undergraduate",
-    admissionSystem: "学部ごとに入试制度不同。工学部有「私費外国人留学生特別選考」。Kyoto iUP（国際本科プログラム）覆盖10学部（全学35名枠·10月入学·6个月準備課程）。文系多数学部无留学生特别枠，需与日本学生参加同一一般入试（共通テスト+個別試験）。",
+    admissionSystem: "学部ごとに入试制度不同。工学部有「私費外国人留学生特別選考」。Kyoto iUP（国際本科プログラム）2027年度覆盖9学部（全学40名枠·10月入学·6个月準備課程）。文系多数学部无留学生特别枠，需与日本学生参加同一一般入试（共通テスト+個別試験）。",
     ejuPolicy: "工学部私費外国人入试：日本語+数学2+物理+化学（合计680+或650+且数理化350+）。iUP不要求日语成绩（入學後補習）。文系一般入试需共通テスト。",
     ejuReferenceScores:
       "【工学部私費留学生選抜】日本語320+ / 数学2 180+ / 物理+化学 180+ → 総合680+。【iUP】不要求EJU/日语。TOEFL iBT 80+ / IELTS 6.0+（推荐）。【一般入試】共通テスト85%+ 二次試験偏差値65+。",
@@ -297,10 +297,10 @@ export const undergraduateAdmissions: UndergraduateAdmissionInfo[] = [
       note: "京都生活成本约东京70%。大学宿舍（吉田·熊野·修学院）月额20,000〜45,000円。"
     },
     totalFourYearCost: "学费约243万円（iUP入学金免除约215万円）+ 生活费约380万〜550万円 = 总计约600万〜790万円（4年）",
-    internationalStudentQuota: "工学部私費外国人選抜：若干名（通常5名以内合格/年）。iUP：全学35名/年（覆盖10学部）。ICP（土木英语课程）：30名/年。",
+    internationalStudentQuota: "工学部私費外国人選抜：若干名（通常5名以内合格/年）。iUP：2027年全学40名（9学部参与，不含医学部）。ICP（土木英语课程）：30名/年。",
     applicationDocuments: "【工学部外国人選抜】①入学願書 ②EJU成绩 ③TOEFL/IELTS成绩 ④高中毕业证明+成绩单 ⑤志望理由书 ⑥AAO事前审查结果。【iUP】①オンライン出願 ②TOEFL/IELTS ③高中成绩 ④推荐信 ⑤essay ⑥面接。",
     keyNotes: [
-      "iUP是留学生最推荐路径（35名枠，入学金免除，学费减免可能）",
+      "iUP是留学生最推荐路径（2027年40名枠，入学金免除，学费减免可能）",
       "工学部留学生特别选考需AAO事前审查",
       "文系多数学部无留学生特别选考，必须走iUP或一般入试（共通テスト）",
       "ICP（土木工程英语课程）另有30名枠"
@@ -520,7 +520,7 @@ export const undergraduateAdmissions: UndergraduateAdmissionInfo[] = [
       { name: "薬学部", nameJa: "薬学部", departments: ["薬学科（6年制）", "創薬科学科（4年制）"], hasInternationalAdmission: true, admissionType: "私費外国人留学生特別選抜", ejukRequirements: "日本語+数学2+理科（化学+物理/生物）" },
       { name: "農学部", nameJa: "農学部", departments: ["生物生産科学科", "応用生物化学科"], hasInternationalAdmission: true, admissionType: "私費外国人留学生特別選抜 + FGL（AMB）", ejukRequirements: "日本語+数学2+理科（2科目）" },
     ],
-    tuitionInfo: { examFee: "17,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
+    tuitionInfo: { examFee: "17,000円", admissionFee: "282,000円", annualTuition: "900,000円（2027年4月以降入学・留学在留資格の学部/修士。博士等は対象外）" },
     livingCosts: {
       monthlyRent: "35,000〜50,000円（青葉区·太白区）",
       monthlyFood: "25,000〜35,000円",
@@ -528,7 +528,7 @@ export const undergraduateAdmissions: UndergraduateAdmissionInfo[] = [
       monthlyTotal: "70,000〜100,000円",
       note: "仙台生活成本约东京60%。大学宿舍月额15,000〜35,000円，性价比极高。"
     },
-    totalFourYearCost: "学费约243万円 + 生活费约340万〜480万円 = 总计约580万〜720万円（4年）",
+    totalFourYearCost: "2027年度新入学留学生の本科授業料：90万円×4年=360万円。入学金・生活費等は別途。",
     internationalStudentQuota: "私費外国人留学生特別選抜：各学部数名。FGL英语项目：各课程约10名/年。全学留学生約2,100名。",
     applicationDocuments: "①入学願書 ②EJU成绩 ③TOEFL/IELTS成绩 ④高中毕业证明+成绩单 ⑤志望理由书 ⑥推薦書 ⑦日本語学校证明（在日者）⑧在留卡/护照复印件。FGL另需essay+面接。",
     keyNotes: [

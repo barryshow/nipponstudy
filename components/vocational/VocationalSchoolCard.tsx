@@ -1,5 +1,7 @@
 "use client";
 
+import { DataReviewNote } from "@/components/shared/DataReviewNote";
+
 import { type VocationalSchool } from "@/data/schools";
 
 interface Props {
@@ -15,12 +17,12 @@ export function VocationalSchoolCard({ school, expanded }: Props) {
       className="group rounded-xl border border-zinc-200 bg-white hover:border-primary-200 transition-colors scroll-mt-20"
     >
       {/* ======== 摘要行 ======== */}
-      <summary className="cursor-pointer flex items-center gap-3 p-4 select-none">
+      <summary className="cursor-pointer flex flex-wrap sm:flex-nowrap items-center gap-3 p-4 select-none">
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2 flex-wrap">
             <h3 className="text-base font-bold text-primary-900">{school.name}</h3>
             <span className="text-xs text-zinc-400">{school.nameJa}</span>
-            <span className="text-xs text-zinc-300">· {school.location}</span>
+            <span className="text-xs text-zinc-500">· {school.location}</span>
           </div>
           {/* 特征标签 */}
           <div className="mt-1 flex flex-wrap gap-1">
@@ -38,13 +40,14 @@ export function VocationalSchoolCard({ school, expanded }: Props) {
               <div className="text-xs font-medium text-green-600">就业率 {school.employmentRate}</div>
             )}
           </div>
-          <span className="text-zinc-300 text-sm group-open:hidden">▸</span>
-          <span className="text-zinc-300 text-sm hidden group-open:inline">▾</span>
+          <span className="text-zinc-500 text-sm group-open:hidden">▸</span>
+          <span className="text-zinc-500 text-sm hidden group-open:inline">▾</span>
         </div>
       </summary>
 
       {/* ======== 展开内容 ======== */}
       <div className="px-4 pb-4 border-t border-zinc-100 pt-4 space-y-4">
+        <DataReviewNote schoolId={school.id} />
         {/* 亮点 */}
         <p className="text-sm text-primary-800 font-medium">{school.highlights}</p>
 

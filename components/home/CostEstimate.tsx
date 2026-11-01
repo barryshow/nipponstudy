@@ -1,45 +1,12 @@
-import Link from "next/link";
 import { Container } from "@/components/ui/Container";
-import { SectionTitle } from "@/components/shared/SectionTitle";
 import { costEstimates } from "@/data/process";
-
 export function CostEstimate() {
-  return (
-    <section className="py-20 bg-zinc-50">
-      <Container>
-        <SectionTitle
-          title="留学费用参考"
-          subtitle="以东京地区为例，让我们对留学花费有一个清晰的认知"
-        />
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {costEstimates.map((item) => (
-            <div key={item.schoolType} className="rounded-xl border border-zinc-200 bg-white p-6">
-              <h3 className="text-xl font-bold text-primary-900">{item.schoolType}</h3>
-              <div className="mt-4 space-y-3">
-                <div className="flex justify-between border-b border-zinc-100 pb-2">
-                  <span className="text-zinc-600">学费</span>
-                  <span className="font-semibold text-primary-700">{item.tuition}</span>
-                </div>
-                <div className="flex justify-between border-b border-zinc-100 pb-2">
-                  <span className="text-zinc-600">生活费</span>
-                  <span className="font-semibold text-primary-700">{item.living}</span>
-                </div>
-                <div className="flex justify-between pt-1">
-                  <span className="text-zinc-600">年总预算</span>
-                  <span className="font-semibold text-primary-900">{item.total}</span>
-                </div>
-                <p className="text-xs text-zinc-400 text-right">{item.note}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="mt-8 text-center">
-          <p className="text-sm text-zinc-500 mb-4">以上为估算参考，实际费用因学校和个人消费习惯而异。部分语言学校可分期付款、国公立大学可申请学费减免。</p>
-          <Link href="/contact" className="text-primary-700 font-medium hover:underline">
-            联系我们获取个性化费用评估 →
-          </Link>
-        </div>
-      </Container>
-    </section>
-  );
+  return <section className="home-section cost-section"><Container>
+    <div className="section-heading"><div><p className="section-kicker">先算清楚，再做决定</p><h2>留学预算，不只有学费。</h2></div><p>本科首年预算示例 · 日元</p></div>
+    <div className="cost-grid">{costEstimates.map(item => <article key={item.schoolType} className="cost-card">
+      <h3>{item.schoolType}</h3><p className="cost-amount">约 {item.total} <span className="text-base">万日元</span></p><p className="cost-label">首年学费、入学金与全年生活费合计估算</p>
+      <dl><div><dt>首年学费与入学金</dt><dd>{item.tuition}</dd></div><div><dt>生活费参考</dt><dd>{item.living}</dd></div></dl><p className="cost-note">{item.note}</p>
+    </article>)}</div>
+    <p className="source-note">参考 <a href="https://www.studyinjapan.go.jp/en/planning/academic-fees/" target="_blank" rel="noopener noreferrer">JASSO 学费资料</a>与<a href="https://www.studyinjapan.go.jp/en/life/cost-of-living/" target="_blank" rel="noopener noreferrer">生活费调查</a>，核对日期：2026-11-02。生活费采用2023年度调查的全国均值10.5万日元/月，不是东京或2027年的报价。上述合计为本站按12个月计算，未含机票、租房初期费用及额外教材等；具体学费请以目标学校2027年度公布信息为准。</p>
+  </Container></section>;
 }

@@ -170,7 +170,7 @@ export const graduateAdmissions: GraduateAdmissionInfo[] = [
     applicationSystem: "TAO（The Admissions Office）在线出愿系统",
     researchStudentInfo: "多数研究科广泛接受研究生（预科旁听生·无学位）。需事前获教授内诺。入学料84,600円，授業料178,200円/半年。各研究科研究生（预科旁听生）教务独立",
     examTypes: ["一般入试（秋季8月/春季2-3月）", "英语プログラム（IGPLS/G2SD/GPEM等）", "外国人留学生特别选考"],
-    tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "535,800円" },
+    tuitionInfo: { examFee: "30,000円", admissionFee: "282,000円", annualTuition: "900,000円（2027年4月以降入学・留学在留資格の学部/修士。博士等は対象外）" },
     graduateSchools: [
       { name: "文学研究科", nameJa: "文学研究科", programs: ["日本文学", "史学", "哲学", "社会学", "言語学"], admissionUrl: "https://www.sal.tohoku.ac.jp/", facultyUrl: "https://www.r-info.tohoku.ac.jp/", hasEnglishProgram: false, hasResearchStudent: true, intakeMonths: ["4月"] },
       { name: "情報科学研究科", nameJa: "情報科学研究科", programs: ["数学·计算机科学", "系统情報科学", "人类社会情報科学", "应用情報科学"], admissionUrl: "https://www.is.tohoku.ac.jp/en/entrance/exam.html", facultyUrl: "https://www.r-info.tohoku.ac.jp/en/f62dd6d021e1e3b9ddee4276ab2e93c6.html", hasEnglishProgram: true, hasResearchStudent: true, intakeMonths: ["4月", "10月"] },

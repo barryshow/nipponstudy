@@ -55,7 +55,8 @@ export function GraduateSearchFilter({
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         <input
-          type="text"
+          type="search"
+          aria-label="搜索院校、专业或教授"
           value={localQuery}
           onChange={(e) => setLocalQuery(e.target.value)}
           placeholder="搜索大学名、研究科、专攻、教授…"
@@ -63,6 +64,7 @@ export function GraduateSearchFilter({
         />
         {localQuery && (
           <button
+            aria-label="清空搜索"
             onClick={() => setLocalQuery("")}
             className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-300 hover:text-zinc-500"
           >
@@ -78,8 +80,9 @@ export function GraduateSearchFilter({
         {filterOptions.map((opt) => (
           <button
             key={opt.value}
+            aria-pressed={typeFilter === opt.value}
             onClick={() => onTypeFilterChange(opt.value)}
-            className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+            className={`min-h-10 rounded-full px-3 py-1 text-xs font-medium transition-colors ${
               typeFilter === opt.value
                 ? "bg-primary-600 text-white"
                 : "bg-zinc-100 text-zinc-500 hover:bg-zinc-200"

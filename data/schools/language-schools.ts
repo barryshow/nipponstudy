@@ -10,6 +10,7 @@ export interface LanguageSchool {
     annualTuition: string;
     materialsFee: string;
     totalFirstYear: string;
+    otherFees?: string;
   };
   paymentTerm: string;
   attendanceRequirement: string;
@@ -33,18 +34,18 @@ export const languageSchools: LanguageSchool[] = [
     name: "ISI日本语学校",
     nameJa: "ISI日本語学校",
     region: "东京",
-    location: "高田马场/新宿/涩谷/池袋/原宿",
-    tuition: "83.3万～101.4万日元/年",
-    tuitionBreakdown: { enrollmentFee: "5.5万", annualTuition: "73.0万～91.1万", materialsFee: "4.8万", totalFirstYear: "83.3万～101.4万" },
+    location: "新宿本校/新宿Prime/池袋/高田马场/涩谷原宿（东京校区）",
+    tuition: "首年101.5万～111.5万日元（东京，2027–2028）",
+    tuitionBreakdown: { enrollmentFee: "10万日元", annualTuition: "72万～76万日元", materialsFee: "5.5万日元", otherFees: "选考料4万日元；设施管理费10万～17万日元（按校区）", totalFirstYear: "101.5万～111.5万日元（按校区与课程）" },
     paymentTerm: "支持半年付（部分校区）",
     attendanceRequirement: "90%安全线 / 80%在留更新底线",
     duration: "1年～2年", visaRequirement: "需JLPT N5或同等证书", minimumStudyForVocational: "需在籍1年以上", intake: "1月/4月/7月/10月",
     features: ["日本最大规模语言学校集团", "设施豪华,国际化(欧美约30%)", "升学+商务+就职一条龙", "校内私塾", "支持半年付"],
-    highlights: "日本规模最大的语言学校集团，四个校区覆盖东京核心区域",
+    highlights: "提供升学日语与职业日语课程，东京校区收费按2027–2028官方要项列示",
+    website: "https://sm.isi-education.com/en/long/",
     programs: [
-      { name: "升学课程", description: "EJU全科辅导·校内考对策，历年东大京大早庆合格者多数" },
-      { name: "商务日语课程", description: "面向在日就职的日语强化+商务礼仪+企业实习对接" },
-      { name: "就职支援课程", description: "涩谷/原宿校专属，简历指导、模拟面试、企业说明会定期举办" },
+      { name: "升学日语（Academic Japanese）", description: "新宿本校、新宿Prime、池袋、高田马场升学校区；首年101.5万～111.5万日元，依校区确定。" },
+      { name: "职业日语（Career Japanese）", description: "涩谷原宿与高田马场职业校区；首年105.5万日元。" },
     ],
     suitableFor: ["追求国际化环境", "一站式升学/就业", "东京核心区域"],
   },

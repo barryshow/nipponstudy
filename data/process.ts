@@ -77,26 +77,10 @@ export const whyChooseUs = [
   },
 ];
 
+// JASSO public averages; first-year academic fees include admission fees.
+// Living estimate: 105,000 JPY/month × 12. Not a school-specific 2027 quotation.
 export const costEstimates = [
-  {
-    schoolType: "语言学校",
-    tuition: "70-85万日元/年",
-    living: "8-12万日元/月",
-    total: "约180-230万日元/年",
-    note: "约合人民币9-12万元/年",
-  },
-  {
-    schoolType: "国公立大学",
-    tuition: "53-80万日元/年",
-    living: "8-12万日元/月",
-    total: "约150-220万日元/年",
-    note: "约合人民币7.5-11万元/年，可申请学费减免",
-  },
-  {
-    schoolType: "私立大学",
-    tuition: "80-150万日元/年",
-    living: "8-12万日元/月",
-    total: "约180-300万日元/年",
-    note: "约合人民币9-15万元/年，SGU项目费用更高",
-  },
+  { schoolType: "国立大学 · 本科", tuition: "约82万日元", living: "约126万日元 / 年", total: "208", note: "学费与入学金为官方概算；部分大学收费高于此参考值。" },
+  { schoolType: "公立大学 · 本科", tuition: "约91万日元", living: "约126万日元 / 年", total: "217", note: "入学金可能因居住地不同而变化，请按学校确认。" },
+  { schoolType: "私立大学 · 本科", tuition: "约130万日元", living: "约126万日元 / 年", total: "256", note: "不含医、齿、药学等高费用专业。" },
 ];
