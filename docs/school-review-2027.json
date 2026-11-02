@@ -1286,8 +1286,21 @@
       "id": "yoshida",
       "name": "吉田日本语学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对吉田日本语学院留学签长课：进学课程为1年、1年3月、1年6月、1年9月或2年；一般课程为6个月至2年，均可1/4/7/10月入学。申请人须完成12年以上教育，进学课程1月入学须JLPT N3。官网当前费用为首年843,000日元（选考25,000、入学98,000、授课684,000、教育运营36,000），此后每6个月360,000日元；费用页未标注2027年度，故不作为2027报价承诺。",
+        "sources": [
+          {
+            "label": "吉田日本语学院长课与申请条件",
+            "url": "https://yosida.com/japanese/intensive-japanese/long-term-study"
+          },
+          {
+            "label": "吉田日本语学院长课费用",
+            "url": "https://yosida.com/japanese/intensive-japanese/long-term-fees"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1325,8 +1338,21 @@
       "id": "toa",
       "name": "东亚学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对东亚学院留学生进学课程与现行费用：4/10月首年学业费用830,000日元（选考20,000、入学50,000、学费660,000、其他100,000），另列来日初期3个月宿舍及入寮费后，4/10月来日前纳总额1,050,000日元；次年度按半年380,000日元扣款。课程有4月2年、7月1年9月、10月1年6月、1月1年3月，官网提供升学材料和面试准备、中文支持及定期向经费支付人报告学习情况。页面未单列2027价格，也未公开统一出勤率门槛。",
+        "sources": [
+          {
+            "label": "东亚学院留学生进学课程",
+            "url": "https://www.kazankai.org/toagakuin_jp/liuxue.html"
+          },
+          {
+            "label": "东亚学院入学金与学费",
+            "url": "https://www.kazankai.org/toagakuin_jp/liuxue/xuefei.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1338,8 +1364,25 @@
       "id": "shinjuku-jls",
       "name": "新宿日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对新宿日本语学校（SNG）留学签平日课程：4月入学为1年或2年、10月入学为1年6月；现行合计分别为990,000、1,415,800、1,840,000日元。留学签原则上须完成中等教育、满足日语学习能力条件并证明经费支付能力；未将其简化为统一N5门槛。短期/其他在留资格课程每年1/4/7/10月开课，官网已发布2027年1/4/7月短期要项。长课费用页未标注为2027定价，出勤率具体门槛未核实。",
+        "sources": [
+          {
+            "label": "新宿日本语学校申请、课程与费用",
+            "url": "https://www.sng.ac.jp/jp/admission/"
+          },
+          {
+            "label": "新宿日本语学校交通与校址",
+            "url": "https://www.sng.ac.jp/jp/contact/access/"
+          },
+          {
+            "label": "新宿日本语学校2027短期课程要项PDF",
+            "url": "https://www.sng.ac.jp/jp/download/short-term-program-application-guide.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
