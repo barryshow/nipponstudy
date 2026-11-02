@@ -181,4 +181,39 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "近畿大学学费发布页", url: "https://www.kindai.ac.jp/campus-life/tuition-scholarships/tuition/" },
     ],
   },
+  aoyama: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027学部外国留学生选拔：面向完成海外12年教育者，涵盖文学、教育人间科学、经济、法、经营、国际政治经济、综合文化政策、理工、社会信息等。理工以外资格咨询截至2026-07-21，理工截至09-02。2027学部入学金统一80,000日元、设施费并入学费、在籍基本料120,000日元/年；首年总额依学部/学科确认。全校统一GPA、JLPT、TOEFL/IELTS门槛均未获官方要项支持。大学院待核对。",
+    sources: [
+      { label: "青山学院大学外国留学生选拔", url: "https://www.aoyama.ac.jp/admission/undergraduate/examination/exam_foreign_student.html" },
+      { label: "青山学院大学2027学费调整说明", url: "https://www.aoyama.ac.jp/life/expenses/tuition_revision/" },
+      { label: "青山学院大学2027学部学费表PDF", url: "https://www.aoyama.ac.jp/wp-content/uploads/2026/05/2027%E5%AD%A6%E8%B2%BB%E3%80%80%E5%AD%A6%E9%83%A8%EF%BC%88Web%E6%8E%B2%E8%BC%89%EF%BC%89.pdf" },
+    ],
+  },
+  chuo: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027外国留学生本科选拔：覆盖法、经济、商、三理工、文、综合政策、国际经营、国际信息、体育信息等；一般资格为外国国籍、境外12年教育及指定期次EJU，外语/EJU依学部和方式而异。检定费35,000+系统费1,350日元。首年费用：法1,413,700、经济1,375,700、商1,378,700、三理工各1,927,800、文1,360,700、综合政策1,680,900、国际经营1,538,300、国际信息1,631,200日元。全校统一JLPT、英语线与GPA均未获官方依据。大学院待核对。",
+    sources: [
+      { label: "中央大学2027外国留学生选拔要项PDF", url: "https://www.chuo-u.ac.jp/common_d/connect/admission/2027/special/12_1_6.pdf" },
+      { label: "中央大学2027学部学费", url: "https://www.chuo-u.ac.jp/academics/fees/admission/faculties_new_student/" },
+      { label: "中央大学特别入试入口", url: "https://www.chuo-u.ac.jp/connect/admission/special/guide/" },
+    ],
+  },
+  nihon: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027年4月学部外国留学生统一要项：覆盖法、文理、经济、商、艺术、国际关系、体育科学、理工、生産工、工、牙、生物资源等；部分采用EJU，艺术/牙/生物资源等采用本校考试。首年费用按学部/学科制，例如法1,260,000、经济/商各1,240,000、理工1,690,000–1,730,000、艺术1,750,000–1,950,000日元。法与国际关系要求JLPT N2+；艺术可用JLPT N2+或指定EJU日语240+且记述35+。全校统一GPA和英语线未获官方依据。大学院待核对。",
+    sources: [
+      { label: "日本大学2027外国留学生选拔总要项PDF", url: "https://www.nihon-u.ac.jp/assets/202606080135418.pdf" },
+      { label: "日本大学2027入试资料入口", url: "https://www.nihon-u.ac.jp/admission_info/guideline/digital_pamphlet/" },
+    ],
+  },
+  toyo: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027年4月外国留学生在线入试：分Type A英语轨道和Type B日语轨道，可在境外线上流程报考。Type A英语线为TOEFL iBT 79（新量表4.5）/IELTS 6.0/TOEIC L&R 780；申请2026-09-22至09-25、2026-11-22公布、12-11截止手续，申请费10,000日元。2027首年纳付金为校方“予定”，按学部为1,265,000–1,730,000日元等。Global Track仍含日语科目，未表述为全程纯英语。全校统一JLPT、英语线与GPA未获官方依据。大学院待核对。",
+    sources: [
+      { label: "东洋大学2027外国留学生入试入口", url: "https://www.toyo.ac.jp/nyushi/international-student/" },
+      { label: "东洋大学2027在线入试要项PDF", url: "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/apr/online-entry-exam_2027_apr_ja.pdf" },
+      { label: "东洋大学2027学费概览", url: "https://teachers.nyushi.toyo.ac.jp/about/" },
+    ],
+  },
 };
