@@ -1138,8 +1138,17 @@
       "id": "sendagaya",
       "name": "千驮谷日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对千驮谷集团当前Academic Japanese Course：4月2年或10月1年6月入学、文部科学省认定准备教育课程，并可配合EJU/JLPT及基础科目学习。官网现行费用页明确仅适用于2025年4月起入学者，首年896,000日元、2年全程1,666,000日元、1年6月全程1,281,000日元；2027费用未见单独公布，故不把该现行表当作2027承诺。校方说明10或11年学校教育背景者可通过准备教育课程取得大学报考资格。",
+        "sources": [
+          {
+            "label": "千驮谷Academic Japanese Course与现行费用",
+            "url": "https://group.jp-sji.org/en/sjs-2/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1151,8 +1160,17 @@
       "id": "kudanjapan",
       "name": "九段日本文化研究所",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对九段日本语学院2027年4月留学签长课：学习期1—2年、全年1/4/7/10月入学、每周20课时，可选上午日语会话或下午综合日语。申请资格为年满18岁、高中或以上毕业、JLPT N5相当以上；N5以下初学者当前不受理留学签申请。官网仅列注册、授课、设施维持和课外活动等缴费项目及流程，未公开2027长课金额，移除旧的约85万日元报价和具体出勤率断言。",
+        "sources": [
+          {
+            "label": "九段2027年4月留学签长课",
+            "url": "https://www.kudan-japanese-school.com/jp/visa/precollege.php"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1186,8 +1204,21 @@
       "id": "unitus",
       "name": "优尼塔斯日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对优尼塔斯当前留学课程：东京与甲府两校均有升学/一般课程，4/7/10/1月分别对应2年（或1年）/1年9月/1年6月/1年3月。官网当前含税全年费用为甲府800,000、东京860,000日元，半年付款分别为465,000+375,000与495,000+405,000日元，但部分国籍可能不适用分期。费用页未标注为2027，故2027金额仍须等校方要项；申请资格为12年以上学校教育。",
+        "sources": [
+          {
+            "label": "优尼塔斯课程、费用与付款说明",
+            "url": "https://www.unitas-ej.com/course/"
+          },
+          {
+            "label": "优尼塔斯入学期、校区与流程",
+            "url": "https://www.unitas-ej.com/admission/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1225,8 +1256,25 @@
       "id": "meros",
       "name": "美罗斯言语学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对美罗斯现官网与2026费用图表：日本语综合课程全程总额为2年1,706,000、1年9月1,501,500、1年6月1,297,000、1年3月1,092,500、1年888,000日元；表中明确教材和外部考试费不含。官网尚未单列2027费用，故不将2026图表包装为2027报价。日本语综合课程为1/4/7/10月入学；准备教育课程为4/10月入学，面向本国教育年限不足12年的高中毕业者。旧的无来源美大合格宣传、统一出勤率与日语门槛已移除。",
+        "sources": [
+          {
+            "label": "美罗斯课程费用（2026表）",
+            "url": "https://meros.ac.jp/course_info_menu/tuitionfee/"
+          },
+          {
+            "label": "美罗斯入学案内",
+            "url": "https://meros.ac.jp/admission/"
+          },
+          {
+            "label": "美罗斯准备教育课程",
+            "url": "https://meros.ac.jp/course_info_menu/pre_curriculum/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
