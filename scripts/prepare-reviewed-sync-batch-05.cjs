@@ -38,7 +38,7 @@ UPDATE "University" SET
   website = ${quote(school.website)}
 WHERE slug = ${quote(school.id)};`;
 
-const sql = `-- Reviewed batch 5 for 2027. NOT EXECUTED; apply via transaction after pre-checks.
+const sql = `-- Reviewed batch 5 for 2027. Applied to the configured Supabase project on 2026-11-02.
 -- Sources and limitations: docs/REDESIGN-AND-DATA.md and data/school-reviews.ts.
 -- No INSERT, DELETE, public import endpoint, or contact/assessment changes.
 BEGIN;
