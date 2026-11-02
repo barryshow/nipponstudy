@@ -110,4 +110,40 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "立命馆2027申请文件", url: "https://en.ritsumei.ac.jp/e-ug/apply/download/download.html/" },
     ],
   },
+  meiji: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027年9月入学SGJS英文赛道（明治本科唯一全英文项目）：定员10名、不要求日语、不限国籍；2026学年起停止4月入学。日程（预审2027-01-04、网申02-04至02-17、文件02-24、面试05-22、结果06-08）、选拔费35,000+1,045日元、2027届学费（首期893,000日元，2028-2030学年年额1,373,500/1,378,500/1,413,500日元）与英语成绩门槛（TOEFL iBT 80/4.0、IELTS 6.0、剑桥169+、SAT R27+W28、ACT 18）均按官方要项。其余学部与大学院待核对。",
+    sources: [
+      { label: "明治英文赛道招生页", url: "https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/admissions.html" },
+      { label: "明治2027年9月入学要项PDF", url: "https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/glqts00000002hta-att/a1793259032270.pdf" },
+    ],
+  },
+  rikkyo: {
+    checkedAt: "2026-11-02",
+    scope: "已核对PEACE 2027一般申请（ICC、国际商务法Global Program、GLAP各10名，4月与9月入学合计）：APR期2026-11-06至11-20、SEP期2027-01-18至02-01，申请费15,000+620日元；校方2027学年学费与2026持平（IBL 1,271,000/ICC 1,178,000/GLAP 1,900,000日元/年），首年合计按官方表估算（1,474,500/1,391,500/2,103,500日元）。资格线(a)-(j)与英语替代线（TOEFL 94/IELTS 6.5）按2027指南。NEXUS为指定高中限定。其余学部与大学院待核对。",
+    sources: [
+      { label: "立教PEACE与NEXUS页面", url: "https://english.rikkyo.ac.jp/admission/peace-and-nexus.html" },
+      { label: "立教PEACE 2027申请指南PDF", url: "https://www.rikkyo.ac.jp/admissions/undergraduate/guidelines/mknpps000001yiyx-att/mknpps000001zh6g.pdf" },
+      { label: "立教2027学年学费PDF", url: "https://english.rikkyo.ac.jp/admission/dn4ddm0000000868-att/academicfees_2027.pdf" },
+    ],
+  },
+  hosei: {
+    checkedAt: "2026-11-02",
+    scope: "已核对EBDP四项目2027年秋季统一申请：申请期2027-02-22至03-05（原Period I/II合并），两阶段选拔（书审+全员在线面试，SCOPE面试05-15、GBP/IGESS 05-16），选拔费35,000+1,100日元，名额GBP 20/SCOPE 20/IGESS 30/GIS-秋季10；2027年度学费GIS首年1,632,000日元、IGESS/GBP/SCOPE首年各1,494,000日元。各项目英语门槛按指南（GIS 90/7.0、GBP与SCOPE 80/6.0、IGESS须提交但不设线）。其余学部与大学院待核对。",
+    sources: [
+      { label: "法政EBDP页面", url: "https://www.hosei.ac.jp/english/admissions/undergraduate/ebdp/" },
+      { label: "法政GBP 2027秋季申请指南PDF（校方指定申请门户）", url: "https://www.guide.52school.com/export/sites/default/guidance/net-hosei-ebdp/gid/pdf/2027_GBP_0_Application-Guidelines_20261030.pdf" },
+      { label: "法政2027年度入学者学费PDF", url: "https://www.hosei.ac.jp/application/files/8617/7932/3595/2027.pdf" },
+      { label: "法政GBP 2027指南公告", url: "https://gbp.hosei.ac.jp/2026/08/10/application-guidelines2025-2-2/" },
+    ],
+  },
+  doshisha: {
+    checkedAt: "2026-11-02",
+    scope: "已核对ILA国际教养BA 2027：4月入学申请2026-08-03至09-01、9月入学2027-01-12至02-09（17:00 JST截止），申请费15,000日元，发表2026-11-04/2027-04-21；年额1,194,000日元（首年含入学金200,000+学费824,000+设施费170,000）；英语门槛TOEFL iBT 85/4.5、IELTS 6.5、Duolingo 120、ACT English 22、Digital SAT EBRW 560；每年约50名、三个concentration入学后不可变更。其余学部与大学院待核对。",
+    sources: [
+      { label: "同志社ILA招生页", url: "https://ila.doshisha.ac.jp/ila/en/admissions/" },
+      { label: "同志社ILA 2027申请指南PDF", url: "https://ila.doshisha.ac.jp/files/ila/page/application%20guide.pdf" },
+      { label: "同志社ILA学费与奖学金页", url: "https://ila.doshisha.ac.jp/ila/en/admissions/fees_scholarships.html" },
+    ],
+  },
 };
