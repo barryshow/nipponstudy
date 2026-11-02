@@ -77,4 +77,37 @@ export const schoolReviews: Record<string, SchoolReview> = {
     scope: "已核对 2027–2028 官方长期课程收费与校区课程。此条展示东京校区：首年总费用 101.5–111.5 万日元，包含选考料、入学金、授课费、教材与设施管理费。其他申请资格与名额仍须按校区确认。",
     sources: [{ label: "ISI 2027 长期课程募集要项", url: "https://sm.isi-education.com/en/long/" }],
   },
+  waseda: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027英语本科的6个学部与专业：SPSE、TAISI、SILS、JCulP、基础理工、创造理工。英语本科在申请时不要求日语，材料随学部和教育体系而异；除SILS春季入学外，9月入学项目通常在1—2月申请。研究生、日语授课项目、费用与其他旧字段仍待逐项核对。",
+    sources: [
+      { label: "早稻田大学英语本科项目", url: "https://www.waseda.jp/inst/admission/en/undergraduate/english/" },
+      { label: "早稻田大学国际招生FAQ", url: "https://www.waseda.jp/inst/admission/en/undergraduate/faq/" },
+    ],
+  },
+  keio: {
+    checkedAt: "2026-11-02",
+    scope: "已核对经济学部PEARL 2027年9月入学：英语授课BA、4年制、约100人、仅书面材料审查且不设面试；须提交IB或SAT及TOEFL iBT或IELTS。三期申请为2026-10-21至12-02、2026-12-04至2027-01-27、2027-02-24至04-07。GIGA确为英语本科，但本批未核定其2027日程与费用；其余项目待核对。",
+    sources: [
+      { label: "庆应PEARL 2027招生要项", url: "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/" },
+      { label: "庆应国际生本科英语项目", url: "https://www.keio.ac.jp/en/admissions/international-student/" },
+    ],
+  },
+  sophia: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027英语本科：FLA、SPSF，以及计划2027年4月启动的DGTech。FLA首年约1,669,000日元、SPSF首年约1,645,000日元；均自第二年起约1,442,000日元。FLA与SPSF均为书类审查，材料包括TOEFL/IELTS及指定标准化成绩；其他本科、大学院和旧字段待核对。",
+    sources: [
+      { label: "上智大学2027英语项目公告", url: "https://adm.sophia.ac.jp/eng/news/english-taught/2027-intake-admission-inform-all-english-taught-programs-now-available/" },
+      { label: "上智大学2027英语本科快速指南", url: "https://adm.sophia.ac.jp/assets/uploads/sites/2/2026/04/SophiaUni_Japan_AdmissionsInformation2027-1.pdf" },
+    ],
+  },
+  ritsumei: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027英语本科的GLA、JDP、GS、CRPS、ISSE五个项目及其项目制费用。GS首年1,669,200日元、CRPS首年1,561,600日元、ISSE首年2,001,600日元（均含入学金）；资格、材料、语言证明和日期按项目申请手册确认。日语授课项目与大学院待核对。",
+    sources: [
+      { label: "立命馆英语本科项目FAQ", url: "https://en.ritsumei.ac.jp/e-ug/faq_contact/" },
+      { label: "立命馆2027英语本科费用", url: "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/" },
+      { label: "立命馆2027申请文件", url: "https://en.ritsumei.ac.jp/e-ug/apply/download/download.html/" },
+    ],
+  },
 };
