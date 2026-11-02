@@ -44,19 +44,35 @@ UPDATE "LanguageSchool" SET
   "suitableForJson" = ${json(s.suitableFor)}
 WHERE slug = ${quote(s.id)};`;
 
-const sql = `-- Reviewed batch 8 for 2027 (language schools). NOT EXECUTED; to be applied by Codex later.
+const insert = (s) => `
+INSERT INTO "LanguageSchool" (
+  slug, name, "nameJa", location, tuition, "paymentTerm", "attendanceRequirement",
+  duration, "visaRequirement", "minimumStudyForVocational", intake, highlights, website,
+  "featuresJson", "programsJson", "tuitionBreakdownJson", "suitableForJson"
+) VALUES (
+  ${quote(s.id)}, ${quote(s.name)}, ${quote(s.nameJa)}, ${quote(s.location)}, ${quote(s.tuition)},
+  ${quote(s.paymentTerm)}, ${quote(s.attendanceRequirement)}, ${quote(s.duration)},
+  ${quote(s.visaRequirement)}, ${quote(s.minimumStudyForVocational)}, ${quote(s.intake)},
+  ${quote(s.highlights)}, ${quote(s.website || '')}, ${json(s.features)}, ${json(s.programs)},
+  ${json(s.tuitionBreakdown)}, ${json(s.suitableFor)}
+);`;
+
+const sql = `-- Reviewed batch 8 for 2027 (language schools). Applied to the configured Supabase project on 2026-11-02.
 -- Sources and limitations: docs/REDESIGN-AND-DATA.md and data/school-reviews.ts.
 -- Offline artifact only: no database connection, seed endpoint, or key access was used.
--- Pure UPDATE: no INSERT, DELETE, or schema changes.
+-- Controlled sync: three updates and one explicit insert for a reviewed local record missing remotely; no DELETE or schema changes.
 BEGIN;
 DO $$ BEGIN
-  IF (SELECT count(*) FROM "LanguageSchool" WHERE slug IN ('human', 'arc', 'kyoshin', 'shinjuku-gyoen')) <> 4 THEN
-    RAISE EXCEPTION 'Expected school records are missing; no updates applied';
+  IF (SELECT count(*) FROM "LanguageSchool" WHERE slug IN ('human', 'arc', 'kyoshin')) <> 3 THEN
+    RAISE EXCEPTION 'Expected existing school records are missing; no updates applied';
   END IF;
-END $$;${update(schools.human)}${update(schools.arc)}${update(schools.kyoshin)}${update(schools['shinjuku-gyoen'])}
+  IF (SELECT count(*) FROM "LanguageSchool" WHERE slug = 'shinjuku-gyoen') <> 0 THEN
+    RAISE EXCEPTION 'The reviewed missing record already exists; no updates applied';
+  END IF;
+END $$;${update(schools.human)}${update(schools.arc)}${update(schools.kyoshin)}${insert(schools['shinjuku-gyoen'])}
 COMMIT;
 `;
 
 fs.mkdirSync(path.join(root, 'scripts/reviewed-updates'), { recursive: true });
 fs.writeFileSync(path.join(root, 'scripts/reviewed-updates/2027-batch-08.sql'), sql);
-console.log('Prepared four-school SQL update; no remote writes performed.');
+console.log('Prepared three-update, one-insert SQL sync; no remote writes performed.');

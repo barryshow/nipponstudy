@@ -1,11 +1,14 @@
--- Reviewed batch 8 for 2027 (language schools). NOT EXECUTED; to be applied by Codex later.
+-- Reviewed batch 8 for 2027 (language schools). Applied to the configured Supabase project on 2026-11-02.
 -- Sources and limitations: docs/REDESIGN-AND-DATA.md and data/school-reviews.ts.
 -- Offline artifact only: no database connection, seed endpoint, or key access was used.
--- Pure UPDATE: no INSERT, DELETE, or schema changes.
+-- Controlled sync: three updates and one explicit insert for a reviewed local record missing remotely; no DELETE or schema changes.
 BEGIN;
 DO $$ BEGIN
-  IF (SELECT count(*) FROM "LanguageSchool" WHERE slug IN ('human', 'arc', 'kyoshin', 'shinjuku-gyoen')) <> 4 THEN
-    RAISE EXCEPTION 'Expected school records are missing; no updates applied';
+  IF (SELECT count(*) FROM "LanguageSchool" WHERE slug IN ('human', 'arc', 'kyoshin')) <> 3 THEN
+    RAISE EXCEPTION 'Expected existing school records are missing; no updates applied';
+  END IF;
+  IF (SELECT count(*) FROM "LanguageSchool" WHERE slug = 'shinjuku-gyoen') <> 0 THEN
+    RAISE EXCEPTION 'The reviewed missing record already exists; no updates applied';
   END IF;
 END $$;
 UPDATE "LanguageSchool" SET
@@ -62,22 +65,15 @@ UPDATE "LanguageSchool" SET
   "tuitionBreakdownJson" = '{"enrollmentFee":"70,000日元","annualTuition":"680,000日元","materialsFee":"活动/教材50,000日元","totalFirstYear":"979,000日元（含税）","otherFees":"检定30,000、设施50,000、保险/体检10,000及税89,000日元"}'::jsonb,
   "suitableForJson" = '["希望多校区选择","需要半年付款安排","可按校区确认入学期"]'::jsonb
 WHERE slug = 'kyoshin';
-UPDATE "LanguageSchool" SET
-  name = '新宿御苑学院',
-  "nameJa" = '新宿御苑学院',
-  location = '东京都新宿区新宿2-3-13 新宿通り大橋ビル3F',
-  tuition = '2027年4月以后入学的进学课程最初12个月873,000日元（含选考料22,000）；课程修了前总额为：进学2年1,644,000、1年9月1,473,000、1年6月1,288,000、1年3月1,091,000日元。各费用为含税价，官网注明可能变更。',
-  "paymentTerm" = '先缴纳最初12个月费用；剩余期间费用在该期间开始1个月前缴纳（选考料在出愿时缴纳，入学手续时缴纳除选考料外的金额）。',
-  "attendanceRequirement" = '本批未核实官方出勤率要求。',
-  duration = '进学2年（24个月）、1年9月（21个月）、1年6月（18个月）、1年3月（15个月）',
-  "visaRequirement" = '官网列课程别日语基准：进学2年A1相当（JLPT N5或BJT300分等10种考试目安）、1年9月与1年6月A2相当、1年3月B1相当；无证书者可参加本校面试确认。',
-  "minimumStudyForVocational" = '本批未核实。',
-  intake = '全年1/4/7/10月；当前募集4月进学2年、7月1年9月、10月1年6月、1月1年3月。出愿期限：4月期为前年10月、7月期为2月、10月期为5月中旬、1月期为8月中旬。',
-  highlights = '官网列示单一东京校址与进学四课程；2027年4月以后入学者适用最初12个月873,000日元的新学费及公开分项，残期费用按时缴纳。',
-  website = 'https://gyoen.co.jp/attendcourses/',
-  "featuresJson" = '["单一东京校址","进学课程四课程","2027年4月起新学费873,000","分课程日语基准公开"]'::jsonb,
-  "programsJson" = '[{"name":"进学课程","description":"面向大学/大学院/专门学校升学；当前募集4月2年、7月1年9月、10月1年6月、1月1年3月课程，并提供个别升学咨询与面试练习。"}]'::jsonb,
-  "tuitionBreakdownJson" = '{"enrollmentFee":"入学金80,000日元（有效期2年）","annualTuition":"授课费685,000日元","materialsFee":"教材费64,000日元","totalFirstYear":"873,000日元（最初12个月，含选考料22,000）","otherFees":"保险费12,000日元、健康管理费10,000日元；残期费用另计（2年次771,000日元等）"}'::jsonb,
-  "suitableForJson" = '["计划东京进学课程","对应1/7/10月或次年1月入学","可按时提交出愿材料"]'::jsonb
-WHERE slug = 'shinjuku-gyoen';
+INSERT INTO "LanguageSchool" (
+  slug, name, "nameJa", location, tuition, "paymentTerm", "attendanceRequirement",
+  duration, "visaRequirement", "minimumStudyForVocational", intake, highlights, website,
+  "featuresJson", "programsJson", "tuitionBreakdownJson", "suitableForJson"
+) VALUES (
+  'shinjuku-gyoen', '新宿御苑学院', '新宿御苑学院', '东京都新宿区新宿2-3-13 新宿通り大橋ビル3F', '2027年4月以后入学的进学课程最初12个月873,000日元（含选考料22,000）；课程修了前总额为：进学2年1,644,000、1年9月1,473,000、1年6月1,288,000、1年3月1,091,000日元。各费用为含税价，官网注明可能变更。',
+  '先缴纳最初12个月费用；剩余期间费用在该期间开始1个月前缴纳（选考料在出愿时缴纳，入学手续时缴纳除选考料外的金额）。', '本批未核实官方出勤率要求。', '进学2年（24个月）、1年9月（21个月）、1年6月（18个月）、1年3月（15个月）',
+  '官网列课程别日语基准：进学2年A1相当（JLPT N5或BJT300分等10种考试目安）、1年9月与1年6月A2相当、1年3月B1相当；无证书者可参加本校面试确认。', '本批未核实。', '全年1/4/7/10月；当前募集4月进学2年、7月1年9月、10月1年6月、1月1年3月。出愿期限：4月期为前年10月、7月期为2月、10月期为5月中旬、1月期为8月中旬。',
+  '官网列示单一东京校址与进学四课程；2027年4月以后入学者适用最初12个月873,000日元的新学费及公开分项，残期费用按时缴纳。', 'https://gyoen.co.jp/attendcourses/', '["单一东京校址","进学课程四课程","2027年4月起新学费873,000","分课程日语基准公开"]'::jsonb, '[{"name":"进学课程","description":"面向大学/大学院/专门学校升学；当前募集4月2年、7月1年9月、10月1年6月、1月1年3月课程，并提供个别升学咨询与面试练习。"}]'::jsonb,
+  '{"enrollmentFee":"入学金80,000日元（有效期2年）","annualTuition":"授课费685,000日元","materialsFee":"教材费64,000日元","totalFirstYear":"873,000日元（最初12个月，含选考料22,000）","otherFees":"保险费12,000日元、健康管理费10,000日元；残期费用另计（2年次771,000日元等）"}'::jsonb, '["计划东京进学课程","对应1/7/10月或次年1月入学","可按时提交出愿材料"]'::jsonb
+);
 COMMIT;
