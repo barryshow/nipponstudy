@@ -341,4 +341,71 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "广岛YMCA日语课程与校址", url: "https://www.hymca.jp/m/institution/result.php?ca=1" },
     ],
   },
+  "yokohama-design": {
+    checkedAt: "2026-11-03",
+    scope: "已核对横滨设计学院的独立日本语学科，而非旧条目虚构的“日语+设计捆绑课程”。长期预备课程现行1年/1年6月/2年总额895,000/1,259,000/1,623,000日元，但官网标注自2024年4月适用，未将其冒充为2027价格；设计专门课须另行申请。",
+    sources: [
+      { label: "横滨设计学院日本语学科", url: "https://www.ydc.ac.jp/jpn/" },
+      { label: "横滨设计学院日本语学科募集要项PDF", url: "https://www.ydc.ac.jp/wp-content/uploads/2026/03/%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%AD%A6%E7%A7%91%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E.pdf" },
+    ],
+  },
+  "kyoto-genki": {
+    checkedAt: "2026-11-03",
+    scope: "旧称“京都GENKO日本语学校”无法核实，已按官网更正为GenkiJACS京都校。其公开课程为可自选周数的现场日语课程；官网未将其表述为可担保留学签的2年进学学校，因此删除了旧的年度学费、升学与签证承诺。",
+    sources: [{ label: "GenkiJACS京都校课程介绍", url: "https://www.genkijacs.com/kyoto-school-intro.php" }],
+  },
+  "osaka-ecc": {
+    checkedAt: "2026-11-03",
+    scope: "已核对ECC国际外语专门学校日本语学科的2027资料下载页与校址。其为专门学校内的日本语学科，公开长课/短课与2027募集要项；官网说明正准备自2027年度起作为认定日本语教育机构运营。未以未逐项读取的PDF金额替代为虚构年费。",
+    sources: [{ label: "ECC日本语学科2027资料下载", url: "https://japan.ecc.ac.jp/admission/download/" }],
+  },
+  "nagoya-international": {
+    checkedAt: "2026-11-03",
+    scope: "已核对名古屋国际日本语学校升学课程：公开当前首年747,000日元，含选考、入学、授课、社会学习、保险医疗和教材；页面未标为2027费用。删除旧的制造业就业、半年付款和统一日语门槛说法。",
+    sources: [{ label: "名古屋国际日本语学校升学课程", url: "https://nagoyais.com/application-advancement-course/" }],
+  },
+  "nagoya-jls": {
+    checkedAt: "2026-11-03",
+    scope: "原名称无法与本地地址对应；按官网和地址更正为NSA日本语学校（名古屋市千种区萱场）。公开站点有募集要项入口，但本批未取得可核对的2027费用与具体课程表，故移除旧的80万报价、优良校和国籍比例等断言。",
+    sources: [{ label: "NSA日本语学校官网", url: "https://japan-nsa.jp/" }],
+  },
+  "shizuoka-slis": {
+    checkedAt: "2026-11-03",
+    scope: "已核对学校法人静冈国际语言学院（袋井市）：进学2年课程4月入学、一般2年课程10月入学；官网当前进学2年首年1,246,000日元，教材另计，未标为2027费用。校方申请页同时列出毕业后约4年内等条件，旧校名、地址和78万报价均已纠正。",
+    sources: [
+      { label: "静冈国际语言学院课程与费用", url: "https://sils-japanese.com/course-fee/" },
+      { label: "静冈国际语言学院入学案内", url: "https://sils-japanese.com/requirements-application/" },
+    ],
+  },
+  "fukuoka-jls": {
+    checkedAt: "2026-11-03",
+    scope: "已核对福冈日本语学校：校址为福冈市南区清水，不在旧条目所称博多站步行圈；官网2026修订费用表按4/7/10/1月入学列出全程1,555,000至1,058,000日元，未标为2027费用。已删除九州大学目标班等无来源内容。",
+    sources: [
+      { label: "福冈日本语学校学校介绍", url: "https://www.fukuokaschool.com/fjls/profile/" },
+      { label: "福冈日本语学校费用表PDF", url: "https://www.fukuokaschool.com/fjls/doc/dl/Fjls2025_Fee.pdf" },
+    ],
+  },
+  "fukuoka-gaigo": {
+    checkedAt: "2026-11-03",
+    scope: "已按官网更正为福冈国际外语学院。公开首年示例987,700日元包含学费、设施、体检、保险与首6个月双人宿舍等项目，页面未标为2027费用；旧的推荐入学、就职方向及统一语言门槛无官方依据，均已移除。",
+    sources: [{ label: "福冈国际外语学院概要与费用", url: "https://fukuoka-ifls.com/overview/" }],
+  },
+  "kumamoto-gaigo": {
+    checkedAt: "2026-11-03",
+    scope: "已更正为熊本外语专门学校日本语科：设进学2年和1年6月课程；2027资料显示首年分别865,000和830,000日元。旧的IT就职课程、统一N5和出勤率均未获证实，不再保留。",
+    sources: [
+      { label: "熊本外语专门学校日本语科", url: "https://www.kfla-nihongo.com/course-nihongo/" },
+      { label: "熊本外语专门学校日本语科入学案内", url: "https://www.kfla-nihongo.com/course-nihongo/admissions/" },
+    ],
+  },
+  "nagano-jls": {
+    checkedAt: "2026-11-03",
+    scope: "原条目更正为长野21日本语学院。官网当前首年674,000日元，2年/1年9月/1年6月课程分别于4/7/10月入学；申请要求12年教育、JLPT4级相当及150小时可证明日语学习经历。费用页未标为2027定价。",
+    sources: [{ label: "长野21日本语学院募集要项", url: "https://www.nagano21jp.com/admission-guidelines/" }],
+  },
+  nishinihon: {
+    checkedAt: "2026-11-03",
+    scope: "已核对西日本国际教育学院的当前费用：首年843,000日元，2年4月课程全程1,581,000日元，4/7/10/1月均有对应课程。校址已从错误的博多区修正为福冈市东区香椎；全体学生最初6个月须入住指定宿舍。公开费用未标为2027。",
+    sources: [{ label: "西日本国际教育学院学费", url: "https://www.miyatagakuen.ac.jp/%E5%AD%A6%E8%B2%BB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" }],
+  },
 };
