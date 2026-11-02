@@ -146,4 +146,39 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "同志社ILA学费与奖学金页", url: "https://ila.doshisha.ac.jp/ila/en/admissions/fees_scholarships.html" },
     ],
   },
+  tus: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027学部外国留学生入试：分I/II期、书类/EJU/面试或口头试问综合评定（II期部分学部仅书类审查）；全部日语授课，理工类通常要求EJU日语、数学Course 2及指定理科。英语须交TOEFL iBT或TOEIC L&R但无统一合格线；检定费35,000+1,380日元。2027学部首年费用按学科为1,458,740–2,529,740日元。大学院与研究生制度待核对。",
+    sources: [
+      { label: "东京理科大学外国留学生入试", url: "https://www.tus.ac.jp/admissions/university/list/foreignstudents/index.html" },
+      { label: "东京理科大学2027外国留学生募集要项PDF", url: "https://www.tus.ac.jp/admissions/uploads/2026/2027_foreign_student.pdf" },
+      { label: "东京理科大学2027学部学费PDF", url: "https://www.tus.ac.jp/admissions/university/guideline/expense/pdf/2027_faculty.pdf" },
+    ],
+  },
+  shibaura: {
+    checkedAt: "2026-11-02",
+    scope: "已核对IGP英语工程学学士2027秋季入学：预计9名、前两年共同基础后选机械/化学材料/电气电子/计算机通信/土木五方向；两轮申请2026-10-19至11-02、2027-02-15至03-06，2027年9月入学。须具高中数学和物理或化学背景；IELTS 6.0或TOEFL iBT 79（新量表4.0）以上，无EJU或日语要求。首年标准费用1,857,020日元。其他项目与大学院待核对。",
+    sources: [
+      { label: "芝浦工业大学IGP官网", url: "https://www.igp.shibaura-it.ac.jp/" },
+      { label: "芝浦工业大学IGP 2027申请要项PDF", url: "https://files.microcms-assets.io/assets/428fc56e161c4c359fde62f62b13f659/cfb660d430384555bbcc57f49dfcb3c6/ApplicationGuidelines.pdf" },
+      { label: "芝浦工业大学IGP学费PDF", url: "https://files.microcms-assets.io/assets/428fc56e161c4c359fde62f62b13f659/fd12e647417349cbb914398f8a17e76d/The_IGP_tuition_fee.pdf" },
+    ],
+  },
+  denki: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027学部外国人留学生特别选拔：覆盖系统设计、未来科学、工学与理工学部，限报一个志愿；2026-08-21至08-24出愿、09-26考试、10-05放榜。报名时须持留学在留资格；日语作答，EJU日语和数学Course 2合计370/600以上且数学至少120。首年费用按学部为1,735,160–1,816,160日元，留学在留资格者另收年度100,000日元。大学院与研究生制度待核对。",
+    sources: [
+      { label: "东京电机大学外国人留学生特别选拔", url: "https://www.dendai.ac.jp/about/admission/undergraduate/ryugakusei.html" },
+      { label: "东京电机大学2027外国人留学生募集要项PDF", url: "https://www.dendai.ac.jp/about/admission/undergraduate/e5vdec0000008k51-att/R9_gaikokujin_youkou_0723.pdf" },
+    ],
+  },
+  kinki: {
+    checkedAt: "2026-11-02",
+    scope: "已核对2027学部外国人留学生入试：理工学部以材料、EJU与口头试问综合判定，须提交EJU日语、数学Course 2和理科，日语出题；前期考试2026-10-10、后期2027-02-20、后期结果2027-03-09，检定费32,000日元。2027学费尚未由校方学费页公布，未沿用旧费用区间；2027起大学院无单独外国留学生入试。其他学院和大学院条件待核对。",
+    sources: [
+      { label: "近畿大学2027留学生入试页面", url: "https://www.kindai.ac.jp/campus-life/international-exchange/exam/" },
+      { label: "近畿大学2027学部留学生募集要项PDF", url: "https://www.kindai.ac.jp/files/campus-life/international-exchange/exam/department/entrance-exam-a.pdf" },
+      { label: "近畿大学学费发布页", url: "https://www.kindai.ac.jp/campus-life/tuition-scholarships/tuition/" },
+    ],
+  },
 };
