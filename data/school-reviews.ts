@@ -294,4 +294,30 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "新宿日本语学校2027短期课程要项PDF", url: "https://www.sng.ac.jp/jp/download/short-term-program-application-guide.pdf" },
     ],
   },
+  "osaka-ymca": {
+    checkedAt: "2026-11-02",
+    scope: "已核对大阪YMCA学院官网当前（2025年4月起）招生资料：进学日语科仅4月（1/2年）和10月（1年6月）入学，职业发展实用日语科为1/4/7/10月入学；两类课程均有1年、1年6月、2年，并各有不同费用与学时。进学科现行1年总额915,000日元，职业发展实用科875,000日元；1年以上课程可在手续前申请半年分纳。公开资料未标为2027费用，故不把现行价格当作2027承诺；统一N5与统一出勤率断言已移除。",
+    sources: [
+      { label: "大阪YMCA学院现行招生要项PDF", url: "https://osakaymca.ac.jp/nihongo/_src/22241913/obj20250729172258338177.pdf?v=1753777386265" },
+      { label: "大阪YMCA学院学费与付款页", url: "https://osakaymca.ac.jp/nihongo/tuition/" },
+      { label: "大阪YMCA学院常见问题", url: "https://osakaymca.ac.jp/nihongo/pg1430220.html" },
+    ],
+  },
+  "kyoto-minsai": {
+    checkedAt: "2026-11-02",
+    scope: "已核对京都民际日语学校官网长课、申请流程与公开校规：进学课程（1年3月至2年）、就职课程（2年）、日语文化课程（2年）的入学月份和课程目的已更新；申请要求A1或150小时日语学习经历，升学还须12年正规教育。公开校规首年总额982,000日元，但未标为2027定价；第二年才可选择3/6/12个月分纳并加收手续费。95%出勤率只适用于神田静奖学金遴选，不再冒充通用签证底线。",
+    sources: [
+      { label: "京都民际日语学校长课", url: "https://kyotominsai.co.jp/ja/long-term-program" },
+      { label: "京都民际日语学校申请与费用FAQ", url: "https://kyotominsai.co.jp/ja/long-term-program-faqs" },
+      { label: "京都民际日语学校公开校规PDF", url: "https://www.kyotominsai.co.jp/cms/wp-content/uploads/2024/12/kisoku_ja.pdf" },
+    ],
+  },
+  "kobe-commu": {
+    checkedAt: "2026-11-02",
+    scope: "已核对神户コミュニカ学院总合日语课程2027–2028官方资料：4/7/10/1月均可入学、学习期6至24个月，学校代办COE申请。首年按半年分列462,500与452,500日元，连同选考30,000和入学70,000的计划缴费为1,015,000日元；教材（每3个月约7,000–10,000）和保险另缴。校址为神户市中央区东町116-2、三宫站步行约7分钟。未核实统一日语或出勤率门槛。",
+    sources: [
+      { label: "神户コミュニカ学院2027–2028长课与费用", url: "https://www.communica-institute.org/longterm.html" },
+      { label: "神户コミュニカ学院交通与校址", url: "https://www.communica-institute.org/access.html" },
+    ],
+  },
 };
