@@ -1649,8 +1649,17 @@
       "id": "fukuoka-ymca",
       "name": "福冈YMCA日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对福冈YMCA天神校与七隈校的课程页：生活/就业日语为3个月至2年，进学日语为1年6月或2年，均可申请留学签；官网已公告受理2027年4月入学的进学日语课程。校方未在本批取得的官网页面公开2027长课费用表，故移除旧的约80万日元报价和统一出勤率断言。",
+        "sources": [
+          {
+            "label": "福冈YMCA日语课程与2027年4月公告",
+            "url": "https://fukuoka-ymca.sakura.ne.jp/japanese/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1688,8 +1697,21 @@
       "id": "kumamoto-ymca",
       "name": "熊本YMCA日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对熊本YMCA学院全日制日语科：留学签为4月2年或10月1年6月，申请人须完成12年教育、原则具N5/A1相当证明，并保障留学费用。官网现行全程费用为2年1,500,000日元、1年6月1,150,000日元，留学签另有约13,000日元/年的24小时共济；费用页未标为2027，故2027金额待校方公布。",
+        "sources": [
+          {
+            "label": "熊本YMCA学院日语科费用",
+            "url": "https://www.kumamoto-ymca.or.jp/nihongo-e/32672.html"
+          },
+          {
+            "label": "熊本YMCA学院日语科申请条件",
+            "url": "https://www.kumamoto-ymca.or.jp/nihongo-e/357.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1818,8 +1840,21 @@
       "id": "hiroshima-ymca",
       "name": "广岛YMCA日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-02",
+        "scope": "已核对广岛YMCA专门学校言语沟通科日语课程及其2026留学签要项：4月1年/2年、10月1年6月；要项要求12年教育、150小时日语学习与N5/J-TEST F级等，另有经费和保证人条件。2026年4月首年817,500日元、2027年度第二年697,500日元，但该表不等同于2027年新入学报价，故明确待校方发布。统一出勤率和“和平课程”宣传已移除。",
+        "sources": [
+          {
+            "label": "广岛YMCA留学签日语课程2026要项PDF",
+            "url": "https://www.hymca.jp/jp/files/ryugaku_visa.pdf?v=202407"
+          },
+          {
+            "label": "广岛YMCA日语课程与校址",
+            "url": "https://www.hymca.jp/m/institution/result.php?ca=1"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
