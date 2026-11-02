@@ -24,6 +24,23 @@ export const schoolReviews: Record<string, SchoolReview> = {
     scope: "已核对2027学费调整：2027年4月起入学、持留学在留资格的本科与修士新生年学费900,000日元；此前在籍学生本课程期间不变，博士及专业职学位课程不在本次调整范围。专业与出愿条件仍待核对。",
     sources: [{ label: "东北大学官方调整公告", url: "https://www.tohoku.ac.jp/japanese/newimg/newsimg/news20251201_info.pdf" }],
   },
+  titech: {
+    checkedAt: "2026-11-02",
+    scope: "已核对理工学系费用页及2027年度私费外国人留学生特别选拔要项：本科/修士/博士年学费635,400日元、入学金282,000日元（费用可能调整）；该项学部选拔要求EJU日语290/450以上、理科三科310/400以上，TOEFL/IELTS可选提交。其余项目与研究生资料待核对。",
+    sources: [
+      { label: "东京科学大学理工学系费用", url: "https://admissions.isct.ac.jp/ja/013/student-life-and-careers/tuition" },
+      { label: "东京科学大学2027私费外国人留学生特别选拔要项", url: "https://admissions.isct.ac.jp/plugins/cms/component_download_file.php?contentsDataId=&contentsId=&fileName=r9-guidelines-shihi&key=70c4d184bd628fd72ea51dfb40ef847e.pdf&pageId=3088&prevId=&type=1" },
+    ],
+  },
+  "nagoya-u": {
+    checkedAt: "2026-11-02",
+    scope: "已核对G30 2027本科招生：10个本科、19个大学院全英文项目，入学时无最低日语要求；本科两轮申请为2026-11-02至11-19及2027-01-05至01-21（日本时间）。并核对现行本科/一般大学院年学费535,800日元、入学金282,000日元，以及研究生月费29,700日元。其余专业条件待核对。",
+    sources: [
+      { label: "名古屋大学G30 2027招生公告", url: "https://en.nagoya-u.ac.jp/news/articles/admissions-requirements-released-for-g30-undergraduate-programs-2027/" },
+      { label: "名古屋大学G30本科2027日程", url: "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/" },
+      { label: "名古屋大学学费", url: "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/" },
+    ],
+  },
   isi: {
     checkedAt: "2026-11-02",
     scope: "已核对 2027–2028 官方长期课程收费与校区课程。此条展示东京校区：首年总费用 101.5–111.5 万日元，包含选考料、入学金、授课费、教材与设施管理费。其他申请资格与名额仍须按校区确认。",

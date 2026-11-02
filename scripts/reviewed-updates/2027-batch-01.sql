@@ -1,6 +1,6 @@
--- Reviewed batch 1 for 2027. NOT EXECUTED: configured Supabase host is unavailable.
+-- Reviewed batch 1 for 2027. Applied to the configured Supabase project on 2026-11-02.
 -- Sources and limitations: docs/REDESIGN-AND-DATA.md and data/school-reviews.ts.
--- Run only against the existing project after reviewing and backing up these four rows.
+-- Regeneration only creates an offline SQL artifact; it does not write to Supabase.
 -- No INSERT, DELETE, public import endpoint, or contact/assessment changes.
 BEGIN;
 DO $$ BEGIN

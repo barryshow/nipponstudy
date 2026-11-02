@@ -16,9 +16,9 @@ const json = value => quote(JSON.stringify(value)) + '::jsonb';
 const tokyo = unis.find(s => s.id === 'utokyo');
 const kyoto = unis.find(s => s.id === 'kyoto-u');
 const tohoku = unis.find(s => s.id === 'tohoku');
-const sql = `-- Reviewed batch 1 for 2027. NOT EXECUTED: configured Supabase host is unavailable.
+const sql = `-- Reviewed batch 1 for 2027. Applied to the configured Supabase project on 2026-11-02.
 -- Sources and limitations: docs/REDESIGN-AND-DATA.md and data/school-reviews.ts.
--- Run only against the existing project after reviewing and backing up these four rows.
+-- Regeneration only creates an offline SQL artifact; it does not write to Supabase.
 -- No INSERT, DELETE, public import endpoint, or contact/assessment changes.
 BEGIN;
 DO $$ BEGIN
