@@ -41,6 +41,37 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "名古屋大学学费", url: "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/" },
     ],
   },
+  "osaka-u": {
+    checkedAt: "2026-11-02",
+    scope: "已核对大阪大学工学研究科2027年4月/10月国际生招生页：有英语硕士/博士与研究生申请要项；工学研究生须获得拟指导教员及学科/专攻负责人的批准。现行本科/一般大学院年学费535,800日元、入学金282,000日元，但校方说明2027年度金额将在入学手续前确定。旧的AAD与全校通用语言门槛表述不再作为2027依据。",
+    sources: [
+      { label: "大阪大学工学研究科国际生招生（2027）", url: "https://www.eng.osaka-u.ac.jp/en/entrance/f_admissions/" },
+      { label: "大阪大学学费", url: "https://www.osaka-u.ac.jp/en/campus/tuition/tuition.html" },
+    ],
+  },
+  "hokkaido-u": {
+    checkedAt: "2026-11-02",
+    scope: "已核对北海道大学生物医学科学工程研究科2027年硕士要项：医疗物理与医疗器械开发两项目，费用为入学金282,000日元、年学费535,800日元（均标为估算）。这些资料不代表北海道大学所有学院的2027条件；其余项目仍待核对。",
+    sources: [{ label: "北海道大学生物医学科学工程研究科2027硕士要项", url: "https://www.med.hokudai.ac.jp/en/bme/admissions/doc/en_application_guidelines_MC_2027.04.pdf" }],
+  },
+  "kyushu-u": {
+    checkedAt: "2026-11-02",
+    scope: "已核对九州大学2027英语本科与IGSES国际修士的部分资料：英语本科包括共创学部、工学部四方向及农业资源环境项目，申请期为2026-12-07至12-11；IGSES国际修士为英语授课，2027年4月入学日程已公布。设计学府2027大学院费用为年535,800日元、入学金282,000日元（可能调整）。其他学院和项目待核对。",
+    sources: [
+      { label: "九州大学英语本科2027招生", url: "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10" },
+      { label: "IGSES国际修士2027日程", url: "https://www.tj.kyushu-u.ac.jp/en/exam/master/master_apr.php" },
+      { label: "九州大学设计学府2027要项", url: "https://www.design.kyushu-u.ac.jp/_cms_dir/wp-content/uploads/2026/03/01-Application-Guidelines-for-2027-Masters-Program-General-Entrance-ExaminationApril-or-October-2027-Admission.pdf" },
+    ],
+  },
+  tsukuba: {
+    checkedAt: "2026-11-02",
+    scope: "已核对筑波大学2027入学留学生学费：2027年4月1日以后入学、持留学在留资格者年学费608,800日元（304,400日元/学期），入学金282,000日元。并核对TISS和TILES英语本科2027年9月入学：申请为2026-10-21至11-19 17:00（日本时间）。其他课程条件待核对。",
+    sources: [
+      { label: "筑波大学留学生学费调整", url: "https://www.tsukuba.ac.jp/news/20260324160000.html" },
+      { label: "筑波大学TISS/TILES 2027要项与日程", url: "https://ac.tsukuba.ac.jp/en/examinations/application-guidelines/" },
+      { label: "筑波大学2027留学生学费详情", url: "https://eng.ap-graduate.tsukuba.ac.jp/archive2026_sigma/course/sie/tlsi_doctor/announcement/" },
+    ],
+  },
   isi: {
     checkedAt: "2026-11-02",
     scope: "已核对 2027–2028 官方长期课程收费与校区课程。此条展示东京校区：首年总费用 101.5–111.5 万日元，包含选考料、入学金、授课费、教材与设施管理费。其他申请资格与名额仍须按校区确认。",
