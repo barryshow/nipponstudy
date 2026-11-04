@@ -1784,23 +1784,19 @@
     {
       "category": "language",
       "id": "sendai-jls",
-      "name": "仙台日本语学校",
+      "name": "仙台语言学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
-      "remaining": [
-        "专业及研究科设置（除已注明项目）",
-        "2027招生条件与截止日期（除已注明项目）",
-        "学费及适用对象（除已注明项目）"
-      ]
-    },
-    {
-      "category": "language",
-      "id": "sendai-ymca",
-      "name": "仙台YMCA日本语学校",
-      "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-04",
+        "scope": "已按官网更正为仙台ランゲージスクール：正規コース定员440名，4月24个月、7月21个月、10月18个月、1月15个月四个入学期，分别须在前一年11/15、当年2/15、当年5/15、前一年9/15前准备材料；上课时段按分级测试分上午或下午。课程页未公开费用，旧的80万日元年费已删除。",
+        "sources": [
+          {
+            "label": "仙台ランゲージスクール正規コース（英语）",
+            "url": "https://sendai-lang.com/english/japanese/regular/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1810,10 +1806,19 @@
     {
       "category": "language",
       "id": "hokkaido-ir",
-      "name": "北海道日本语学院",
+      "name": "北海道日本语学院札幌本校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-04",
+        "scope": "已按官网更正为北海道日本語学院札幌本校：升学课程1年6月/1年9月/2年，一般长课1年；现行首年909,000日元（选考30,000、入学66,000、设施等120,000、授课693,000），第二年依剩余学习期406,500—813,000日元。页面未标注为2027费用，旧地址与北海道大学目标班表述已移除。",
+        "sources": [
+          {
+            "label": "北海道日本語学院 课程与费用（英语）",
+            "url": "https://h-nihongo.org/en/course-no-have-visa.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1823,10 +1828,31 @@
     {
       "category": "language",
       "id": "hiroshima-jls",
-      "name": "广岛日本语学院",
+      "name": "HLA日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-04",
+        "scope": "原名“広島日本語学院”在法务省告示名录、日语教育振兴协会与学校官网均无法对应，已更正为东广岛市的HLA日本語学校：进学2年课程（4月，定员300名，需CEFR A1/N5）与进学1年6月课程（10月，定员200名，需CEFR A2/N4），须12年教育、18岁以上、150小时日语学习经历。募集要项现行首年798,400日元，要项未标为2027金额。",
+        "sources": [
+          {
+            "label": "HLA日本語学校 官网",
+            "url": "https://www.hla201904.com/"
+          },
+          {
+            "label": "HLA日本語学校 入学案内",
+            "url": "https://www.hla201904.com/%E5%85%A5%E5%AD%A6%E6%A1%88%E5%86%85"
+          },
+          {
+            "label": "HLA日本語学校 学生募集要項PDF",
+            "url": "https://www.hla201904.com/_files/ugd/33bc59_5b21a9c1925a4f558651ccf2672d7a7f.pdf"
+          },
+          {
+            "label": "日语教育振兴协会 HLA日本語学校",
+            "url": "https://www.nisshinkyo.org/search/college.php?id=548"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1862,36 +1888,23 @@
     {
       "category": "language",
       "id": "okayama-jls",
-      "name": "冈山日本语学院",
+      "name": "冈山外语学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
-      "remaining": [
-        "专业及研究科设置（除已注明项目）",
-        "2027招生条件与截止日期（除已注明项目）",
-        "学费及适用对象（除已注明项目）"
-      ]
-    },
-    {
-      "category": "language",
-      "id": "matsuyama-jls",
-      "name": "松山东云日本语学校",
-      "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
-      "remaining": [
-        "专业及研究科设置（除已注明项目）",
-        "2027招生条件与截止日期（除已注明项目）",
-        "学费及适用对象（除已注明项目）"
-      ]
-    },
-    {
-      "category": "language",
-      "id": "takamatsu-jls",
-      "name": "高松日本语学院",
-      "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-04",
+        "scope": "原名“岡山日本語学院”无法对应官方实体，已更正为冈山市北区的岡山外語学院（学校法人アジアの風，文部科学省认定日语教育机构）：设进学2年（4月）、1年6月（10月）、1年课程。振兴协会公开全程纳付金2年1,555,000、1年6月1,196,500、1年838,000日元；入学需N5相当，选拔含书类、面试与适性测试。金额未标为2027。",
+        "sources": [
+          {
+            "label": "岡山外語学院 官网",
+            "url": "https://okg-jp.com/"
+          },
+          {
+            "label": "日语教育振兴协会 岡山外語学院",
+            "url": "https://www.nisshinkyo.org/search/college.php?id=393"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1901,10 +1914,19 @@
     {
       "category": "language",
       "id": "saitama-jls",
-      "name": "埼玉日本语学院",
+      "name": "埼玉日本语学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-04",
+        "scope": "已按官网更正为埼玉日本語学校（学校法人東栄国際学園）：教育课程为進学2年課程（4月）与進学1年6か月課程（10月），学生定员278名；公开学生纳付金为入学金70,000、授课费600,000（1年）、设施费80,000、保险10,000、健康诊断10,000日元，教材与课外活动费含在授课费内。页面未标注2027年度金额。",
+        "sources": [
+          {
+            "label": "埼玉日本語学校（学費・教育課程）",
+            "url": "https://www.s-jls.ac.jp/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1914,10 +1936,19 @@
     {
       "category": "language",
       "id": "tsukuba-jls",
-      "name": "筑波日本语学院",
+      "name": "日本筑波国际语学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-04",
+        "scope": "已按官网更正为日本つくば国際語学院：2年课程4月入学、1年6月课程10月入学，各定员108名；首年全缴665,000日元（选考20,000、入学金50,000全缴免除、授课600,000、其他45,000），分纳时为715,000日元；第二年2年课程645,000日元、1年6月课程322,500日元。公开页未标为2027费用。",
+        "sources": [
+          {
+            "label": "日本つくば国際語学院 海外在住者课程与费用",
+            "url": "https://www.tlc.ac.jp/course-international"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1929,8 +1960,17 @@
       "id": "kawasaki-jls",
       "name": "川崎日本语学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-04",
+        "scope": "川崎日本語学院确实列于法务省告示的日语教育机构名录，但本批未找到可访问的该校官网或公开课程与费用页；因此仅确认学校存在，旧的“约88万日元/年”、1/4/7/10月入学、统一出勤率与“品川/涩谷10分钟”等未获证实的表述已全部删除，改标“待校方公布”。",
+        "sources": [
+          {
+            "label": "法务省告示 日语教育机构名录（川崎日本語学院在列）",
+            "url": "https://www.moj.go.jp/isa/content/001461992.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
