@@ -32,7 +32,9 @@ INSERT INTO "LanguageSchool" (slug, name, "nameJa", location, tuition, "paymentT
 );`;
 
 const targets = ids.map(quote).join(', ');
-const sql = `-- Reviewed batch 14 for 2027 (language schools). Prepared 2026-11-04; apply manually in the Supabase SQL Editor.
+const sql = `-- Reviewed batch 14 for 2027 (language schools). Applied 2026-11-04 via scripts/apply-reviewed-sync-batch-14-rest.cjs.
+-- Kept as the auditable SQL equivalent; do not run it against a project that already has these rows
+-- (the guard below aborts if any target slug exists).
 -- Sources and limitations: docs/REDESIGN-AND-DATA.md and data/school-reviews.ts.
 -- Ten legacy candidates were reviewed; three had no official entity and were removed locally.
 -- Controlled sync: explicit inserts for the seven verified entities confirmed absent remotely
@@ -49,4 +51,4 @@ COMMIT;
 
 fs.mkdirSync(path.join(root, 'scripts/reviewed-updates'), { recursive: true });
 fs.writeFileSync(path.join(root, 'scripts/reviewed-updates/2027-batch-14.sql'), sql);
-console.log('Prepared seven-insert SQL sync for the verified portion of batch 14; no remote writes performed.');
+console.log('Prepared SQL artifact for the verified portion of batch 14; remote application is done by apply-reviewed-sync-batch-14-rest.cjs.');
