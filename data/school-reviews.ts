@@ -505,4 +505,69 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "HAL 留学生の皆さまへ", url: "https://www.hal.ac.jp/tokyo/for/international_student" },
     ],
   },
+  tuat: {
+    checkedAt: "2026-11-05",
+    scope: "已核对2026年度以后入学费用：学部与大学院授课费642,960日元/年、入学料282,000日元、检定料学部17,000/大学院30,000日元，研究生84,600入学料与29,700日元/月；核对农学部5学科、工学部6学科与5个学府设置。2027私费外国人留学生入试：EJU限2026年度两次、指定英语TOEIC L&R 500或TOEFL iBT 52以上，出愿2027-01-15至01-25、面试2027-02-26、合格发表2027-03-06，各学科若干名。旧的统一GPA、N2、TOEFL 70+等无来源门槛已移除。",
+    sources: [
+      { label: "東京農工大学 授業料・入学料等", url: "https://www.tuat.ac.jp/campuslife_career/campuslife/fee/ryoukin/" },
+      { label: "東京農工大学 学部・大学院（学科・学府一覧）", url: "https://www.tuat.ac.jp/department/" },
+      { label: "令和9(2027)年度特別選抜学生募集要項", url: "https://www.tuat.ac.jp/documents/tuat/admission/nyushi_gakubu/youkou/R9_tokubetu_youkou.pdf" },
+      { label: "令和9(2027)年度入学者選抜試験日程一覧", url: "https://www.tuat.ac.jp/documents/tuat/admission/nyushi_gakubu/youkou/r9_senbatuyoukou.pdf" },
+    ],
+  },
+  tum: {
+    checkedAt: "2026-11-05",
+    scope: "已核对照部与3学部8学科：海洋生命科学部（海洋生物资源/食品生产科学/海洋政策文化）、海洋工学部（海事系统/海洋电子机械/流通情报）、海洋资源环境学部（海洋环境科学/海洋资源能源），以及大学院海洋科学技术研究科。费用为授课费535,800日元/年、入学料282,000日元、检定料学部17,000/大学院30,000。2027私费入试出愿2027-01-25至02-03，选抜为EJU+数学与英语个别测试+面试；海洋生命科学部与海洋资源环境学部另设英语资格线（TOEIC 400/TOEFL iBT 40/IELTS 3.5），海洋工学部不设。旧的“海洋科学部”“TOEFL 65+”等错误已更正。",
+    sources: [
+      { label: "東京海洋大学 学部・研究科", url: "https://www.kaiyodai.ac.jp/faculty/" },
+      { label: "東京海洋大学 授業料等", url: "https://www.kaiyodai.ac.jp/campuslife/fee/" },
+      { label: "令和9(2027)年度私費外国人留学生特別入試に関するお知らせ", url: "https://www.kaiyodai.ac.jp/news/e_undergraduate/detail/82026_11.html" },
+      { label: "International Students（出願資格・英語要件）", url: "https://www.kaiyodai.ac.jp/entranceexamination/undergraduate/docs/international-students.html" },
+    ],
+  },
+  kit: {
+    checkedAt: "2026-11-05",
+    scope: "已核对工芸科学部4学域6课程（应用生物/应用化学/电子系统/信息工学/机械工学/设计与建筑两课程）与费用：授课费535,800日元/年、入学料282,000日元、检定料学部17,000/大学院30,000日元、研究生29,700日元/月。2027私费入试已实施：出愿2026-07-28至08-03、考试2026-08-25、合格发表2026-09-02；EJU日语280分以上（不含记述）与数学课程2 120分以上，另提交TOEFL并参加小论文与面试。旧的统一GPA、N2、TOEFL 70+门槛已移除。",
+    sources: [
+      { label: "京都工芸繊維大学 授業料等について", url: "https://www.kit.ac.jp/campus_index/fee/" },
+      { label: "私費外国人留学生入試（2027年度）", url: "https://www.kit.ac.jp/test_index/school_news/undergraduate/type_abroad/" },
+      { label: "2027年度私費外国人留学生入試学生募集要項", url: "https://ac.web.kit.ac.jp/02/nyushi/yoko/gakubu/2027_shihi_yoko.pdf" },
+    ],
+  },
+  kyutech: {
+    checkedAt: "2026-11-05",
+    scope: "已核对令和9年度私费外国人留学生选抜日程：出愿2027-01-04至01-08（网络登录自2026-12-21）、考试2027-02-25与26、合格发表2027-03-08、考场户畑校区；费用为入学料282,000日元、授课费535,800日元/年。核对工学部5类（建设社会/机械/电气/物质理工学/综合）与情报工学部4类（知能情报/电子情报通信/知的系统/生命情报）。2027年度要项预定11月上旬公表，EJU科目与英语换算按上年度要项标注，未写成2027确定值。旧的统一GPA、N2、TOEFL 65+已移除。",
+    sources: [
+      { label: "九州工業大学 私費外国人留学生選抜[令和9年度]", url: "https://www.kyutech.ac.jp/examination/gs-expense.html" },
+      { label: "九州工業大学 授業料・奨学金等", url: "https://www.kyutech.ac.jp/campuslife/tuition-fee.html" },
+      { label: "九州工業大学 学部入試（工学部・情報工学部）", url: "https://www.kyutech.ac.jp/examination/faculty.html" },
+    ],
+  },
+  nagaoka: {
+    checkedAt: "2026-11-05",
+    scope: "已核对令和9年度私费外国人留学生入试：出愿2026-12-01至12-04、书类选考、合格发表2027-01-22、入学手续2027-01-29至02-05；EJU限2026年度（日语、数学课程2、理科2科目），英语为2025年1月以后TOEIC L&R或TOEFL iBT且未设最低分。费用按2026年度额列示（入学料282,000、授课费535,800日元/年、检定料17,000），2027年度额尚未确定。核对工学部工学课程5分野。旧的统一GPA、N2、TOEFL 65+与“最低生活成本”表述已移除。",
+    sources: [
+      { label: "令和9年度 第1学年 学生募集の概要（私費外国人留学生入試）", url: "https://www.nagaokaut.ac.jp/admissions/exam/assets/R9b1summary_0726.pdf" },
+      { label: "令和9年度 第1学年 私費外国人留学生入試 募集要項", url: "https://www.nagaokaut.ac.jp/admissions/exam/assets/2027-shihi-00-youkou.pdf" },
+      { label: "長岡技術科学大学 入学料・授業料等", url: "https://www.nagaokaut.ac.jp/admissions/tuition/index.html" },
+    ],
+  },
+  toyohashi: {
+    checkedAt: "2026-11-05",
+    scope: "已核对令和9年度私费外国人留学生选抜：EJU日语280分以上、数学课程2与理科2科目合计240分以上，英语TOEIC L&R 550/TOEFL iBT 42/IELTS 4.0以上，出愿2026-12-14至12-18、选抜2027-01-26、合格发表2027-02-05，若干名一括募集；选抜为成绩证明+EJU+英语+面试。核对2027年4月组织再编为「学际共创课程」1课程5分野（设置申请中），以及入学料282,000、授课费535,800日元/年。旧的统一GPA、N2门槛与“技科大并称”表述已移除。",
+    sources: [
+      { label: "令和9年度 第1年次入学者選抜に関する要項", url: "https://www.tut.ac.jp/exam/entrance/docs/R9_taikou.pdf" },
+      { label: "組織再編に伴う入学者選抜の変更等について（予告）", url: "https://www.tut.ac.jp/exam/entrance/docs/R09saihen_yokoku.pdf" },
+      { label: "豊橋技術科学大学 募集要項", url: "https://www.tut.ac.jp/exam/entrance/collect.html" },
+    ],
+  },
+  aizu: {
+    checkedAt: "2026-11-05",
+    scope: "已核对ICT Global Program全英语课程2027年度入试：出愿PDF 2027-02-15至03-05、原件2027-03-19前、合格发表2027-05-14、入学手续2027-06-11、2027年10月1日入学，若干名；英语要求TOEFL iBT 72（旧量表）/4.0（2026-01-21起新量表）、TOEIC L&R 785、英检准1级或IELTS 5.5，另需ACT/AP/EJU/国际A-Level/IB的数学与理科成绩，书类审查（必要时线上面试）。费用为检定料17,000、入学料564,000（福岛县居民282,000）、授课费520,800日元/年。旧“535,800日元/年（公立标准）”与统一GPA/N2表述已更正。",
+    sources: [
+      { label: "2027年度ICTグローバルプログラム全英語コース入試募集要項", url: "https://u-aizu.ac.jp/files/page/admissions/2027ICTG.general.j.pdf" },
+      { label: "会津大学 学部入試日程・定員", url: "https://u-aizu.ac.jp/admissions/undergraduate/schedule/" },
+      { label: "会津大学 入学検定料・入学料・授業料", url: "https://u-aizu.ac.jp/admissions/tuition/" },
+    ],
+  },
 };
