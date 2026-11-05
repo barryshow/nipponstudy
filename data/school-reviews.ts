@@ -461,4 +461,48 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "法务省告示 日语教育机构名录（川崎日本語学院在列）", url: "https://www.moj.go.jp/isa/content/001461992.pdf" },
     ],
   },
+  "hiroshima-u": {
+    checkedAt: "2026-11-04",
+    scope: "已核对学费与IGS英语本科2027要项：学部（日间）与大学院研究科授课费535,800日元/年、法科大学院804,000日元/年；入学料学部・研究科282,000日元、研究生84,600日元、授课料研究生29,700日元/月；2027年度起授课费改为账户转账。IGS 2027年4月1日入学（无9/10月），四种选拔A/B/C/D定员4/10/6/限员，英语门槛TOEFL iBT 72（A/B/D）与44（C）。旧的统一GPA、日语门槛与“WPI-SKCM²全额免除”表述已移除。",
+    sources: [
+      { label: "広島大学 授業料", url: "https://www.hiroshima-u.ac.jp/nyugaku/gakuhi/jyugyoryo" },
+      { label: "広島大学 入学料", url: "https://www.hiroshima-u.ac.jp/nyugaku/gakuhi/nyugakuryo" },
+      { label: "IGS 2027 Admission Information", url: "https://www.hiroshima-u.ac.jp/en/igs/admissions_2027" },
+      { label: "IGS Fees and Scholarships", url: "https://www.hiroshima-u.ac.jp/en/igs/fees-scholarships" },
+    ],
+  },
+  "kobe-u": {
+    checkedAt: "2026-11-04",
+    scope: "已核对令和8年度费用表：学部・大学院研究科535,800日元/年（法学研究科实务法律专攻804,000日元/年），入学料282,000日元，检定料学部17,000、大学院30,000日元；授课费分前后期缴纳。另核对官网8个英语授课项目清单。统一GPA/日语/英语门槛与“日本唯一海洋政策学部”等未获官方证实的表述已移除。",
+    sources: [
+      { label: "神戸大学 入学料・授業料等について", url: "https://www.kobe-u.ac.jp/ja/campus-life/general/tuition/" },
+      { label: "Kobe University Courses in English", url: "https://www.kobe-u.ac.jp/en/academics/courses-in-english/" },
+    ],
+  },
+  "hitotsubashi": {
+    checkedAt: "2026-11-04",
+    scope: "已核对2026年度费用表：2020年度以后入学者学部授课费321,480日元/学期（年额642,960日元），一般大学院生同额，法科大学院402,000日元/学期；入学料282,000日元；研究生检定料9,800、入学料84,600、授课料29,700日元/月。官网确认社会科学5学部与对应研究科，并说明大学院设英语授课专门职项目。统一N1/TOEFL门槛、就业率与AACSB等未获证实表述已移除。",
+    sources: [
+      { label: "Hitotsubashi Tuition and Fees", url: "https://www.hit-u.ac.jp/eng/ryugaku/tuition.html" },
+      { label: "Hitotsubashi Seven Reasons (Graduate)", url: "https://www.hit-u.ac.jp/eng/admissions/graduate/why_index.html" },
+    ],
+  },
+  "nitech": {
+    checkedAt: "2026-11-04",
+    scope: "已核对留学生费用页：学部2026年度以后入学者授课费642,960日元/年；大学院工学研究科博士前期课程2027年度以后入学者642,960日元/年，博士后期课程535,800日元/年；入学料282,000日元，检定料学部17,000、大学院30,000日元；研究生84,600日元入学料、356,400日元/年授课料。官网列工学部6学科与博士前期19个program，并公告2028年度起私费外国人留学生选拔出愿资格变更。旧“就职率约100%”“EJU 625+”等无来源表述已移除。",
+    sources: [
+      { label: "名古屋工業大学 留学生向け授業料・奨学金", url: "https://www.nitech.ac.jp/int/information/expense.html" },
+      { label: "名古屋工業大学 入学料・授業料", url: "https://www.nitech.ac.jp/intro/release/edu/fee.html" },
+      { label: "大学院工学研究科 博士前期課程（工学専攻）", url: "https://www.nitech.ac.jp/edu/master/" },
+      { label: "2028年度私費外国人留学生選抜の出願資格変更", url: "https://www.nitech.ac.jp/examination/sokuhou/14399.html" },
+    ],
+  },
+  hal: {
+    checkedAt: "2026-11-04",
+    scope: "已核对HAL东京2027年度学费明细：2年制学科首年1,403,000日元（授课880,000＋教育充实费186,000＋设施设备维持费337,000），4年制1,463,000日元（授课940,000），国家资格1年制956,000日元；入学金300,000日元（国家资格学科、巴黎校课程50,000日元），年间学费全额一次缴纳。另核对留学生支援页：学校为认可校、适正校，4年制授高度专门士、2年制授专门士，官网列留学生就职企业例。旧的“约120-140万日元/年”“就职率近100%”“出勤率80%”等无来源表述已替换或删除。",
+    sources: [
+      { label: "HAL東京 学費・入学手続き（2027年度）", url: "https://www.hal.ac.jp/tokyo/enter/daytime/formality" },
+      { label: "HAL 留学生の皆さまへ", url: "https://www.hal.ac.jp/tokyo/for/international_student" },
+    ],
+  },
 };

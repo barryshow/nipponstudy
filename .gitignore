@@ -43,3 +43,7 @@ next-env.d.ts
 /review/
 
 .vercel
+
+# local scratch
+.tmp-pdfs/
+.serena/
