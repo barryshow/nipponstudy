@@ -552,8 +552,25 @@
       "id": "hama-med",
       "name": "浜松医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科与看护学科的2027年度学部选抜与学费：本次核对未在官网确认外国人留学生专用学部选抜，选抜为一般、学校推荐型、海外教育项目特别选抜、社会人入试。学费为入学料282,000、授课费535,800日元/年。留学生支援（日语补讲、奖学金）面向在读留学生。旧统一GPA/N2/TOEFL门槛已移除。",
+        "sources": [
+          {
+            "label": "浜松医科大学 入試情報",
+            "url": "https://www.hama-med.ac.jp/admission/index.html"
+          },
+          {
+            "label": "浜松医科大学 入学金・授業料",
+            "url": "https://www.hama-med.ac.jp/admission/gakuhi.html"
+          },
+          {
+            "label": "浜松医科大学 在学中の留学生へ",
+            "url": "https://www.hama-med.ac.jp/intl-ctr/current/index.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -565,8 +582,21 @@
       "id": "shiga-medical",
       "name": "滋贺医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对官网《外国人留学生の手引き》：滋贺医科大学的外国人留学生区分仅为大学院学生（医学专攻博士、看护学专攻博士前期·后期）与研究生，学部未设外国人专用选抜。学部为医学部医学科与看护学科。费用为学部检定料17,000、入学料282,000、授课费535,800日元/年；研究生检定料9,800、入学料84,600、授课费28,900日元/月。旧统一GPA/N2/TOEFL门槛已移除。",
+        "sources": [
+          {
+            "label": "滋賀医科大学 外国人留学生の手引き",
+            "url": "https://www.shiga-med.ac.jp/international/guidance"
+          },
+          {
+            "label": "滋賀医科大学 授業料等納付額",
+            "url": "https://www.shiga-med.ac.jp/education-and-support/student-life/tuition-and-fees"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -578,8 +608,25 @@
       "id": "omu",
       "name": "大阪公立大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度选抜一览：多数学部·学域设私費外国人留学生特別選抜，医学部医学科与康复学科不设。现代系统科学域2027年度改为2月实施，按小论文、志望理由书面试与出愿书类综合判定；环境社会/教育福祉/心理学类要求EJU（理科或综合+数学）合计270分以上、TOEFL iBT 61或新量表3.5以上；法学部个别学力检查外语仅限英语。学费按2026年度：检定料30,000、入学料282,000（大阪府民）/382,000、授课费535,800日元/年，兽医学部另收充实负担金。统一GPA与未核实的英语门槛已移除。",
+        "sources": [
+          {
+            "label": "大阪公立大学 2027年度入試情報",
+            "url": "https://www.omu.ac.jp/admissions/ug/exam_info/summary/exam2027/index.html"
+          },
+          {
+            "label": "大阪公立大学 2027年度入学者選抜要項",
+            "url": "https://www.omu.moe/news-files/2026-10-07-b4ebd48d/2027senbatsuyoukou.pdf"
+          },
+          {
+            "label": "大阪公立大学 授業料等・入学料",
+            "url": "https://www.omu.ac.jp/campus-life/tuition/fees/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -591,8 +638,25 @@
       "id": "tmu",
       "name": "东京都立大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度私费外国人留学生入试：出愿2026-12-07至12-09、第一次选抜2027-02-10、第二次笔试2/25-26、面试3/3、最终合格3/8；检定料17,000加服务费900日元。核对人文社会/法/理/都市环境/系统设计5学部及学科，都市环境学部部分学科2027年度起停止私费募集；经济经营学部另设单独要项。学费为入学料282,000（东京都居民141,000）、授课费520,800日元/年。统一GPA与未核实门槛已移除。",
+        "sources": [
+          {
+            "label": "東京都立大学 特別選抜（私費外国人留学生入試）",
+            "url": "https://www.tmu.ac.jp/entrance/faculty/outline/others.html"
+          },
+          {
+            "label": "2027年度私費外国人留学生入試学生募集要項",
+            "url": "https://www.tmu.ac.jp/extra/download.html?d=assets%2Ffiles%2Fdownload%2Fentrance%2Fguide%2F2026%2F2027_tsg_bosyuuyoukou.pdf"
+          },
+          {
+            "label": "東京都立大学 学費・減免制度",
+            "url": "https://www.tmu.ac.jp/campuslife_career/expenses.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -604,8 +668,21 @@
       "id": "yokohama-city",
       "name": "横滨市立大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度外国人留学生特別選抜：国际教养、国际商、理学、数据科学4学部；第1期出愿2026-09-04至09-08、10/3考试、11/2发表，第2期2027-01-25至01-27、2/25考试、3/10发表。英语要求TOEFL iBT 61、TOEIC L&R 600、英检准1级、GTEC 1140或IELTS 5.0以上；EJU需各科目与日语各领域达平均分以上。选抜为笔试100分加面试100分、英语资格加分10分。费用为入学料282,000（市内141,000）加设施设备费50,000（市内25,000）、授课费557,400日元/年。旧统一GPA与英语门槛已更正。",
+        "sources": [
+          {
+            "label": "横浜市立大学 外国人留学生特別選抜",
+            "url": "https://www.yokohama-cu.ac.jp/admissions/admissions/special_selection/international_students/index.html"
+          },
+          {
+            "label": "2027年度外国人留学生特別選抜学生募集要項",
+            "url": "https://www.yokohama-cu.ac.jp/admissions/admissions/special_selection/international_students/j8907d0000000mn8-att/2027_ryugaku_v2.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -617,8 +694,25 @@
       "id": "nagoya-city",
       "name": "名古屋市立大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度私費外国人留学生選抜：药学、经济、人文社会、理学4学部；出愿2026-11-01至11-06、选抜2026-11-28、合格发表2026-12-08。药学部实施两阶段选抜，第一阶段按EJU；人文社会学部国际文化学科3名，其余若干名。学费按2026年度：入学料332,000（名古屋市居民232,000）、授课费535,800日元/年，2027年度额待公布。统一GPA与未核实英语门槛已移除。",
+        "sources": [
+          {
+            "label": "名古屋市立大学 学生募集要項",
+            "url": "https://www.nagoya-cu.ac.jp/admissions/undergraduate/guide/"
+          },
+          {
+            "label": "令和9年度私費外国人留学生選抜学生募集要項",
+            "url": "https://www.nagoya-cu.ac.jp/media/R9shihi-bosyuyoko.pdf"
+          },
+          {
+            "label": "名古屋市立大学 入学料・学費",
+            "url": "https://www.nagoya-cu.ac.jp/admissions/fee/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -630,8 +724,25 @@
       "id": "sapporo-medical",
       "name": "札幌医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科与保健医疗学部（看护/理学疗法/作业疗法）私費外国人留学生選抜，各若干名；2027年度考试日2027-02-25。按令和8年度要项，EJU日语（含记述）需360分以上，医学部数学与理科合计320分以上、保健医疗学部280分以上；医学部另考个别学力检查（英语·数学·理科）与个人面试。学费为入学料282,000、授课费535,800日元/年。2027年度要项的具体分数与出愿期间以校方公布为准。",
+        "sources": [
+          {
+            "label": "札幌医科大学 学費・奨学金",
+            "url": "https://web.sapmed.ac.jp/jp/public/exam/l0re8300000007s0.html"
+          },
+          {
+            "label": "令和8年度私費外国人留学生選抜学生募集要項",
+            "url": "https://web.sapmed.ac.jp/jp/public/exam/oq0gnp00000000tk-att/oq0gnp00000000y7.pdf"
+          },
+          {
+            "label": "令和9年度保健医療学部受験票（私費外国人留学生選抜）",
+            "url": "https://web.sapmed.ac.jp/jp/public/exam/oq0gnp000000011z-att/oq0gnp00000001b5.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -643,8 +754,21 @@
       "id": "wakayama-medical",
       "name": "和歌山县立医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科、保健看护学部、药学部的2027年度选抜与学费。本次核对未发现外国人留学生专用学部选抜；2027年度为学校推荐型（出愿12/15-22、面试2/7、合格2/9）与一般选抜前期（出愿1/25-2/3、考试2/25-26、合格3/9）。授课费535,800日元/年；入学料医学部县内282,000/县外752,000、保健看护282,000/423,000、药学282,000/564,000日元。旧统一GPA与N2表述已移除。",
+        "sources": [
+          {
+            "label": "和歌山県立医科大学 入学金・授業料",
+            "url": "https://www.wakayama-med.ac.jp/nyushi/gakuhi/"
+          },
+          {
+            "label": "令和9年度医学部医学科入学者選抜要項",
+            "url": "https://www.wakayama-med.ac.jp/nyushi/igakubu/files/r9_igakubu_youkou_senbatsu.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -656,8 +780,25 @@
       "id": "hyogo",
       "name": "兵库县立大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度外国人留学生特別選抜：国际商经（经济/经营）与社会情报科学出愿1/15-22、考试2/25、合格3/7；工学部出愿1/25-2/3、考试2/25、合格3/7；理学部、环境人间学部、看护学部亦设该选抜。国际商经全球商务课程为2027年9月入学、30名、全英语，要求CEFR B2。学费为入学料282,000、授课费535,800日元/年（2027年度预定）。旧统一GPA与N2门槛已移除。",
+        "sources": [
+          {
+            "label": "兵庫県立大学 学生募集要項",
+            "url": "https://www.u-hyogo.ac.jp/hyogoon/admissions/guideline/"
+          },
+          {
+            "label": "兵庫県立大学 2027年度入学者選抜要項",
+            "url": "https://www.u-hyogo.ac.jp/hyogoon/senbatu2027.pdf"
+          },
+          {
+            "label": "工学部 外国人留学生のための入試ガイド",
+            "url": "https://www.eng.u-hyogo.ac.jp/admissions/eng/international/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -669,8 +810,25 @@
       "id": "shizuoka-pu",
       "name": "静冈县立大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度私費外国人留学生選抜：出愿2026-12-22至2027-01-07（12/26-1/3除外）；食品营养、国际关系、经营情报2/25考试、3/6合格发表；药学部3/8考试、3/21发表。核对药/食品营养/国际关系/经营情报4学部选考方法，看护学部不设私费选抜。入学料366,600（县内141,000）、授课费535,800日元/年（2026年度额，2027年度以入学手续要项为准）。统一GPA与未核实门槛已移除。",
+        "sources": [
+          {
+            "label": "2027年度私費外国人留学生選抜学生募集要項",
+            "url": "https://www.u-shizuoka-ken.ac.jp/media/2027shihiboshuyoko.pdf"
+          },
+          {
+            "label": "静岡県立大学 入試日程・募集人員",
+            "url": "https://www.u-shizuoka-ken.ac.jp/admissions/faculty/f-schedule/"
+          },
+          {
+            "label": "静岡県立大学 入学料・授業料",
+            "url": "https://www.u-shizuoka-ken.ac.jp/admissions/tuition/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -682,8 +840,25 @@
       "id": "toyama-pu",
       "name": "富山县立大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对工学部5学科与情报工学部3学科设私費外国人留学生入试、各学科若干名，看护学部不设该选抜；2027年度私费外国人留学生入试（综合型选抜）募集要项已于2026-09-14公表。学费为入学考查料17,000、入学料188,000（富山县居民）/282,000、授课费267,900日元/学期（年535,800）。EJU科目与英语门槛本批未取得，已明确标注按要项确认，未沿用旧值。",
+        "sources": [
+          {
+            "label": "富山県立大学 留学生募集に関する情報",
+            "url": "https://www.pu-toyama.ac.jp/campus_life/support/for_international_students/"
+          },
+          {
+            "label": "富山県立大学 募集人員",
+            "url": "https://www.pu-toyama.ac.jp/admissions/faculty_exam/student_numbers/"
+          },
+          {
+            "label": "富山県立大学 入学考査料・入学料",
+            "url": "https://www.pu-toyama.ac.jp/campus_life/fees/admission_fee/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -953,8 +1128,21 @@
       "id": "kansai",
       "name": "关西大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度外国人学部留学生入试：9月募集出愿9/1-9/7、10/18选抜、11/2发表；11月募集出愿11/13-11/19、2027-01-10选抜、01-15发表；检定料35,000日元。核对13学部的募集人员与选抜方式，法学部9月与经济学部等部分学部仅书类审查。2027年度学费未定，页面标注2026年度参考值（入学金260,000、授课料495,000/学期等）。旧统一GPA/N2与就业率表述已移除。",
+        "sources": [
+          {
+            "label": "関西大学 外国人学部留学生入試",
+            "url": "https://www.nyusi.kansai-u.ac.jp/admission/foreigner/"
+          },
+          {
+            "label": "関西大学 2027年度各種入学試験要項",
+            "url": "https://www.nyusi.kansai-u.ac.jp/news/24032/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -966,8 +1154,21 @@
       "id": "kwansei",
       "name": "关西学院大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度外国人留学生入学试验：Ⅰ期出愿2026-08-24至08-31、10/10第二次审查、11/13发表；Ⅱ期出愿11/16至11/24、2027-01-16审查、01-22发表；检定料文系25,000、理系15,000日元。核对13学部与Ⅰ/Ⅱ期招生范围，第一次审查按EJU与书类、第二次为面试。2027年度学费本批未取得官方费额页，已标注以要项为准，未沿用旧值。",
+        "sources": [
+          {
+            "label": "関西学院大学 外国人留学生入試",
+            "url": "https://ciec.kwansei.ac.jp/page/examination-department.html"
+          },
+          {
+            "label": "2027年度外国人留学生入学試験要項",
+            "url": "https://ciec.kwansei.ac.jp/upload/ac1aedfe5e5ec128838c7e4a4cb47ea569d24597.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1211,8 +1412,25 @@
       "id": "tokyo-medical",
       "name": "东京医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科与看护学科的2027年度入试与学费：本次核对未发现外国人留学生专用学部选抜，看护学科选抜为综合型、学校推荐型、社会人、共通测试利用、一般A/B。医学科2024年度以后入学者6年总额29,400,000日元（初年度4,800,000、以后4,920,000）；看护学科初年度1,900,000日元。旧统一GPA/N2/TOEFL门槛已移除。",
+        "sources": [
+          {
+            "label": "東京医科大学受験生サイト",
+            "url": "https://admissions-tokyo-med.jp/"
+          },
+          {
+            "label": "東京医科大学 医学科 学費",
+            "url": "https://admissions-tokyo-med.jp/med/tuition/"
+          },
+          {
+            "label": "2027年度医学部看護学科学生募集要項",
+            "url": "https://admissions-tokyo-med.jp/wp-content/uploads/2024/12/2027_kango_youkou.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1224,8 +1442,25 @@
       "id": "jikei",
       "name": "东京慈惠会医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科与看护学科的2027年度募集与学费：本次核对未发现外国人留学生专用学部选抜。医学科初年度3,500,000日元（入学金1,000,000、授课2,500,000）、2年级以后3,800,000；看护学科初年度1,500,000、以后1,000,000日元。看护学科2027年度出愿2027-01-04至01-29。旧统一GPA/N2/TOEFL门槛已移除。",
+        "sources": [
+          {
+            "label": "東京慈恵会医科大学 医学部医学科 学生募集要項",
+            "url": "https://www.jikei.ac.jp/university/medicine/admission/application-guidelines/"
+          },
+          {
+            "label": "医学部看護学科 令和9年度入学試験概要",
+            "url": "https://www.jikei.ac.jp/university/nursing/admission/summary/"
+          },
+          {
+            "label": "東京慈恵会医科大学 学納金",
+            "url": "https://www.jikei.ac.jp/wp-content/uploads/2024/09/hiyou.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1237,8 +1472,25 @@
       "id": "juntendo",
       "name": "顺天堂大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科设外国人选抜（检定料40,000日元），2027年度学费为初年度2,900,000日元、2年级以后3,580,000日元、6年合计20,800,000日元。医疗看护学部2027年度选抜为综合型、学校推荐型、归国生、一般A/B、共通测试利用，无外国人专用选抜；初年度1,700,000日元。外国人选抜的出愿资格与日程按医学部要项，页面已注明。",
+        "sources": [
+          {
+            "label": "順天堂大学 医学部 学費・奨学金",
+            "url": "https://www.juntendo.ac.jp/admission/scholarship/med/"
+          },
+          {
+            "label": "2027年度順天堂大学医学部入学試験要項",
+            "url": "https://www.juntendo.ac.jp/assets/2027_Juntendo_Med_NyugakuShikenYoukou.pdf"
+          },
+          {
+            "label": "2027年度医療看護学部学生募集要項",
+            "url": "https://www.juntendo.ac.jp/assets/uc-nurs-gakuseibosyuyoko2027.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1250,8 +1502,21 @@
       "id": "nms",
       "name": "日本医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科（及看护学科）2027年度入试与学费：本次核对未发现外国人留学生专用学部选抜，选抜为一般（前期/后期/地域枠）与全球特别选抜。学费为入学金1,500,000、授课2,500,000日元/年、设施整备费500,000（初年度）/1,000,000（2年级以后），初年度4,500,000、6年合计22,000,000日元。旧统一GPA/N2/TOEFL门槛已移除。",
+        "sources": [
+          {
+            "label": "日本医科大学 学費等納入金",
+            "url": "https://www.nms.ac.jp/college/medicine/school_expenses/"
+          },
+          {
+            "label": "令和9年度入学者選抜実施要項",
+            "url": "https://www.nms.ac.jp/college/nyushi-book/guidelines_2027/book.pdf"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1263,8 +1528,25 @@
       "id": "fujita",
       "name": "藤田医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部（医学科/医工共创学科）、医疗科学部、保健卫生学部2027年度学费：医学科初年度4,920,000日元、2年级以后3,320,000日元、6年合计22,126,000日元；医工共创学科930,000、医疗科学部1,650,000、保健卫生学部1,700,000日元。本次核对未发现私费外国人留学生选抜；归国生·国际文凭选抜要求日本国籍或永住许可，外国籍无永住者不可报考。旧统一GPA/N2表述已移除。",
+        "sources": [
+          {
+            "label": "2027年度医学部医学科学生募集要項",
+            "url": "https://www.fujita-hu.ac.jp/admission/vsfo8q0000007l3n-att/tedb9e000000p7j6.pdf"
+          },
+          {
+            "label": "藤田医科大学 医学部学費値下げのお知らせ",
+            "url": "https://www.fujita-hu.ac.jp/news/vsfo8q0000002die.html"
+          },
+          {
+            "label": "藤田医科大学 海外からの受入",
+            "url": "https://www.fujita-hu.ac.jp/~intl/jp/international/index.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -1276,8 +1558,25 @@
       "id": "aichi-medical",
       "name": "爱知医科大学",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对医学部医学科「外国にルーツを持つ生徒特別選抜」：限外国籍或归化6年以内、在留累计9年以内、非留学/短期滞在、日本高中毕业、有科学奥林匹克成绩、JLPT N2以上；事前审查截止2026-10-09、出愿2026-11-01至11-13、考试11-28、合格12-10。医学科初年度8,200,000日元、2年级以后5,200,000；看护学部初年度1,760,000、以后1,540,000日元。旧统一GPA/N2/TOEFL门槛已移除。",
+        "sources": [
+          {
+            "label": "2027年度医学部医学科学生募集要項（外国にルーツを持つ生徒特別選抜）",
+            "url": "https://www.aichi-med-u.ac.jp/files/igaku/2027igakubugakuseibosyuuyoukou.pdf"
+          },
+          {
+            "label": "愛知医科大学 看護学部 学生募集要項・入学試験一覧",
+            "url": "https://www.aichi-med-u.ac.jp/su11/su1108/su110801/index.html"
+          },
+          {
+            "label": "愛知医科大学 看護学部 学納金",
+            "url": "https://www.aichi-med-u.ac.jp/su11/su1108/su110802/index.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
