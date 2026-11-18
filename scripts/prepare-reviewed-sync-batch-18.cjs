@@ -10,11 +10,17 @@ const ts = require('typescript');
 const root = path.resolve(__dirname, '..');
 
 const loadTs = (file) => {
-  const code = ts.transpileModule(fs.readFileSync(path.join(root, file), 'utf8'), {
+  const absolute = path.join(root, file);
+  const code = ts.transpileModule(fs.readFileSync(absolute, 'utf8'), {
     compilerOptions: { module: ts.ModuleKind.CommonJS },
   }).outputText;
   const m = { exports: {} };
-  new Function('exports', 'module', code)(m.exports, m);
+  const localRequire = (request) => {
+    if (!request.startsWith('.')) return require(request);
+    const target = path.resolve(path.dirname(absolute), request.endsWith('.ts') ? request : `${request}.ts`);
+    return loadTs(path.relative(root, target));
+  };
+  new Function('exports', 'module', 'require', code)(m.exports, m, localRequire);
   return m.exports;
 };
 
@@ -33,7 +39,7 @@ const values = (s) => ({
   tuition: s.tuition, totalTwoYears: s.totalTwoYears, highlights: s.highlights,
   employmentRate: s.employmentRate ?? null, employmentRateDetail: s.employmentRateDetail,
   paymentTerm: s.paymentTerm, degreeAwarded: s.degreeAwarded,
-  attendanceRequirement: s.attendanceRequirement, website: s.website || null,
+  attendanceRequirement: s.attendanceRequirement,
   featuresJson: s.features, programsJson: s.programs,
   tuitionBreakdownJson: s.tuitionBreakdown, suitableForJson: s.suitableFor,
   scholarshipsJson: s.scholarships,
@@ -56,7 +62,7 @@ INSERT INTO "VocationalSchool" (slug, ${columns.map((c) => `"${c}"`).join(', ')}
 
 const slugList = ids.map(quote).join(', ');
 const sql = `-- 2027 资料核对第十八批（专门学校 ${ids.length} 所）。
--- NOT EXECUTED：截至 2026-11-18，Supabase MCP 与本机 REST 通道均不可达；待连接恢复后应用。
+-- APPLIED 2026-11-18：经 Supabase SQL 事务应用并回查。
 -- 保留为等价的可审计 SQL 工件；下方校验在任一 slug 缺失时中止。
 -- 来源与限制见 docs/REDESIGN-AND-DATA.md 与 data/school-reviews.ts。
 -- 受控同步：仅 ${ids.length} 条 VocationalSchool 记录按 slug upsert；无 DELETE、无批量导入、无表结构变更。

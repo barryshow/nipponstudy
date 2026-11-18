@@ -1,3 +1,5 @@
+import { removedVocationalIds, reviewedVocationalOverrides } from "./vocational-reviewed-overrides";
+
 export interface Program {
   name: string;
   description: string;
@@ -34,7 +36,7 @@ export interface VocationalSchool {
   website?: string;
 }
 
-export const vocationalSchools: VocationalSchool[] = [
+const legacyVocationalSchools: VocationalSchool[] = [
   {
     id: "hal",
     name: "HAL专门学校（东京校）",
@@ -1287,57 +1289,60 @@ export const vocationalSchools: VocationalSchool[] = [
   },
 ];
 
+// Batch 19 keeps the original literals only as migration input. Consumers receive
+// the reviewed records below, so stale promotional claims cannot reach the UI/API.
+export const vocationalSchools: VocationalSchool[] = legacyVocationalSchools
+  .filter((school) => !removedVocationalIds.has(school.id))
+  .map((school) => ({ ...school, ...reviewedVocationalOverrides[school.id] }));
+
 export const COST_SUMMARY = {
   title: "专门学校（専門学校）总体费用一览",
-  summary: "专门学校是日本职业教育体系的核心，以实践技能培养为目标。2年制毕业可获「专门士」资格，4年制可获「高度专门士」（等同学士学位）。",
-  annualRange: "約100万～200万円（初年度合计）",
-  twoYearTotalRange: "約200万～400万円（2年間総額）",
-  costDifference: "文科/商务类专业较便宜（100～120万），医疗/IT/烹饪/设计类较贵（130～200万）",
-  standardDuration: "标准学习年限：2年（获「专门士」资格），部分专业1～4年不等",
+  summary: "费用、修业年限、授予称号和留学生资格均因学校与学科而异；本站只在逐校页面展示已从官网核对的口径。",
+  annualRange: "不提供跨校统一报价，请查看逐校适用年度与包含项目",
+  twoYearTotalRange: "不提供跨校推算，第二学年费用和教材设备费需分别确认",
+  costDifference: "不同学科的实习、教材、电脑、工具、资格考试和研修费用差异很大",
+  standardDuration: "常见为1至4年；专业士或高度专业士须以课程认定为准",
   costBreakdown: [
-    { item: "入学金（入学时一次性）", range: "約10～20万円", note: "仅入学时支付一次" },
-    { item: "选考料（报名时）", range: "約1～3万円", note: "报名/考试时支付" },
-    { item: "年間授業料", range: "約60～120万円", note: "每年支付，文科类较低、医系·IT系较高" },
-    { item: "施設設備費", range: "約10～20万円", note: "每年支付，因学校设施差异而定" },
-    { item: "実習材料費", range: "約5～30万円", note: "因专业差异极大：文科类较低（5～10万），烹饪·设计类较高（20～30万）" },
+    { item: "入学金", range: "逐校确认", note: "通常在首次入学手续时收取，但减免和返还规则不同" },
+    { item: "选考料", range: "逐校确认", note: "部分学校对开放校园参加者或特定出愿方式设减免" },
+    { item: "授课费与设施费", range: "逐校逐科确认", note: "有些学校合并列示，有些分别列示" },
+    { item: "教材、设备与实习费", range: "逐专业确认", note: "电脑、工具、食材、制服、研修和资格考试可能另计" },
   ],
   scholarshipInfo: {
     title: "奖学金制度",
     items: [
       {
         name: "特待生制度（校内奖学金）",
-        description: "各校自行设置，通过入学考试/在校成绩评定，年减免20～50万日元。申请条件：入学考试优秀或在校成绩Top。",
-        note: "需在入学时或各学年开始时申请，竞争率因校而异",
+        description: "部分学校设校内减免，但金额、名额、适用在留资格与评审条件不同。",
+        note: "只以志望校当期募集要项为准",
       },
       {
         name: "JASSO奖学金（日本学生支援机构）",
-        description: "月額48,000日元（年约57.6万日元），面向所有在籍留学生的申请制奖学金。",
-        note: "申请时期通常为每年4月，名额有限，需学校推荐",
+        description: "部分学校可推荐符合条件的私费外国人留学生申请，名额和金额以JASSO及学校当期通知为准。",
+        note: "并非所有学生自动获得",
       },
       {
         name: "JLPT N1/N2合格奖励金",
-        description: "部分学校对JLPT N1或N2合格者发放一次性奖励金（5～10万日元不等），鼓励留学生提升日语能力。",
-        note: "入学时已持有N1/N2合格证书者可申请",
+        description: "少数学校将日语成绩用于学费减免或奖学金评审。",
+        note: "考试种类、分数、取得时间和减免额逐校不同",
       },
       {
         name: "其他奖学金",
-        description: "各都道府县·民间团体设有面向留学生的奖学金，金额·条件各异。建议入学后积极了解学校公告。",
-        note: "例：ロータリー米山記念奨学金（月額14万円）等",
+        description: "地方政府和民间团体可能设奖学金，适用条件与募集期各异。",
+        note: "向学校留学生窗口确认可申请项目",
       },
     ],
   },
   languageSchoolRequirement: {
-    title: "2025年起：语言学校在籍1年要求",
-    description: "2025年起，法务省新规要求：留学生必须在日本语教育机构（语言学校）学习1年以上，方可申请专门学校。",
+    title: "日语与学历资格",
+    description: "各校会按12年教育、日语考试成绩、日语教育经历、在留资格与既往出席情况设置不同条件。",
     details: [
-      "此前仅需语言学校在籍6个月即可申请专门学校",
-      "新规旨在确保留学生具备足够的日语能力以跟上专门学校课程",
-      "建议在语言学校就读期间达到JLPT N2以上水平",
-      "N2以上合格者更容易获得专门学校入学许可和奖学金资格",
-      "语言学校1年在籍期间需保持出勤率80%以上",
+      "常见证明包括JLPT、EJU日语、BJT或指定日语教育经历，但并非所有学校采用相同标准",
+      "出席率可能是出愿、推荐、奖学金或在留管理条件，适用场景必须区分",
+      "海外直接出愿与日本国内出愿的条件和材料可能不同",
     ],
-    preparationAdvice: "语言学校就读期间，建议尽早确定目标专门学校，参加校园开放日（オープンキャンパス），了解入学考试内容和奖学金申请条件。",
+    preparationAdvice: "以志望校2027年度留学生募集要项为准，并在出愿前直接确认不明确项目。",
   },
-  attendanceGeneralRequirement: "专门学校出勤率要求：80%以上。低于80%可能导致奖学金取消、签证更新不许可，严重者可能被退学。",
-  paymentCycle: "支付周期：入学金·选考料入学时一次性支付，授業料·施設費大多可分两期（前期4月/后期10月）支付。実習材料費因学科而异，需另行预算。",
+  attendanceGeneralRequirement: "不设置全校通用百分比；逐校区分出愿、推荐、奖学金与在留管理条件。",
+  paymentCycle: "一次缴纳、前后期分纳及多次分纳均存在；以当期要项和合格通知为准。",
 };

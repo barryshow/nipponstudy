@@ -782,4 +782,89 @@ export const schoolReviews: Record<string, SchoolReview> = {
       { label: "文化服装学院 学生寮", url: "https://www.bunka-fc.ac.jp/application/dormitory/" },
     ],
   },
+  mode: {
+    checkedAt: "2026-11-18",
+    scope: "核对东京MODE学园2027海外留学生资格与出愿期；官网公开页未给出统一学费表，删除旧学费区间、就业率和企业联合授课断言。",
+    sources: [{ label: "东京MODE学园海外留学生入学要项", url: "https://www.mode.ac.jp/tokyo/enter/international_student_os" }],
+  },
+  tsuji: {
+    checkedAt: "2026-11-18",
+    scope: "核对辻调理师专门学校2027年度入学要项入口；费用和资格按大阪/东京及具体学科区分，删除旧统一费用、就业率与所有课程均获国家资格的断言。",
+    sources: [{ label: "辻调理师专门学校2027入学要项", url: "https://www.tsuji.ac.jp/admission/flow/" }],
+  },
+  "yamano-beauty": {
+    checkedAt: "2026-11-18",
+    scope: "核对山野美容专门学校2027外国人选拔、两年制美容科与官网公开两年总额2,988,000日元；删除旧就业率与品牌合作宣传。",
+    sources: [{ label: "山野美容专门学校2027外国人选拔", url: "https://www.yamano-bc.ac.jp/entry_international.html" }, { label: "山野美容专门学校FAQ", url: "https://www.yamano-bc.ac.jp/entry_entery-faq.html" }],
+  },
+  "hollywood-beauty": {
+    checkedAt: "2026-11-18",
+    scope: "核对好莱坞美容专门大学校2027留学生要项：2/4年制年额1,960,000日元、1年制1,150,000日元，2年制N2、1年制N3，选考为书类和面试。",
+    sources: [{ label: "好莱坞美容专门大学校留学生入试", url: "https://www.hollywood.ac.jp/application/international/" }, { label: "2027外国人留学生募集要项PDF", url: "https://www.hollywood.ac.jp/wp-content/uploads/2026/07/3a62a82fcbb974087eeb0543f94b8698.pdf" }],
+  },
+  "tokyo-auto": {
+    checkedAt: "2026-11-18",
+    scope: "核对丰田东京自动车大学校设外国人留学生入试；未取得可读的2027分专业学费表，删除旧统一费用、就业率与奖学金金额。",
+    sources: [{ label: "丰田东京自动车大学校入试信息", url: "https://www.toyota-jaec.ac.jp/for-applicants/admission/" }],
+  },
+  "esp-music": {
+    checkedAt: "2026-11-18",
+    scope: "核对ESP东京2027留学生资格、日程与费用：音乐艺人等首年1,560,000日元，乐器技术类1,530,000日元，诸费用另计；删除旧就业率。",
+    sources: [{ label: "ESP 2027留学生入试", url: "https://www.esp.ac.jp/language/entrance/" }, { label: "ESP东京2027学费表", url: "https://www.esp.ac.jp/tokyo/wp-content/uploads/banner/ESP%E6%9D%B1%E4%BA%AC2027_%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf" }],
+  },
+  "tokyo-tourism": {
+    checkedAt: "2026-11-18",
+    scope: "旧称东京观光专门学校已更正为东京Hospitality Academy；核对现行留学生资格、费用与酒店/旅行/航空/观光商务学科，删除旧就业率和企业内推宣传。",
+    sources: [{ label: "东京Hospitality Academy留学生页", url: "https://www.tit.ac.jp/international/" }, { label: "东京Hospitality Academy学费", url: "https://www.tit.ac.jp/apply/expenses.html" }],
+  },
+  "tokyo-animal": {
+    checkedAt: "2026-11-18",
+    scope: "核对东京动物专门学校2027动物管理科及2/3年分流；官网未在可读正文公开费用或留学生专用制度，删除旧统一费用、就业率与留学签承诺。",
+    sources: [{ label: "东京动物专门学校2027入学者选拔", url: "https://tokyowildlife.ac.jp/admission/application/" }],
+  },
+  "tokyo-design": {
+    checkedAt: "2026-11-18",
+    scope: "更正为东京设计师学院专门学校并核对留学生资格、出席率与现行费用：一般首年1,382,000日元、留学生专愿1,332,000日元，教材和电脑另计。",
+    sources: [{ label: "东京设计师学院留学生入学", url: "https://www.tdg.ac.jp/apply/guideline/international-students.html" }, { label: "东京设计师学院学费", url: "https://www.tdg.ac.jp/apply/tuition-benefits.html" }],
+  },
+  fca: {
+    checkedAt: "2026-11-18",
+    scope: "核对福冈设计与技术专门学校2027留学生资格、出愿和专业方向；未取得完整分专业费用表，删除旧统一费用、就业率与企业合作承诺。",
+    sources: [{ label: "福冈设计与技术专门学校留学生页", url: "https://www.fca.ac.jp/visitor/abroad/" }],
+  },
+  ecc: {
+    checkedAt: "2026-11-18",
+    scope: "核对ECC国际外语专门学校2027留学生课程、出愿期与分级减免费用；通常首年1,400,000日元，减免后依课程与条件为820,000至1,300,000日元，教材诸费另计。",
+    sources: [{ label: "ECC国际外语专门学校2027留学生入学", url: "https://kokusai.ecc.ac.jp/international_student/admission/index.html" }, { label: "ECC 2027留学生募集要项PDF", url: "https://kokusai.ecc.ac.jp/international_student/admission/pdf/outline2027.pdf" }],
+  },
+  seifu: {
+    checkedAt: "2026-11-18",
+    scope: "核对清风信息工科学院2027留学生AO要项存在及设计、游戏、IT方向；未取得完整分项费用，删除旧统一低价与就业率断言。",
+    sources: [{ label: "清风信息工科学院入学案内", url: "https://i-seifu.jp/admission/" }, { label: "2027留学生AO募集要项PDF", url: "https://i-seifu.com/pdf/global-youkou.pdf" }],
+  },
+  yomiuri: {
+    checkedAt: "2026-11-18",
+    scope: "核对读卖理工医疗福祉专门学校2027留学生学科与新增综合型选拔；仅综合型选拔要求日本语学校时数出席率95%以上，不外推为所有选拔通用门槛。",
+    sources: [{ label: "读卖理工留学生入学", url: "https://www.yomiuririkou.ac.jp/menu/international.html" }, { label: "读卖理工2027留学生要项PDF", url: "https://www.yomiuririkou.ac.jp/menu/outline2027/outline_ja2027.pdf" }],
+  },
+  "tokyo-seika": {
+    checkedAt: "2026-11-18",
+    scope: "核对东京制菓学校2027留学生募集要项、昼夜2年制洋菓子/和菓子/面包课程及N1留学生进学应援制度；删除旧统一费用与就业率。",
+    sources: [{ label: "东京制菓学校留学生页", url: "https://www.tokyoseika.ac.jp/abroad.html" }, { label: "2027留学生募集要项PDF", url: "https://www.tokyoseika.ac.jp/point/2027_application_form_foreign.pdf" }],
+  },
+  "nippon-photo": {
+    checkedAt: "2026-11-18",
+    scope: "核对日本写真映像专门学校2027募集与外国籍限制：目前不能由本校办理留学签，新留学生不收；持其他学校有效留学签者仅可Wスクール申请夜间1年课程。",
+    sources: [{ label: "日本写真映像专门学校外国籍募集", url: "https://www.shasen.ac.jp/entrance-guide/international.html" }, { label: "2027募集要项", url: "https://www.shasen.ac.jp/entrance-guide/" }],
+  },
+  "chuo-kogyo": {
+    checkedAt: "2026-11-18",
+    scope: "仅保留中央工学校单一官方主体及建筑、土木、测量、机械方向；未取得可核对的2027留学生分项费用，删除集团混用、统一费用与就业率。",
+    sources: [{ label: "中央工学校官网", url: "https://www.chuo.ac.jp/" }],
+  },
+  "tokyo-hoiku": {
+    checkedAt: "2026-11-18",
+    scope: "核对东京保育专门学校2027募集：昼间2年、夜间3年；留学在留资格仅可申请昼间部若干名，并明确毕业后保育/幼教就劳在留资格困难。",
+    sources: [{ label: "东京保育专门学校2027募集要项", url: "https://www.tokyo-hoiku.ac.jp/guide/requirement.html" }],
+  },
 };

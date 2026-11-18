@@ -4,10 +4,16 @@ const ts = require('typescript');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 function readTs(file) {
-  const source = fs.readFileSync(path.join(root, file), 'utf8');
+  const absolute = path.join(root, file);
+  const source = fs.readFileSync(absolute, 'utf8');
   const code = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
   const m = { exports: {} };
-  new Function('exports', 'module', code)(m.exports, m);
+  const localRequire = (request) => {
+    if (!request.startsWith('.')) return require(request);
+    const target = path.resolve(path.dirname(absolute), request.endsWith('.ts') ? request : `${request}.ts`);
+    return readTs(path.relative(root, target));
+  };
+  new Function('exports', 'module', 'require', code)(m.exports, m, localRequire);
   return m.exports;
 }
 const university = readTs('data/schools/universities.ts');
