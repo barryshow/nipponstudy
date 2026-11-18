@@ -2502,8 +2502,33 @@
       "id": "jec",
       "name": "日本电子专门学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度外国人留学生页面：选考料20,000日元（参加开放校园或特别讲习并2026-12-22前出愿可免）、入学金200,000日元；按学科列到毕业为止缴纳总额（不含教科书教材），2年制2,318,200～2,659,800日元、3年制3,764,000～3,903,200日元、4年制高度游戏制作科5,146,600日元；合格后7日内缴纳入学手续金（入学金＋前期学费）。出愿资格为JLPT N2／EJU日语（不含记述）200分以上且2年内有效／BJT 400／JPT 525／指定日语学校在学1年以上等之一，出席率80%以上。日程：学校推荐型2026-09-01至09-30四回，一般选拔2026-09-01至2027-02-24共16回，选考为日语笔试、面试与书类审查，持N2/EJU/BJT可免笔试；入学仅4月（FAQ明记）。学年构成25学科，2014年度起昼间部全学科获职业实践专门课程认定。学费表PDF无可用文本层、分项未能读取，已标为待确认；旧“约110-130万日元/年”“近100%”“与日立/NTT合作”等无来源表述已删除。",
+        "sources": [
+          {
+            "label": "日本電子専門学校 外国人留学生募集要項・学費",
+            "url": "https://www.jec.ac.jp/entrance/foreign_guideline/"
+          },
+          {
+            "label": "日本電子専門学校 出願（入学金20万円・選考料2万円）",
+            "url": "https://www.jec.ac.jp/entrance/application/"
+          },
+          {
+            "label": "日本電子専門学校 校内奨学金",
+            "url": "https://www.jec.ac.jp/entrance/support/original/"
+          },
+          {
+            "label": "日本電子専門学校 Q&A（4月入学のみ・専門士）",
+            "url": "https://www.jec.ac.jp/qanda/"
+          },
+          {
+            "label": "日本電子専門学校 沿革・職業実践専門課程",
+            "url": "https://www.jec.ac.jp/school-outline/disclose/occupation-practice/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -2515,8 +2540,33 @@
       "id": "nihonkogakuin",
       "name": "日本工学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度留学生招募：入学金一律200,000日元（针灸科、柔道整复科300,000），授课费含设施设备费，首年缴纳额2年制多为1,466,010日元、AI系统科与情报处理科1,341,010、电子电气科1,316,010、3年制1,467,940、4年制1,469,770日元（学费页未标年度，教材费按2026年度概算，留学生适用金额仍待要项确认）。出愿资格为外国籍、18岁以上、12年教育，日语满足JLPT N2／EJU日语200分／BJT 400／JPT 525／日语教育机构1年以上等之一，出席率80%以上。2027年度国内出愿分8期（第1期2026-09-01至09-03，考试9/12；第8期2027-02-22至03-04，考试3/15），选考为书类审查＋面试＋JLPT N2相当日语笔试。奖学金：留学生特别给付10万/20万/30万日元、学生寮奖学金减免年312,000日元（定员5名）。官网列36学科，1947年创立、1976年设校。旧“皮卡丘/火影/柯南咨询师”“就业率95%/98%”“特待生减免20～50万”等无来源表述已删除。",
+        "sources": [
+          {
+            "label": "日本工学院 留学生（国内在住）入学案内2027",
+            "url": "https://www.neec.ac.jp/portal/admission/abroad/"
+          },
+          {
+            "label": "日本工学院 留学生総合案内",
+            "url": "https://www.neec.ac.jp/portal/audience/abroad/"
+          },
+          {
+            "label": "日本工学院 学費",
+            "url": "https://www.neec.ac.jp/portal/tuition-guide/tuition/"
+          },
+          {
+            "label": "日本工学院 支援制度・入学金免除・寮奨学生",
+            "url": "https://www.neec.ac.jp/portal/tuition-guide/assistance/"
+          },
+          {
+            "label": "日本工学院 沿革",
+            "url": "https://www.neec.ac.jp/portal/about/education/profile/history/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -2541,8 +2591,33 @@
       "id": "kobe-denshi",
       "name": "神户电子专门学校",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度4月入学者用「留学生・外国籍対象募集要項」：私费留学生与日本学生同学费，入学金200,000（仅初年度），授课费前后期同额、设施实习诸费为年额，首年1,280,000～1,460,000日元（如AI/IT/情报处理/游戏制作1,340,000、音响与电竞类1,460,000），另需修养费、教科书与笔记本电脑（2026年度实际约84,700～256,300日元，2027年度待通知）。出愿资格为18岁以上、12年教育，日语满足N2／BJT 400／EJU日语200以上之一或提交校方格式日语能力证明书，出席率各年级90%以上（推荐96%、自我推荐93%）。出愿2026-08-01至2027-03-31、共14回考试（首回2026-09-11，末回2027-02-26），选考为书类审查、面试、日语笔试（笔答＋作文）；图形设计与工业设计两科不实施留考。奖学金：出愿种别减免200,000/50,000、私费留学生奖学金100,000、资格取得70,000、出席率优秀100,000、升级时优秀者最大250,000。旧“约100-115万日元/年”“关西圈IT系就職率约96%”“关西圏企業奨学金”等无来源表述已删除。",
+        "sources": [
+          {
+            "label": "神戸電子専門学校 留学生募集要項2027（资格・学費・奨学金）",
+            "url": "https://ryugaku.kobedenshi.ac.jp/admission/"
+          },
+          {
+            "label": "留学生・外国籍対象募集要項 2027年4月入学者用 PDF",
+            "url": "https://ryugaku.kobedenshi.ac.jp/assets/pdf/admission/0_Guidelines.pdf"
+          },
+          {
+            "label": "2027年度 入試日程 PDF",
+            "url": "https://ryugaku.kobedenshi.ac.jp/assets/pdf/admission/5_schedule.pdf"
+          },
+          {
+            "label": "神戸電子専門学校 学科一覧",
+            "url": "https://www.kobedenshi.ac.jp/course/"
+          },
+          {
+            "label": "神戸電子専門学校 沿革",
+            "url": "https://www.kobedenshi.ac.jp/info/about_us.html"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
@@ -2554,8 +2629,45 @@
       "id": "bunka-fashion",
       "name": "文化服装学院",
       "targetIntake": 2027,
-      "status": "pending",
-      "review": null,
+      "status": "partially-reviewed",
+      "review": {
+        "checkedAt": "2026-11-05",
+        "scope": "已核对2027年度外国人留学生募集要项：学费表列入学金260,000（2年制）/300,000（3年与4年制）、年授课费720,000（4年制800,000）、教育充实费360,000，入学时缴纳990,700～1,070,700、全年1,350,700～1,470,700日元，另需学友会费4,500与防灾用品费6,200；受験料33,000日元；2027-03-31前取消入学仅退还入学金以外费用。出愿资格：须取得或可取得留学在留资格，12年教育，告示日语教育机构出席率80%以上，日语满足JLPT N2、2025年4月以后EJU日语（不含记述）200分以上、BJT 400等之一。2027年度分3期（第1期2026-10-01至10-09考11/14；第2期11/18至11/27考12/12；第3期2027-01-06至01-15考1/30），须本人到学生课直接提交，选考为日语笔试（笔答＋400字作文）与面试；入学式2027-04-06。留学生2026年10月时点930名。官网未注明留学生与日本学生同额、未公开就业率，均不作为事实。旧“世界三大时装学院”“山本耀司/高田贤三”“就職率约96%”“与GUCCI/LVMH合作”等无来源表述已删除。",
+        "sources": [
+          {
+            "label": "文化服装学院 外国人留学生入試",
+            "url": "https://www.bunka-fc.ac.jp/prospectivestudent/international-2/"
+          },
+          {
+            "label": "2027年度 外国人留学生募集要項 PDF（学費表・日程・奨学金）",
+            "url": "https://www.bunka-fc.ac.jp/_wp/wp-content/uploads/International-Students-Application.pdf"
+          },
+          {
+            "label": "文化服装学院 学費・奨学金",
+            "url": "https://www.bunka-fc.ac.jp/application/scholarship/"
+          },
+          {
+            "label": "文化服装学院 入試日程",
+            "url": "https://www.bunka-fc.ac.jp/application/exam-schedule/"
+          },
+          {
+            "label": "文化服装学院 学科・課程",
+            "url": "https://www.bunka-fc.ac.jp/course/"
+          },
+          {
+            "label": "文化服装学院 沿革",
+            "url": "https://www.bunka-fc.ac.jp/about/history/"
+          },
+          {
+            "label": "文化服装学院 就職支援",
+            "url": "https://www.bunka-fc.ac.jp/careers/support/"
+          },
+          {
+            "label": "文化服装学院 学生寮",
+            "url": "https://www.bunka-fc.ac.jp/application/dormitory/"
+          }
+        ]
+      },
       "remaining": [
         "专业及研究科设置（除已注明项目）",
         "2027招生条件与截止日期（除已注明项目）",
